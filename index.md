@@ -46,9 +46,9 @@ My [CV](cv_yang.pdf) and [Google Scholar](https://scholar.google.com/citations?u
 
 ### 2021
 
-* [Pyramid Family: Generic Frameworks for Accurate and Fast Flow Size Measurement](paper/pyramid_family_ton2*pdf)
+* [Pyramid Family: Generic Frameworks for Accurate and Fast Flow Size Measurement](paper/pyramid_family_ton21.pdf)
 <br>Yuanpeng Li, Xiang Yu, Yilong Yang, <u>Yang Zhou</u>, Tong Yang, Zhuo Ma, Shigang Chen.
-<br>IEEE/ACM Trasactions on Networking (TON) 202*
+<br>IEEE/ACM Trasactions on Networking (TON) 2021.
 
 ### 2019
 
