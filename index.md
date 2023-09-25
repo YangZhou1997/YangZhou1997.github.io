@@ -7,7 +7,7 @@ layout: default
 I work on networked systems and distributed systems by co-designing low-level networking stacks and high-level microsecond-scale applications for resource efficiency and performance.
 
 * In the networking stack side, I focus on kernel-bypass stacks like RDMA and DPDK, and kernel stacks with eBPF/XDP;
-* in the appliction side, I focus on memory disaggregation, microsecond RPCs, Paxos fault tolerance, and distributed transactions.
+* in the application side, I focus on memory disaggregation, microsecond RPCs, Paxos fault tolerance, and distributed transactions.
 
 I am a final-year Ph.D. candidate at Harvard University, advised by Prof. [Minlan Yu](http://minlanyu.seas.harvard.edu/) and Prof. [James Mickens](https://mickens.seas.harvard.edu/).
 I received a B.S. in Computer Science at Peking University in 2018, advised by Prof. [Tong Yang](https://yangtonghome.github.io/), where I worked on one-pass randomized algorithms.
