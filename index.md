@@ -12,7 +12,8 @@ I work on networked systems and distributed systems by co-designing low-level ne
 I am a final-year Ph.D. candidate at Harvard University, advised by Prof. [Minlan Yu](http://minlanyu.seas.harvard.edu/) and Prof. [James Mickens](https://mickens.seas.harvard.edu/).
 I received a B.S. in Computer Science at Peking University in 2018, advised by Prof. [Tong Yang](https://yangtonghome.github.io/), where I worked on one-pass randomized algorithms.
 I am supported by a [Google PhD Fellowship](https://research.google/outreach/phd-fellowship/recipients/?category=2022) in Systems and Networking.
-My [CV](cv_yang.pdf) and [Google Scholar](https://scholar.google.com/citations?user=c3KgJJ8AAAAJ).
+[Google Scholar](https://scholar.google.com/citations?user=c3KgJJ8AAAAJ).
+<!-- My [CV](cv_yang.pdf) and [Google Scholar](https://scholar.google.com/citations?user=c3KgJJ8AAAAJ). -->
 
 ## I am on the academic job market this year!
 
