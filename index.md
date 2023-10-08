@@ -112,7 +112,33 @@ I am supported by a [Google PhD Fellowship](https://research.google/outreach/phd
 
 ## Miscellaneous
 
-* I do skiing and traveling, see my [photos](./travelling.html) from Japan, White Mountain, Ecuador, Zion, Acadia, Salem, Puerco Rico, Mount Rainer, Olympic National Park, Great Smoky Mountains, Bryce Canyon, Capitol Reef, Utah 12, Death Valley, Crater Lake, Rocky Mountain, Mount Evans, Mount Baker, Lake Tahoe, Yosemite, Point Reyes, Grand Teton, Yellowstone.
-* I did long-distance biking. I cycled 700 miles around Taiwan in ten days, see my [photos](./cycling.html).
-* I did long-distance running. I finished a half-marathon in 1h50min.
+* I do skiing and traveling, see my [photos](./travelling.html) from:
+  * Japan
+  * China
+  * White Mountain
+  * Ecuador
+  * Zion
+  * Acadia
+  * Salem
+  * Puerco Rico
+  * Mount Rainer
+  * Olympic National Park
+  * Great Smoky Mountains
+  * Bryce Canyon
+  * Capitol Reef
+  * Utah 12
+  * Death Valley
+  * Crater Lake
+  * Rocky Mountain
+  * Mount Evans
+  * Mount Baker
+  * Lake Tahoe
+  * Yosemite
+  * Point Reyes
+  * Grand Teton
+  * Yellowstone
+* I did long-distance biking
+  * I cycled 700 miles around Taiwan in ten days, see my [photos](./cycling.html).
+* I did long-distance running
+  * I finished a half-marathon in 1h50min.
 * I did physics.
