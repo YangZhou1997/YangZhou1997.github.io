@@ -115,13 +115,13 @@ I am supported by a [Google PhD Fellowship](https://research.google/outreach/phd
 * I do skiing and traveling, see my [photos](./travelling.html) from:
   * Japan
   * China
-  * White Mountain
+  * White Mountains
   * Ecuador
   * Zion
   * Acadia
   * Salem
-  * Puerco Rico
-  * Mount Rainer
+  * Puerto Rico
+  * Mount Rainier
   * Olympic National Park
   * Great Smoky Mountains
   * Bryce Canyon
