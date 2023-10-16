@@ -39,10 +39,11 @@ a {
   text-decoration:none;
 }
 
-// a:hover, a:focus {
-//   color:#069;
-//   font-weight: bold;
-// }
+a:hover, a:focus {
+  // color:#069;
+  // font-weight: bold;
+  text-decoration: underline;
+}
 
 a small {
   font-size:11px;
@@ -51,9 +52,10 @@ a small {
   display:block;
 }
 
-// a:hover small {
-//   color:#777;
-// }
+a:hover small {
+  // color:#777;
+  text-decoration: underline;
+}
 
 .wrapper {
   width:860px;
@@ -162,10 +164,11 @@ ul.downloads {
   height:34px;
 }
 
-// .downloads a:hover, .downloads a:focus {
-//   color:#675C5C;
-//   font-weight:bold;
-// }
+.downloads a:hover, .downloads a:focus {
+  // color:#675C5C;
+  // font-weight:bold;
+  text-decoration: underline;
+}
 
 .downloads ul a:active {
   background-color:#f0f0f0;
