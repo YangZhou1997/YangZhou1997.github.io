@@ -5,3 +5,10 @@ description: "<br>yangzhou (at) g.harvard.edu<br>yanggepkuer15 (at) gmail.com<br
 show_downloads: false
 google_analytics: 
 theme: jekyll-theme-minimal
+
+plugins:
+  - jekyll-last-modified-at
+
+# Optional. The default date format, used if none is specified in the tag.
+last-modified-at:
+    date-format: '%b %d, 20%y'
