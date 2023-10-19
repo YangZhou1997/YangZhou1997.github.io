@@ -2,7 +2,7 @@
 layout: default
 --- 
 
-## Bio
+## About
 
 I work on networked systems in datacenter environments by co-designing low-level networking stacks and high-level applications for high efficiency and evolvablility of datacenter infrastructure.
 

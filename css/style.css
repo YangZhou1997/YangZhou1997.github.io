@@ -26,3 +26,8 @@
 	background-color: #527bbd;
 	color: white;
 } */
+
+h1, h2, h3, h4, h5, h6 {
+	padding-top: 18px; 
+  margin: -18px 0px 20px 0px;
+}
