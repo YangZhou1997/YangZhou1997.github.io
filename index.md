@@ -4,7 +4,7 @@ layout: default
 
 ## About
 
-I work on networked systems in datacenter environments by co-designing low-level networking stacks and high-level applications for high efficiency and evolvablility of datacenter infrastructure.
+I work on networked systems in datacenter environments by co-designing low-level networking stacks and high-level applications for high efficiency and evolvability of datacenter infrastructure.
 
 * For networking stacks, I studied kernel-bypass stacks like RDMA and DPDK, and kernel stacks with eBPF/XDP.
 * For applications, I studied fault-tolerant far memory, Paxos consensus, distributed transactions, and microsecond-scale RPCs.
