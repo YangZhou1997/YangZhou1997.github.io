@@ -57,9 +57,37 @@ a:hover small {
   text-decoration: underline;
 }
 
+img {
+  // max-width:100%;
+  max-width:65%;
+}
+
 .wrapper {
-  width:860px;
+  width:900px;
   margin:0 auto;
+}
+
+header {
+  width:210px;
+  float:left;
+  // position:fixed;
+  -webkit-font-smoothing:subpixel-antialiased;
+}
+
+footer {
+  // width:270px;
+  width:210px;
+  float:left;
+  // position:fixed;
+  bottom:50px;
+  -webkit-font-smoothing:subpixel-antialiased;
+}
+
+section {
+  // width:500px;
+  width:650px;
+  float:right;
+  padding-bottom:50px;
 }
 
 blockquote {
@@ -102,11 +130,6 @@ th {
   color:#444;
 }
 
-img {
-  // max-width:100%;
-  max-width:60%;
-}
-
 kbd {
   background-color: #fafbfc;
   border: 1px solid #c6cbd1;
@@ -119,14 +142,6 @@ kbd {
   line-height: 10px;
   padding: 3px 5px;
   vertical-align: middle;
-}
-
-header {
-  // width:270px;
-  width:250px;
-  float:left;
-  // position:fixed;
-  -webkit-font-smoothing:subpixel-antialiased;
 }
 
 ul.downloads {
@@ -190,13 +205,6 @@ strong {
   color:#222;
 }
 
-section {
-  // width:500px;
-  width:570px;
-  float:right;
-  padding-bottom:50px;
-}
-
 small {
   font-size:11px;
 }
@@ -206,15 +214,6 @@ hr {
   background:#e5e5e5;
   height:1px;
   margin:0 0 20px;
-}
-
-footer {
-  // width:270px;
-  width:250px;
-  float:left;
-  // position:fixed;
-  bottom:50px;
-  -webkit-font-smoothing:subpixel-antialiased;
 }
 
 @media print, screen and (max-width: 960px) {

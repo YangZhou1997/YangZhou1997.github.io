@@ -26,11 +26,11 @@ I am supported by a [Google PhD Fellowship](https://research.google/outreach/phd
 ### Conference
 
 * [Electrode: Accelerating Distributed Protocols with eBPF](paper/electrode-nsdi23.pdf)
-<br><u>Yang Zhou</u>\*, Zezhou Wang\*, Sowmya Dharanipragada, Minlan Yu.
+<br><u>Yang Zhou</u>\*, Zezhou Wang\*, Sowmya Dharanipragada, and Minlan Yu.
 <br>**NSDI 2023**. USENIX Symposium on Networked Systems Design and Implementation.
 
 * [Carbink: Fault-Tolerant Far Memory](paper/carbink-osdi22.pdf)
-<br><u>Yang Zhou</u>, Hassan Wassel, Sihang Liu, Jiaqi Gao, James Mickens, Minlan Yu, Chris Kennelly, Paul Turner, David Culler, Hank Levy, Amin Vahdat.
+<br><u>Yang Zhou</u>, Hassan Wassel, Sihang Liu, Jiaqi Gao, James Mickens, Minlan Yu, Chris Kennelly, Paul Turner, David Culler, Hank Levy, and Amin Vahdat.
 <br>**OSDI 2022**. USENIX Symposium on Operating Systems Design and Implementation.
 
 * [Evolvable Network Telemetry at Facebook](paper/pcat-nsdi22.pdf)
@@ -42,7 +42,7 @@ I am supported by a [Google PhD Fellowship](https://research.google/outreach/phd
 <br>**SIGMOD 2018**. ACM SIGMOD International Conference on Management of Data.
 
 * [Elastic Sketch: Adaptive and Fast Network-wide Measurements.](paper/elastic-sigcomm18.pdf)
-<br>Tong Yang, Jie Jiang, Peng Liu, Qun Huang, Junzhi Gong, <u>Yang Zhou</u>, Rui Miao, Xiaoming Li, Steve Uhlig.
+<br>Tong Yang, Jie Jiang, Peng Liu, Qun Huang, Junzhi Gong, <u>Yang Zhou</u>, Rui Miao, Xiaoming Li, and Steve Uhlig.
 <br>**SIGCOMM 2018**. ACM SIGCOMM International Conference on Data Communications.
 
 * [A Comparison of Performance and Accuracy of Measurement Algorithms in Software.](paper/simple-sosr18.pdf)
@@ -68,25 +68,25 @@ I am supported by a [Google PhD Fellowship](https://research.google/outreach/phd
 ### Workshop and Demo
 
 * [Accurate Per-Flow Measurement with Bloom Sketch.](paper/bs-infocom18.pdf)
-<br><u>Yang Zhou</u>, Hao Jin, Peng Liu, Haowei Zhang, Tong Yang, Xiaoming Li.
+<br><u>Yang Zhou</u>, Hao Jin, Peng Liu, Haowei Zhang, Tong Yang, and Xiaoming Li.
 <br>INFOCOM 2018 Workshops. IEEE International Conference on Computer Communications.
 
 ### Journal
 
 * [On the Evolutionary of Bloom Filter False Positives - An Information Theoretical Approach to Optimizing Bloom Filter Parameters](paper/bf-tkde22.pdf)
-<br>Zhuochen Fan, Gang Wen, Zhipeng Huang, <u>Yang Zhou</u>, Qiaobin Fu, Tong Yang, Alex X. Liu, Bin Cui.
+<br>Zhuochen Fan, Gang Wen, Zhipeng Huang, <u>Yang Zhou</u>, Qiaobin Fu, Tong Yang, Alex X. Liu, and Bin Cui.
 <br>IEEE Transactions on Knowledge and Data Engineering (TKDE) 2022.
 
 * [Pyramid Family: Generic Frameworks for Accurate and Fast Flow Size Measurement](paper/pyramid_family_ton21.pdf)
-<br>Yuanpeng Li, Xiang Yu, Yilong Yang, <u>Yang Zhou</u>, Tong Yang, Zhuo Ma, Shigang Chen.
+<br>Yuanpeng Li, Xiang Yu, Yilong Yang, <u>Yang Zhou</u>, Tong Yang, Zhuo Ma, and Shigang Chen.
 <br>IEEE/ACM Trasactions on Networking (TON) 2021.
 
 * [Adaptive Measurements using One Elastic Sketch.](paper/elastic_ton2019.pdf)
-<br>Tong Yang, Jie Jiang, Peng Liu, Qun Huang, Junzhi Gong, <u>Yang Zhou</u>, Rui Miao, Xiaoming Li, Steve Uhlig.
+<br>Tong Yang, Jie Jiang, Peng Liu, Qun Huang, Junzhi Gong, <u>Yang Zhou</u>, Rui Miao, Xiaoming Li, and Steve Uhlig.
 <br>IEEE/ACM Trasactions on Networking (TON) 2019.
 
 * [Fast and Accurate Stream Processing by Filtering the Cold.](paper/filtering_cold_vldbj19.pdf)
-<br>Tong Yang, Jie Jiang, <u>Yang Zhou</u>, Long He, Jinyang Li, Bin Cui, Steve Uhlig, Xiaoming Li.
+<br>Tong Yang, Jie Jiang, <u>Yang Zhou</u>, Long He, Jinyang Li, Bin Cui, Steve Uhlig, and Xiaoming Li.
 <br>VLDB Journal 2019.
 
 * [Accelerating Network Measurement in Software.](paper/agg-ccr18.pdf)
