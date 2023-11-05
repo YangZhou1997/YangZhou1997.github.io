@@ -2,13 +2,14 @@
 layout: app
 ---
 
-## Application Materials
+## Application Materials (to be updated soon)
 
-* [CV](./cv_yang.pdf)
+* [Cover Letter](./Covery_Letter.pdf)
+* [Curriculum Vitae](./cv_yang.pdf)
 * [Research Statement](./Research_Statement.pdf)
 * [Teaching Statement](./Teaching_Statement.pdf)
 * [Diversity Statement](./Diversity_Statement.pdf)
-* [Single File](./app_pkg_yang.pdf) (with papers below)
+* [Single file](./app_pkg_yang.pdf) (with papers below)
 
 ### Selected Publications
 
