@@ -1,6 +1,10 @@
 @import "fonts";
 @import "rouge-github";
 
+html {
+  scrollbar-gutter: stable both-edges;
+}
+
 body {
   background-color: #fff;
   padding:50px;
