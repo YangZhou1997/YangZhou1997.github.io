@@ -8,11 +8,12 @@ layout: app
 * [Research Statement](./Research_Statement.pdf)
 * [Teaching Statement](./Teaching_Statement.pdf)
 * [Diversity Statement](./Diversity_Statement.pdf)
+* [Single File](./app_pkg_yang.pdf) (with papers below)
 
 ### Selected Publications
 
 * [Electrode: Accelerating Distributed Protocols with eBPF](../paper/electrode-nsdi23.pdf)
-<br><u>Yang Zhou</u>\*, Zezhou Wang\*, Sowmya Dharanipragada, and Minlan Yu.
+<br><u>Yang Zhou</u>, Zezhou Wang, Sowmya Dharanipragada, and Minlan Yu.
 <br>**NSDI 2023**. USENIX Symposium on Networked Systems Design and Implementation.
 
 * [Carbink: Fault-Tolerant Far Memory](../paper/carbink-osdi22.pdf)
