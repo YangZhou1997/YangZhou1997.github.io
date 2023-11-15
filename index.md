@@ -6,7 +6,7 @@ layout: default
 
 I work on networked systems in datacenter environments.
 My research has focused on full-stack optimizations for efficient and evolvable datacenter infrastructure, 
-by co-designing low-level host networking stacks (involving NICs, kernels, transport layers, and threading) and high-level datacenter applications 
+by codesigning low-level host networking stacks (involving kernels, transport layers, and threading) and high-level datacenter applications 
 from a systems perspective. 
 
 * For networking stacks, I studied kernel-bypass stacks like RDMA and DPDK, and kernel stacks with eBPF/XDP.
