@@ -2,7 +2,7 @@
 layout: app
 ---
 
-## Application Materials (to be updated soon)
+## Application Materials
 
 * [Cover Letter](./Covery_Letter.pdf)
 * [Curriculum Vitae](./cv_yang.pdf)
