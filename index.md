@@ -29,7 +29,7 @@ I am supported by a [Google PhD Fellowship](https://research.google/outreach/phd
 
 ### Conference
 
-* [DINT: Fast In-Kernel Distributed Transactions with eBPF](paper/dint-nsdi23.pdf)
+* [DINT: Fast In-Kernel Distributed Transactions with eBPF](https://drive.google.com/file/d/1pkQGPOsblB36WGHBJC3NqX0Sz8OgD4Nm/view?usp=sharing)
 <br><u>Yang Zhou</u>\*, Xingyu Xiang\*, Matthew Kiley, Sowmya Dharanipragada, and Minlan Yu.
 <br>**NSDI 2024**. USENIX Symposium on Networked Systems Design and Implementation.
 
