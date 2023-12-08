@@ -4,7 +4,7 @@ layout: app
 
 ## Application Materials
 
-* [Cover Letter](./Covery_Letter.pdf)
+* [Cover Letter](./Cover_Letter.pdf)
 * [Curriculum Vitae](./cv_yang.pdf)
 * [Research Statement](./Research_Statement.pdf)
 * [Teaching Statement](./Teaching_Statement.pdf)
