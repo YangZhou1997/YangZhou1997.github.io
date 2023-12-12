@@ -99,7 +99,7 @@ I am supported by a [Google PhD Fellowship](https://research.google/outreach/phd
 
 * [Accelerating Network Measurement in Software.](paper/agg-ccr18.pdf)
 <br><u>Yang Zhou</u>, Omid Alipourfard, Minlan Yu, and Tong Yang.
-<br>**SIGCOMM CCR** July issue, ACM SIGCOMM Computer Communication Review.
+<br>**SIGCOMM CCR 2018** July issue, ACM SIGCOMM Computer Communication Review.
 
 *: co-primary authors
 
