@@ -57,6 +57,7 @@ I am supported by a [Google PhD Fellowship](https://research.google/outreach/phd
 <br>[[paper](paper/pcat-nsdi22.pdf)] 
 [[slides](slides/pcat-nsdi22-slides.pdf)]
 [[talk](https://youtu.be/azW4vssu9T0)] 
+<br> **<span style="color:red">Describing production systems and challenges</span>**
 
 * Cold Filter: A Meta-Framework for Faster and More Accurate Stream Processing. 
 <br><u>Yang Zhou</u>, Tong Yang, Jie Jiang, Bin Cui, Minlan Yu, Xiaoming Li, and Steve Uhlig.
