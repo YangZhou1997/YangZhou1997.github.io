@@ -177,6 +177,8 @@ I am supported by a [Google PhD Fellowship](https://research.google/outreach/phd
   * Point Reyes
   * Grand Teton
   * Yellowstone
+  * Everglades National Park
+  * Key West
 * I did long-distance biking
   * I cycled 700 miles around Taiwan in ten days, see my [photos](./cycling.html).
 * I did long-distance running
