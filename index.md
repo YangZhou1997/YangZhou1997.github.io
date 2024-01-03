@@ -73,7 +73,7 @@ I am supported by a [Google PhD Fellowship](https://research.google/outreach/phd
 [[slides](slides/elastic-sigcomm18-slides.pdf)]
 [[talk](https://youtu.be/w8L0opwetms?t=3172)]
 [[Code](https://github.com/BlockLiu/ElasticSketchCode)]
-<br> **<span style="color:red">Cited over 430 times</span>**
+<br> **<span style="color:red">Widely followed (Cited 430+)</span>**
 
 * A Comparison of Performance and Accuracy of Measurement Algorithms in Software.
 <br>Omid Alipourfard, Masoud Moshref, <u>Yang Zhou</u>, Tong Yang, and Minlan Yu.
