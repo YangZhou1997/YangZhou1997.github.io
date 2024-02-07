@@ -29,6 +29,11 @@ I am supported by a [Google PhD Fellowship](https://research.google/outreach/phd
 
 ### Conference
 
+* SmartNIC Security Isolation in the Cloud with S-NIC
+<br><u>Yang Zhou</u>, Mark Wilkening, James Mickens, and Minlan Yu.
+<br>**EuroSys 2024**. European Conference on Computer Systems.
+<br>[[paper](https://drive.google.com/file/d/1F5v2JI-MOaYymhBbxcD70s43lcsq8LqD/view?usp=sharing)] [code (coming soon)]
+
 * DINT: Fast In-Kernel Distributed Transactions with eBPF
 <br><u>Yang Zhou</u>\*, Xingyu Xiang\*, Matthew Kiley, Sowmya Dharanipragada, and Minlan Yu.
 <br>**NSDI 2024**. USENIX Symposium on Networked Systems Design and Implementation.
