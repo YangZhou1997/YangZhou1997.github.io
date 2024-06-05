@@ -14,7 +14,7 @@ from a systems perspective.
 
 I am a final-year Ph.D. candidate in Computer Science at Harvard University, advised by Prof. [Minlan Yu](http://minlanyu.seas.harvard.edu/) and Prof. [James Mickens](https://mickens.seas.harvard.edu/).
 I received a B.S. in Computer Science at Peking University in 2018, working with Prof. [Tong Yang](https://yangtonghome.github.io/) on probabilistic data structures for network telemetry.
-I am supported by a [Google PhD Fellowship](https://research.google/outreach/phd-fellowship/recipients/?category=2022) in Systems and Networking. My application [materials](./materials/google_fellowship_cv_rs.pdf).
+I am supported by a [Google PhD Fellowship](https://research.google/outreach/phd-fellowship/recipients/?category=2022) in Systems and Networking; my application [materials](./materials/google_fellowship_cv_rs.pdf).
 
 ## I am on the academic job market this year! [[Materials]](./application/)
 
@@ -41,6 +41,7 @@ I am supported by a [Google PhD Fellowship](https://research.google/outreach/phd
 <br>**NSDI 2024**. USENIX Symposium on Networked Systems Design and Implementation.
 <br>[[paper](paper/dint-nsdi24.pdf)]
 [[slides](slides/dint-nsdi24-slides.pdf)] 
+[[talk](https://youtu.be/EgdXrjwBdBA)] 
 [[code](https://github.com/DINT-NSDI24/DINT)]
 
 * Electrode: Accelerating Distributed Protocols with eBPF
