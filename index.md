@@ -16,7 +16,7 @@ I am a final-year Ph.D. candidate in Computer Science at Harvard University, adv
 I received a B.S. in Computer Science at Peking University in 2018, working with Prof. [Tong Yang](https://yangtonghome.github.io/) on probabilistic data structures for network telemetry.
 I am supported by a [Google PhD Fellowship](https://research.google/outreach/phd-fellowship/recipients/?category=2022) in Systems and Networking; my application [materials](./materials/google_fellowship_cv_rs.pdf).
 
-## I am on the academic job market this year! [[Materials]](./application/)
+<!-- ## I am on the academic job market this year! [[Materials]](./application/) -->
 
 <!-- ## News -->
 
