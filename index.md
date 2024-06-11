@@ -4,17 +4,16 @@ layout: default
 
 ## About
 
-I work on networked systems in datacenter environments.
-My research has focused on full-stack optimizations for efficient and evolvable datacenter infrastructure, 
-by codesigning low-level host networking stacks (involving NICs, kernels, transport layers, and threading) and high-level datacenter applications 
-from a systems perspective. 
+I am an incoming assistant professor at UC Davis CS (starting July 2025). Before that, I will be a postdoc at UC Berkeley working with Prof. [Ion Stoica](https://people.eecs.berkeley.edu/~istoica/). I have equal interests in core systems and ML systems research, including efficient LLM serving, datacenter far memory, distributed transactions and consensus, and networking stack designs. 
 
-* For networking stacks, I studied kernel-bypass stacks like RDMA and DPDK, and kernel stacks with eBPF/XDP.
-* For applications, I studied fault-tolerant far memory, Paxos consensus, distributed transactions, and microsecond-scale RPCs.
+I have multiple PhD openings for the Fall 2024 cycle at UC Davis (apply [here](https://apply.grad.ucdavis.edu/apply/)). Feel free to drop me an email if you are interested. 
+* UC Davis is ranked 28th in Best National University and 36th in Best Computer Science Schools by US News. 
+* UC Davis has a great location: 20min drive from Sacramento (capital of California) and 1.5h from Silicon Valley (Google, Meta, Amazon), 
+* Perhaps more importantly, it is a 50min drive from the famous Napa Valley (wine) and 2h from the great Lake Tahoe (skiing and more!). 
 
-I am a final-year Ph.D. candidate in Computer Science at Harvard University, advised by Prof. [Minlan Yu](http://minlanyu.seas.harvard.edu/) and Prof. [James Mickens](https://mickens.seas.harvard.edu/).
+I am currently a final-year Ph.D. candidate in Computer Science at Harvard University, advised by Prof. [Minlan Yu](http://minlanyu.seas.harvard.edu/) and Prof. [James Mickens](https://mickens.seas.harvard.edu/).
 I received a B.S. in Computer Science at Peking University in 2018, working with Prof. [Tong Yang](https://yangtonghome.github.io/) on probabilistic data structures for network telemetry.
-I am supported by a [Google PhD Fellowship](https://research.google/outreach/phd-fellowship/recipients/?category=2022) in Systems and Networking; my application [materials](./materials/google_fellowship_cv_rs.pdf).
+I am supported by a [Google PhD Fellowship](https://research.google/outreach/phd-fellowship/recipients/?category=2022) in Systems and Networking (my application [materials](./materials/google_fellowship_cv_rs.pdf)). 
 
 <!-- ## I am on the academic job market this year! [[Materials]](./application/) -->
 
@@ -51,7 +50,7 @@ I am supported by a [Google PhD Fellowship](https://research.google/outreach/phd
 [[slides](slides/electrode-nsdi23-slides.pdf)] 
 [[talk](https://youtu.be/E6qcR2Lb1xE)] 
 [[code](https://github.com/Electrode-NSDI23/Electrode)]
-<br> **<span style="color:red">Initial conversations with multiple companies</span>**
+<!-- <br> **<span style="color:red">Initial conversations with multiple companies</span>** -->
 
 * Carbink: Fault-Tolerant Far Memory
 <br><u>Yang Zhou</u>, Hassan Wassel, Sihang Liu, Jiaqi Gao, James Mickens, Minlan Yu, Chris Kennelly, Paul Turner, David Culler, Hank Levy, and Amin Vahdat.
@@ -59,7 +58,7 @@ I am supported by a [Google PhD Fellowship](https://research.google/outreach/phd
 <br>[[paper](paper/carbink-osdi22.pdf)] 
 [[slides](slides/carbink-osdi22-slides.pdf)]
 [[talk](https://youtu.be/PZhqlPyhImE)] 
-<br> **<span style="color:red">Joint patent with Google</span>**
+<!-- <br> **<span style="color:red">Joint patent with Google</span>** -->
 
 * Evolvable Network Telemetry at Facebook
 <br><u>Yang Zhou</u>, Ying Zhang, Minlan Yu, Guangyu Wang, Dexter Cao, Eric Sung and Starsky Wong.
@@ -67,7 +66,7 @@ I am supported by a [Google PhD Fellowship](https://research.google/outreach/phd
 <br>[[paper](paper/pcat-nsdi22.pdf)] 
 [[slides](slides/pcat-nsdi22-slides.pdf)]
 [[talk](https://youtu.be/azW4vssu9T0)] 
-<br> **<span style="color:red">Describing production systems and challenges</span>**
+<!-- <br> **<span style="color:red">Describing production systems and challenges</span>** -->
 
 * Cold Filter: A Meta-Framework for Faster and More Accurate Stream Processing. 
 <br><u>Yang Zhou</u>, Tong Yang, Jie Jiang, Bin Cui, Minlan Yu, Xiaoming Li, and Steve Uhlig.
@@ -83,7 +82,7 @@ I am supported by a [Google PhD Fellowship](https://research.google/outreach/phd
 [[slides](slides/elastic-sigcomm18-slides.pdf)]
 [[talk](https://youtu.be/w8L0opwetms?t=3172)]
 [[Code](https://github.com/BlockLiu/ElasticSketchCode)]
-<br> **<span style="color:red">Widely followed (cited 430+)</span>**
+<!-- <br> **<span style="color:red">Widely followed (cited 430+)</span>** -->
 
 * A Comparison of Performance and Accuracy of Measurement Algorithms in Software.
 <br>Omid Alipourfard, Masoud Moshref, <u>Yang Zhou</u>, Tong Yang, and Minlan Yu.
