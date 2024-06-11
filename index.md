@@ -15,14 +15,12 @@ I am currently a final-year Ph.D. candidate in Computer Science at Harvard Unive
 I received a B.S. in Computer Science at Peking University in 2018, working with Prof. [Tong Yang](https://yangtonghome.github.io/) on probabilistic data structures for network telemetry.
 I am supported by a [Google PhD Fellowship](https://research.google/outreach/phd-fellowship/recipients/?category=2022) in Systems and Networking (my application [materials](./materials/google_fellowship_cv_rs.pdf)). 
 
-<!-- ## I am on the academic job market this year! [[Materials]](./application/) -->
+## Students mentored
 
-<!-- ## News -->
-
-<!-- * Dec 2023, DINT (eBPF-accelerated distributed transactions) accepted to NSDI'24!
-* Dec 2022, Electrode (eBPF-accelerated Paxos) accepted to NSDI'23!
-* March 2022, Carbink (fault-tolerant far memory) accepted to OSDI'22!
-* June 2021, PCAT (evolvable network telemetry) accepted to NSDI'22! -->
+* Matt Kiley, Harvard College undergrad
+* Yunxi Shen, Tsinghua University undergrad → Cornell PhD
+* Xingyu Xiang, Peking University undergrad → Harvard PhD
+* Zezhou Wang, Peking University undergrad → University of Washington PhD
 
 ## Publications
 
