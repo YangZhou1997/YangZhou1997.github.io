@@ -4,14 +4,14 @@ layout: default
 
 ## About
 
-I am an incoming assistant professor at UC Davis CS (starting July 2025). Before that, I will be a postdoc at UC Berkeley working with Prof. [Ion Stoica](https://people.eecs.berkeley.edu/~istoica/). I have equal interests in core systems and ML systems research, including efficient LLM serving, datacenter far memory, distributed transactions and consensus, and networking stack designs. 
+I am an incoming Assistant Professor at UC Davis CS (starting July 2025). Before that, I will be a PostDoc at UC Berkeley working with Prof. [Ion Stoica](https://people.eecs.berkeley.edu/~istoica/). I have equal interests in core systems and ML systems research, including efficient LLM serving, datacenter far memory, distributed transactions and consensus, and networking stack designs. 
 
 I have multiple PhD openings for the Fall 2024 cycle at UC Davis (apply [here](https://apply.grad.ucdavis.edu/apply/)). Feel free to drop me an email if you are interested. 
 * UC Davis is ranked 28th in Best National University and 36th in Best Computer Science Schools by US News. 
 * UC Davis has a great location: 20min drive from Sacramento (capital of California) and 1.5h from Silicon Valley (Google, Meta, Amazon).
 * Perhaps more importantly, it is a 50min drive from the famous Napa Valley (wine) and 2h from the great Lake Tahoe (skiing and more!).
 
-I am currently a final-year Ph.D. candidate in Computer Science at Harvard University, advised by Prof. [Minlan Yu](http://minlanyu.seas.harvard.edu/) and Prof. [James Mickens](https://mickens.seas.harvard.edu/).
+I am currently a final-year PhD candidate in Computer Science at Harvard University, advised by Prof. [Minlan Yu](http://minlanyu.seas.harvard.edu/) and Prof. [James Mickens](https://mickens.seas.harvard.edu/).
 I received a B.S. in Computer Science at Peking University in 2018, working with Prof. [Tong Yang](https://yangtonghome.github.io/) on probabilistic data structures for network telemetry.
 I am supported by a [Google PhD Fellowship](https://research.google/outreach/phd-fellowship/recipients/?category=2022) in Systems and Networking (my application [materials](./materials/google_fellowship_cv_rs.pdf)). 
 
