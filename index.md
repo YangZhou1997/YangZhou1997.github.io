@@ -11,7 +11,7 @@ I have multiple PhD openings for the Fall 2024 cycle at UC Davis (apply [here](h
 * UC Davis has a great location: 20min drive from Sacramento (capital of California) and 1.5h from Silicon Valley (Google, Meta, Amazon).
 * Perhaps more importantly, it is a 50min drive from the famous Napa Valley (wine) and 2h from the great Lake Tahoe (skiing and more!).
 
-I finished my PhD in Computer Science at Harvard University, advised by Prof. [Minlan Yu](http://minlanyu.seas.harvard.edu/) and Prof. [James Mickens](https://mickens.seas.harvard.edu/).
+I finished my PhD in Computer Science at Harvard University in 2024, advised by Prof. [Minlan Yu](http://minlanyu.seas.harvard.edu/) and Prof. [James Mickens](https://mickens.seas.harvard.edu/).
 I received a B.S. in Computer Science at Peking University in 2018, working with Prof. [Tong Yang](https://yangtonghome.github.io/) on probabilistic data structures for network telemetry.
 I was supported by a [Google PhD Fellowship](https://research.google/outreach/phd-fellowship/recipients/?category=2022) in Systems and Networking (see my [application materials](./materials/google_fellowship_cv_rs.pdf)). 
 
