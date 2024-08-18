@@ -8,7 +8,7 @@ I am a PostDoc at UC Berkeley advised by [Ion Stoica](https://people.eecs.berkel
 
 <span style="color:red;">I will be joining UC Davis CS as an Assistant Professor, starting July 2025.</span>
 
-I have multiple PhD openings for the Fall 2024 cycle at UC Davis (apply [here](https://apply.grad.ucdavis.edu/apply/)). Feel free to drop me an email if you are interested. 
+I have multiple PhD openings at UC Davis (apply [here](https://apply.grad.ucdavis.edu/apply/) by Dec 15, 2024). Feel free to drop me an email if you are interested. 
 * UC Davis is ranked 28th in Best National University and 36th in Best Computer Science Schools by US News. 
 * UC Davis has a great location: 20min drive from Sacramento (capital of California) and 1.5h from Silicon Valley (Google, Meta, Amazon).
 * Perhaps more importantly, it is a 50min drive from the famous Napa Valley (wine) and 2h from the great Lake Tahoe (skiing and more!).
