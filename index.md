@@ -4,7 +4,7 @@ layout: default
 
 ## About
 
-I am a PostDoc at UC Berkeley advised by [Ion Stoica](https://people.eecs.berkeley.edu/~istoica/). I have equal interests in core systems and ML systems research, including efficient machine learning, datacenter far memory, distributed transactions and consensus, and networking stack designs. 
+I am a PostDoc at UC Berkeley advised by [Ion Stoica](https://people.eecs.berkeley.edu/~istoica/). I have equal interests in core systems and ML systems research, including efficient machine learning, datacenter far memory, distributed transactions and consensus, and networking stack designs. [Short Bio](./bio.txt).
 
 <span style="color:red;">I will be joining UC Davis CS as an Assistant Professor, starting July 2025.</span>
 
