@@ -27,6 +27,16 @@ I was supported by a Google PhD Fellowship in Systems and Networking (see my [ap
 
 ## Publications
 
+### Preprints
+
+* NEO: Saving GPU Memory Crisis with CPU Offloading for Online LLM Inference
+<br>Xuanlin Jiang, <u>Yang Zhou</u>, Shiyi Cao, Ion Stoica, Minlan Yu.
+<br>[[arxiv](https://arxiv.org/pdf/2411.01142)]
+
+* BlendServe: Optimizing Offline Inference for Auto-regressive Large Models with Resource-aware Batching
+<br>Yilong Zhao\*, Shuo Yang\*, Kan Zhu, Lianmin Zheng, Baris Kasikci, <u>Yang Zhou</u>, Jiarong Xing, Ion Stoica.
+<br>[[arxiv](https://arxiv.org/pdf/2411.16102)]
+
 ### Conference
 
 * SmartNIC Security Isolation in the Cloud with S-NIC
@@ -198,6 +208,9 @@ I was supported by a Google PhD Fellowship in Systems and Networking (see my [ap
   * Yellowstone
   * Everglades National Park
   * Key West
+  * Lassen Volcanic National Park
+  * Kenai Fjords National Park
+  * Denali National Park
 * I did long-distance biking
   * I cycled 700 miles around Taiwan in ten days, see my [photos](./cycling.html).
 * I did long-distance running
