@@ -172,6 +172,7 @@ I was supported by a Google PhD Fellowship in Systems and Networking (see my [ap
 * Organizer:
   * Co-Chair for SIGCOMM Artifact Evaluation 2024  
 * Program Committee: 
+  * NSDI 2026
   * OSDI 2025
   * SIGCOMM Poster/Demo 2023, 2024
   * SIGCOMM Workshop on eBPF and Kernel Extensions 2024
@@ -210,11 +211,14 @@ I was supported by a Google PhD Fellowship in Systems and Networking (see my [ap
   * Point Reyes
   * Grand Teton
   * Yellowstone
-  * Everglades National Park
+  * Everglades
   * Key West
-  * Lassen Volcanic National Park
-  * Kenai Fjords National Park
-  * Denali National Park
+  * Lassen Volcanic
+  * Kenai Fjords
+  * Denali
+  * Monument Valley
+  * Arches
+  * Canyonlands
 * I did long-distance biking
   * I cycled 700 miles around Taiwan in ten days, see my [photos](./cycling.html).
 * I did long-distance running
