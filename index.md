@@ -172,10 +172,11 @@ I was supported by a Google PhD Fellowship in Systems and Networking (see my [ap
 * Organizer:
   * Co-Chair for SIGCOMM Artifact Evaluation 2024  
 * Program Committee: 
+  * ASPLOS 2026
   * NSDI 2026
   * OSDI 2025
   * SIGCOMM Poster/Demo 2023, 2024
-  * SIGCOMM Workshop on eBPF and Kernel Extensions 2024
+  * SIGCOMM Workshop on eBPF and Kernel Extensions 2024, 2025
 
 <!-- ## Highlighted Projects -->
 
