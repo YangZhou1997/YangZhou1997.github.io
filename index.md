@@ -22,6 +22,10 @@ I was supported by a Google PhD Fellowship in Systems and Networking (see my [ap
 
 ### Preprints
 
+* Locality-aware Fair Scheduling in LLM Serving
+<br>Shiyi Cao\*, Yichuan Wang\*, Ziming Mao, Pin-Lun Hsu, Liangsheng Yin, Tian Xia, Dacheng Li, Shu Liu, Yineng Zhang, <u>Yang Zhou</u>, Ying Sheng, Joseph Gonzalez, Ion Stoica
+<br>[[arxiv](https://arxiv.org/pdf/2501.14312)]
+
 * NEO: Saving GPU Memory Crisis with CPU Offloading for Online LLM Inference
 <br>Xuanlin Jiang, <u>Yang Zhou</u>, Shiyi Cao, Ion Stoica, Minlan Yu
 <br>[[arxiv](https://arxiv.org/pdf/2411.01142)]
