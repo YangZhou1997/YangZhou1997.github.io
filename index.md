@@ -26,15 +26,16 @@ I was supported by a Google PhD Fellowship in Systems and Networking (see my [ap
 <br>Shiyi Cao\*, Yichuan Wang\*, Ziming Mao, Pin-Lun Hsu, Liangsheng Yin, Tian Xia, Dacheng Li, Shu Liu, Yineng Zhang, <u>Yang Zhou</u>, Ying Sheng, Joseph Gonzalez, Ion Stoica
 <br>[[arxiv](https://arxiv.org/pdf/2501.14312)]
 
-* NEO: Saving GPU Memory Crisis with CPU Offloading for Online LLM Inference
-<br>Xuanlin Jiang, <u>Yang Zhou</u>, Shiyi Cao, Ion Stoica, Minlan Yu
-<br>[[arxiv](https://arxiv.org/pdf/2411.01142)]
-
 * BlendServe: Optimizing Offline Inference for Auto-regressive Large Models with Resource-aware Batching
 <br>Yilong Zhao\*, Shuo Yang\*, Kan Zhu, Lianmin Zheng, Baris Kasikci, <u>Yang Zhou</u>, Jiarong Xing, Ion Stoica
 <br>[[arxiv](https://arxiv.org/pdf/2411.16102)]
 
 ### Conference
+
+* NEO: Saving GPU Memory Crisis with CPU Offloading for Online LLM Inference
+<br>Xuanlin Jiang, <u>Yang Zhou</u>, Shiyi Cao, Ion Stoica, Minlan Yu
+<br>**MLSys 2025**. The Conference on Machine Learning and Systems
+<br>[[arxiv](https://arxiv.org/pdf/2411.01142)]
 
 * eTran: Extensible Kernel Transport with eBPF
 <br>Zhongjie Chen, Qingkai Meng, ChonLam Lao, Yifan Liu, Fengyuan Ren, Minlan Yu, <u>Yang Zhou</u>
