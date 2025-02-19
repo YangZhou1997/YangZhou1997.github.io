@@ -167,10 +167,10 @@ I was supported by a Google PhD Fellowship in Systems and Networking (see my [ap
 
 ## Students mentored
 
-* Xuanlin Jiang (2024), Peking University undergrad → 
+* Xuanlin Jiang (2024-now), Peking University undergrad → 
 * Matt Kiley (2023), Harvard College undergrad → Clockwork Systems
-* [Yunxi Shen](https://yxshen20.github.io/) (2023-), Tsinghua University undergrad → Cornell PhD
-* [Xingyu Xiang](https://xyxiang7.github.io/) (2023-), Peking University undergrad → Harvard PhD
+* [Yunxi Shen](https://yxshen20.github.io/) (2023-2024), Tsinghua University undergrad → Cornell PhD
+* [Xingyu Xiang](https://xyxiang7.github.io/) (2023-now), Peking University undergrad → Harvard PhD
 * Zezhou Wang (2022), Peking University undergrad → University of Washington PhD
 
 ## Service
