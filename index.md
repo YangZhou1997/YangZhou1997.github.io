@@ -40,6 +40,7 @@ I was supported by a Google PhD Fellowship in Systems and Networking (see my [ap
 * eTran: Extensible Kernel Transport with eBPF
 <br>Zhongjie Chen, Qingkai Meng, ChonLam Lao, Yifan Liu, Fengyuan Ren, Minlan Yu, <u>Yang Zhou</u>
 <br>**NSDI 2025**. USENIX Symposium on Networked Systems Design and Implementation
+<br>[[paper](paper/etran-nsdi25.pdf)] 
 
 * SmartNIC Security Isolation in the Cloud with S-NIC
 <br><u>Yang Zhou</u>, Mark Wilkening, James Mickens, Minlan Yu
