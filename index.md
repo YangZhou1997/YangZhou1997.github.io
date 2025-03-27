@@ -32,6 +32,10 @@ I was supported by a Google PhD Fellowship in Systems and Networking (see my [ap
 
 ### Conference
 
+* Rethinking RPC Communication for Microservices-based Applications
+<br>Xiangfeng Zhu, <u>Yang Zhou</u>, Yuyao Wang, Xiangyu Gao, Arvind Krishnamurthy, Sam Kumar, Ratul Mahajan, Danyang Zhuo
+<br>**HotOS 2025**. The ACM SIGOPS 20th Workshop on Hot Topics in Operating Systems
+
 * NEO: Saving GPU Memory Crisis with CPU Offloading for Online LLM Inference
 <br>Xuanlin Jiang, <u>Yang Zhou</u>, Shiyi Cao, Ion Stoica, Minlan Yu
 <br>**MLSys 2025**. The Conference on Machine Learning and Systems
