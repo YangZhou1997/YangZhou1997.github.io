@@ -4,7 +4,7 @@ layout: default
 
 ## About
 
-I am a PostDoc at UC Berkeley advised by [Ion Stoica](https://people.eecs.berkeley.edu/~istoica/). I have equal interests in core systems and ML systems research, including efficient machine learning, datacenter far memory, distributed transactions and consensus, and networking stack designs. [Short Bio](./bio.txt).
+I am a PostDoc at UC Berkeley advised by [Ion Stoica](https://people.eecs.berkeley.edu/~istoica/). I have equal interests in core systems and ML systems research, e.g., efficient LLMs, GPU communication, heterogeneous computing. [Short Bio](./bio.txt).
 
 <span style="color:red;">I will be joining UC Davis CS as an Assistant Professor, starting July 2025.</span>
 
@@ -22,12 +22,16 @@ I was supported by a Google PhD Fellowship in Systems and Networking (see my [ap
 
 ### Preprints
 
+* Post-Training Sparse Attention with Double Sparsity
+<br>Shuo Yang, Ying Sheng, Yilong Zhao, Joseph Gonzalez, <u>Yang Zhou</u>, Ion Stoica, Lianmin Zheng
+<br>[[arxiv](https://arxiv.org/pdf/2408.07092)]
+
 * Locality-aware Fair Scheduling in LLM Serving
 <br>Shiyi Cao\*, Yichuan Wang\*, Ziming Mao, Pin-Lun Hsu, Liangsheng Yin, Tian Xia, Dacheng Li, Shu Liu, Yineng Zhang, <u>Yang Zhou</u>, Ying Sheng, Joseph Gonzalez, Ion Stoica
 <br>[[arxiv](https://arxiv.org/pdf/2501.14312)]
 
 * BlendServe: Optimizing Offline Inference for Auto-regressive Large Models with Resource-aware Batching
-<br>Yilong Zhao\*, Shuo Yang\*, Kan Zhu, Lianmin Zheng, Baris Kasikci, <u>Yang Zhou</u>, Jiarong Xing, Ion Stoica
+<br>Yilong Zhao\*, Shuo Yang\*, Kan Zhu, Lianmin Zheng, Baris Kasikci, Yifan Qiao, <u>Yang Zhou</u>, Jiarong Xing, Ion Stoica
 <br>[[arxiv](https://arxiv.org/pdf/2411.16102)]
 
 ### Conference
@@ -40,11 +44,13 @@ I was supported by a Google PhD Fellowship in Systems and Networking (see my [ap
 <br>Xuanlin Jiang, <u>Yang Zhou</u>, Shiyi Cao, Ion Stoica, Minlan Yu
 <br>**MLSys 2025**. The Conference on Machine Learning and Systems
 <br>[[arxiv](https://arxiv.org/pdf/2411.01142)]
+[[code](https://github.com/NEO-MLSys25/NEO)]
 
 * eTran: Extensible Kernel Transport with eBPF
 <br>Zhongjie Chen, Qingkai Meng, ChonLam Lao, Yifan Liu, Fengyuan Ren, Minlan Yu, <u>Yang Zhou</u>
 <br>**NSDI 2025**. USENIX Symposium on Networked Systems Design and Implementation
 <br>[[paper](paper/etran-nsdi25.pdf)] 
+[[code](https://github.com/eTran-NSDI25/eTran)]
 
 * SmartNIC Security Isolation in the Cloud with S-NIC
 <br><u>Yang Zhou</u>, Mark Wilkening, James Mickens, Minlan Yu
