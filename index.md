@@ -5,7 +5,7 @@ layout: default
 ## About
 
 I am a PostDoc at UC Berkeley advised by [Ion Stoica](https://people.eecs.berkeley.edu/~istoica/). I have equal interests in core systems and ML systems research, e.g., efficient LLMs, GPU communication, heterogeneous computing. 
-I am current working on [UCCL](https://github.com/uccl-project/uccl): an efficient collective communication library for GPUs. [Short Bio](./bio.txt).
+I am currently working on [UCCL](https://github.com/uccl-project/uccl).
 
 <span style="color:red;">I will be joining UC Davis CS as an Assistant Professor, starting July 2025.</span>
 
@@ -22,6 +22,10 @@ I was supported by a Google PhD Fellowship in Systems and Networking (see my [ap
 ## Publications
 
 ### Preprints
+
+* UCCL: an Efficient Collective Communication Library for GPUs
+<br> Yang Zhou\*, Zhongjie Chen\*, Ziming Mao, ChonLam Lao, Shuo Yang, Pravein Govindan Kannan, Jiaqi Gao, Yilong Zhao, Yongji Wu, Kaichao You, Fengyuan Ren, Zhiying Xu, Costin Raiciu, Ion Stoica
+<br>[[arxiv](https://arxiv.org/pdf/2504.17307)] [[homepage](https://github.com/uccl-project/uccl)]
 
 * Post-Training Sparse Attention with Double Sparsity
 <br>Shuo Yang, Ying Sheng, Yilong Zhao, Joseph Gonzalez, <u>Yang Zhou</u>, Ion Stoica, Lianmin Zheng
