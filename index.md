@@ -23,7 +23,7 @@ I was supported by a Google PhD Fellowship in Systems and Networking (see my [ap
 
 ### Preprints
 
-* Concerto: Harvesting GPUs for Efficient LLM Co-Serving of Online and Offline Workloads
+* ConServe: Harvesting GPUs for Low-Latency and High-Throughput Large Language Model Serving
 <br> Yifan Qiao, Shu Anzai, Shan Yu, Haoran Ma, Shuo Yang, Yang Wang, Miryung Kim, Yongji Wu, <u>Yang Zhou</u>, Jiarong Xing, Joseph Gonzalez, Ion Stoica, Harry Xu
 <br> [[arxiv](https://arxiv.org/pdf/2410.01228)]
 
