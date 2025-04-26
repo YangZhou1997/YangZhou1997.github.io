@@ -16,32 +16,32 @@ I am currently working on [UCCL](https://github.com/uccl-project/uccl) for GPU c
 
 I finished my PhD in Computer Science at Harvard University in 2024, advised by [Minlan Yu](http://minlanyu.seas.harvard.edu/) and [James Mickens](https://mickens.seas.harvard.edu/).
 I received my B.S. in Computer Science at Peking University in 2018, advised by [Tong Yang](https://yangtonghome.github.io/) on probabilistic data structures and streaming algorithms.
-I was supported by a Google PhD Fellowship in Systems and Networking (see my [application materials](./materials/google_fellowship_cv_rs.pdf)). 
+I was supported by a Google PhD Fellowship in Systems and Networking (see my [app materials](./materials/google_fellowship_cv_rs.pdf)). 
 
 
 ## Publications
 
 ### Preprints
 
-* ConServe: Harvesting GPUs for Low-Latency and High-Throughput Large Language Model Serving
-<br> Yifan Qiao, Shu Anzai, Shan Yu, Haoran Ma, Shuo Yang, Yang Wang, Miryung Kim, Yongji Wu, <u>Yang Zhou</u>, Jiarong Xing, Joseph Gonzalez, Ion Stoica, Harry Xu
-<br> [[arxiv](https://arxiv.org/pdf/2410.01228)]
-
 * UCCL: an Efficient Collective Communication Library for GPUs
 <br> <u>Yang Zhou</u>\*, Zhongjie Chen\*, Ziming Mao, ChonLam Lao, Shuo Yang, Pravein Govindan Kannan, Jiaqi Gao, Yilong Zhao, Yongji Wu, Kaichao You, Fengyuan Ren, Zhiying Xu, Costin Raiciu, Ion Stoica
-<br>[[arxiv](https://arxiv.org/pdf/2504.17307)] [[homepage](https://github.com/uccl-project/uccl)]
-
-* Post-Training Sparse Attention with Double Sparsity
-<br>Shuo Yang, Ying Sheng, Yilong Zhao, Joseph Gonzalez, <u>Yang Zhou</u>, Ion Stoica, Lianmin Zheng
-<br>[[arxiv](https://arxiv.org/pdf/2408.07092)]
+<br>[[Arxiv April 2025](https://arxiv.org/pdf/2504.17307)] [[homepage](https://github.com/uccl-project/uccl)]
 
 * Locality-aware Fair Scheduling in LLM Serving
 <br>Shiyi Cao\*, Yichuan Wang\*, Ziming Mao, Pin-Lun Hsu, Liangsheng Yin, Tian Xia, Dacheng Li, Shu Liu, Yineng Zhang, <u>Yang Zhou</u>, Ying Sheng, Joseph Gonzalez, Ion Stoica
-<br>[[arxiv](https://arxiv.org/pdf/2501.14312)]
+<br>[[Arxiv Jan 2025](https://arxiv.org/pdf/2501.14312)]
 
 * BlendServe: Optimizing Offline Inference for Auto-regressive Large Models with Resource-aware Batching
 <br>Yilong Zhao\*, Shuo Yang\*, Kan Zhu, Lianmin Zheng, Baris Kasikci, Yifan Qiao, <u>Yang Zhou</u>, Jiarong Xing, Ion Stoica
-<br>[[arxiv](https://arxiv.org/pdf/2411.16102)]
+<br>[[Arxiv Nov 2024](https://arxiv.org/pdf/2411.16102)]
+
+* ConServe: Harvesting GPUs for Low-Latency and High-Throughput Large Language Model Serving
+<br> Yifan Qiao, Shu Anzai, Shan Yu, Haoran Ma, Shuo Yang, Yang Wang, Miryung Kim, Yongji Wu, <u>Yang Zhou</u>, Jiarong Xing, Joseph Gonzalez, Ion Stoica, Harry Xu
+<br> [[Arxiv Oct 2024](https://arxiv.org/pdf/2410.01228)]
+
+* Post-Training Sparse Attention with Double Sparsity
+<br>Shuo Yang, Ying Sheng, Yilong Zhao, Joseph Gonzalez, <u>Yang Zhou</u>, Ion Stoica, Lianmin Zheng
+<br>[[Arxiv Aug 2024](https://arxiv.org/pdf/2408.07092)]
 
 ### Conference
 
@@ -249,8 +249,10 @@ I was supported by a Google PhD Fellowship in Systems and Networking (see my [ap
   * Monument Valley
   * Arches
   * Canyonlands
+  * Alta
+  * Snowbird
 * I did long-distance biking
   * I cycled 700 miles around Taiwan in ten days, see my [photos](./cycling.html).
 * I did long-distance running
   * I finished a half-marathon in 1h50min.
-* I did physics.
+* I was pretty fond of physics during high school and college.
