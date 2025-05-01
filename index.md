@@ -18,6 +18,19 @@ I finished my PhD in Computer Science at Harvard University in 2024, advised by 
 I received my B.S. in Computer Science at Peking University in 2018, advised by [Tong Yang](https://yangtonghome.github.io/) on probabilistic data structures and streaming algorithms.
 I was supported by a Google PhD Fellowship in Systems and Networking (see my [app materials](./materials/google_fellowship_cv_rs.pdf)). 
 
+## Students
+
+Current: 
+* Shuang Ma (2025-now, PhD), from USTC
+* Yihan Zhang (2025-now, PhD), from UIUC
+
+Mentored: 
+* Zhongjie Chen (2024-now), Tsinghua University PhD
+* Xuanlin Jiang (2024), Peking University undergrad → Harvard PhD
+* Matt Kiley (2023), Harvard College undergrad → Clockwork Systems
+* [Yunxi Shen](https://yxshen20.github.io/) (2023-2024), Tsinghua University undergrad → Cornell PhD
+* [Xingyu Xiang](https://xyxiang7.github.io/) (2023-now), Peking University undergrad → Harvard PhD
+* Zezhou Wang (2022), Peking University undergrad → University of Washington PhD
 
 ## Publications
 
@@ -186,15 +199,6 @@ I was supported by a Google PhD Fellowship in Systems and Networking (see my [ap
 [[Code](https://github.com/harvard-cns/Agg-Evict)]
 
 *: co-primary authors
-
-## Students mentored
-
-* Zhongjie Chen (2024-now), Tsinghua University PhD
-* Xuanlin Jiang (2024), Peking University undergrad → Harvard PhD
-* Matt Kiley (2023), Harvard College undergrad → Clockwork Systems
-* [Yunxi Shen](https://yxshen20.github.io/) (2023-2024), Tsinghua University undergrad → Cornell PhD
-* [Xingyu Xiang](https://xyxiang7.github.io/) (2023-now), Peking University undergrad → Harvard PhD
-* Zezhou Wang (2022), Peking University undergrad → University of Washington PhD
 
 ## Service
 
