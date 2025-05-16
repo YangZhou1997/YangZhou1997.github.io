@@ -68,6 +68,7 @@ Mentored:
 <br>Xuanlin Jiang, <u>Yang Zhou</u>, Shiyi Cao, Ion Stoica, Minlan Yu
 <br>**MLSys 2025**. The Conference on Machine Learning and Systems
 <br>[[paper](paper/neo_mlsys25.pdf)]
+[[slides](slides/neo-mlsys25-slides.pdf)]
 [[code](https://github.com/NEO-MLSys25/NEO)]
 
 * eTran: Extensible Kernel Transport with eBPF
