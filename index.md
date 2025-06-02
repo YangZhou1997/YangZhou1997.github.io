@@ -5,7 +5,7 @@ layout: default
 ## About
 
 I am a PostDoc at UC Berkeley advised by [Ion Stoica](https://people.eecs.berkeley.edu/~istoica/). I have equal interests in core systems and ML systems research, e.g., efficient LLMs, GPU communication, heterogeneous computing. 
-I am currently working on [UCCL](https://github.com/uccl-project/uccl) for GPU collective communication. 
+I am currently working on [UCCL](https://github.com/uccl-project/uccl) for GPU communication. 
 
 <span style="color:red;">I will be joining UC Davis CS as an Assistant Professor, starting July 2025.</span>
 
@@ -38,7 +38,7 @@ Mentored:
 
 * UCCL: an Efficient Collective Communication Library for GPUs
 <br> <u>Yang Zhou</u>\*, Zhongjie Chen\*, Ziming Mao, ChonLam Lao, Shuo Yang, Pravein Govindan Kannan, Jiaqi Gao, Yilong Zhao, Yongji Wu, Kaichao You, Fengyuan Ren, Zhiying Xu, Costin Raiciu, Ion Stoica
-<br>[[Arxiv April 2025](https://arxiv.org/pdf/2504.17307)] [[homepage](https://github.com/uccl-project/uccl)]
+<br>[[Arxiv April 2025](https://arxiv.org/pdf/2504.17307)] [[homepage](https://uccl-project.github.io/)] [[slides](slides/uccl_sky_summer_retreat.pdf)] [[code](https://github.com/uccl-project/uccl)]
 
 * Locality-aware Fair Scheduling in LLM Serving
 <br>Shiyi Cao\*, Yichuan Wang\*, Ziming Mao, Pin-Lun Hsu, Liangsheng Yin, Tian Xia, Dacheng Li, Shu Liu, Yineng Zhang, <u>Yang Zhou</u>, Ying Sheng, Joseph Gonzalez, Ion Stoica
@@ -62,7 +62,6 @@ Mentored:
 <br>Xiangfeng Zhu, <u>Yang Zhou</u>, Yuyao Wang, Xiangyu Gao, Arvind Krishnamurthy, Sam Kumar, Ratul Mahajan, Danyang Zhuo
 <br>**HotOS 2025**. The ACM SIGOPS 20th Workshop on Hot Topics in Operating Systems
 <br>[[paper](paper/rethinking-hotos25.pdf)] 
-
 
 * NEO: Saving GPU Memory Crisis with CPU Offloading for Online LLM Inference
 <br>Xuanlin Jiang, <u>Yang Zhou</u>, Shiyi Cao, Ion Stoica, Minlan Yu
