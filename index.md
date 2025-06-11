@@ -36,11 +36,15 @@ Mentored:
 
 ### Preprints
 
+* LEANN: a Low-Storage Vector Index
+<br> Yichuan Wang, Shu Liu, Zhifei Li, Yongji Wu, Ziming Mao, Yilong Zhao, Xiao Yan, Zhiying Xu, <u>Yang Zhou</u>, Ion Stoica, Sewon Min, Matei Zaharia, Joseph E. Gonzalez
+<br>[[Arxiv June 2025](https://arxiv.org/pdf/2506.08276)]
+
 * UCCL: an Efficient Collective Communication Library for GPUs
 <br> <u>Yang Zhou</u>\*, Zhongjie Chen\*, Ziming Mao, ChonLam Lao, Shuo Yang, Pravein Govindan Kannan, Jiaqi Gao, Yilong Zhao, Yongji Wu, Kaichao You, Fengyuan Ren, Zhiying Xu, Costin Raiciu, Ion Stoica
 <br>[[Arxiv April 2025](https://arxiv.org/pdf/2504.17307)] [[homepage](https://uccl-project.github.io/)] [[slides](slides/uccl_sky_summer_retreat.pdf)] [[code](https://github.com/uccl-project/uccl)]
 
-* Locality-aware Fair Scheduling in LLM Serving
+* Locality-Aware Fair Scheduling in LLM Serving
 <br>Shiyi Cao\*, Yichuan Wang\*, Ziming Mao, Pin-Lun Hsu, Liangsheng Yin, Tian Xia, Dacheng Li, Shu Liu, Yineng Zhang, <u>Yang Zhou</u>, Ying Sheng, Joseph Gonzalez, Ion Stoica
 <br>[[Arxiv Jan 2025](https://arxiv.org/pdf/2501.14312)]
 
