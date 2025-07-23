@@ -18,6 +18,12 @@ I finished my PhD in Computer Science at Harvard University in 2024, advised by 
 I received my B.S. in Computer Science at Peking University in 2018, advised by [Tong Yang](https://yangtonghome.github.io/) on probabilistic data structures and streaming algorithms.
 I was supported by a Google PhD Fellowship in Systems and Networking (see my [app materials](./materials/google_fellowship_cv_rs.pdf)). 
 
+## Updates
+* July 2025, UCCL talk at Meta, ByteDance (Seed), SJTU IPADS
+* June 2025, UCCL talk at ByteDance (Networking), NVIDIA
+* May 2025, UCCL talk at UC Berkeley SkyLab Summer Retreat, Broadcom
+* Jan 2025, UCCL talk at UC Berkeley SkyLab Winter Retreat
+
 ## Students
 
 Current: 
