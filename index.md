@@ -32,7 +32,7 @@ Current:
 * Yihan Zhang (2025-now, PhD), from UIUC
 
 Mentored: 
-* Zhongjie Chen (2024-now), Tsinghua University PhD
+* [Zhongjie Chen](https://zhongjiechen.github.io/) (2024-now), Tsinghua University PhD
 * Xuanlin Jiang (2024), Peking University undergrad → Harvard PhD
 * Matt Kiley (2023), Harvard College undergrad → Clockwork Systems
 * [Yunxi Shen](https://yxshen20.github.io/) (2023-2024), Tsinghua University undergrad → Cornell PhD
