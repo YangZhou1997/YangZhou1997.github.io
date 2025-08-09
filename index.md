@@ -45,7 +45,7 @@ Mentored:
 
 * LEANN: a Low-Storage Vector Index
 <br> Yichuan Wang, Shu Liu, Zhifei Li, Yongji Wu, Ziming Mao, Yilong Zhao, Xiao Yan, Zhiying Xu, <u>Yang Zhou</u>, Ion Stoica, Sewon Min, Matei Zaharia, Joseph E. Gonzalez
-<br>[[Arxiv June 2025](https://arxiv.org/pdf/2506.08276)]
+<br>[[Arxiv June 2025](https://arxiv.org/pdf/2506.08276)] [[code](https://github.com/yichuan-w/LEANN)]
 
 * UCCL: an Efficient Collective Communication Library for GPUs
 <br> <u>Yang Zhou</u>\*, Zhongjie Chen\*, Ziming Mao, ChonLam Lao, Shuo Yang, Pravein Govindan Kannan, Jiaqi Gao, Yilong Zhao, Yongji Wu, Kaichao You, Fengyuan Ren, Zhiying Xu, Costin Raiciu, Ion Stoica
