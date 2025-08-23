@@ -43,6 +43,10 @@ Mentored:
 
 ### Preprints
 
+* Towards Efficient and Practical GPU Multitasking in the Era of LLM
+<br> Jiarong Xing, Yifan Qiao, Simon Mo, Xingqi Cui, Gur-Eyal Sela, <u>Yang Zhou</u>, Joseph Gonzalez, Ion Stoica
+<br>[[Arxiv Aug 2025](https://arxiv.org/pdf/2508.08448)] [[code](https://github.com/ovg-project)]
+
 * LEANN: a Low-Storage Vector Index
 <br> Yichuan Wang, Shu Liu, Zhifei Li, Yongji Wu, Ziming Mao, Yilong Zhao, Xiao Yan, Zhiying Xu, <u>Yang Zhou</u>, Ion Stoica, Sewon Min, Matei Zaharia, Joseph E. Gonzalez
 <br>[[Arxiv June 2025](https://arxiv.org/pdf/2506.08276)] [[code](https://github.com/yichuan-w/LEANN)]
