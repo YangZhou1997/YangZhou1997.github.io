@@ -4,7 +4,7 @@ layout: default
 
 ## About
 
-I am an Assistant Professor at UC Davis CS. 
+I am an Assistant Professor at UC Davis CS. My office is in Kemper 2127. 
 I have equal interests in core systems and ML systems research, e.g., efficient LLMs, GPU communication, heterogeneous computing. 
 I am currently working on [UCCL](https://github.com/uccl-project/uccl) for GPU communication, with close collaborations between Davis and Berkeley. 
 
