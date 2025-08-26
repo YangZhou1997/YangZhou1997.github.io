@@ -39,6 +39,10 @@ Mentored:
 * [Xingyu Xiang](https://xyxiang7.github.io/) (2023-now), Peking University undergrad → Harvard PhD
 * Zezhou Wang (2022), Peking University undergrad → University of Washington PhD
 
+## Teaching
+
+* ECS 289D Seminar in Operating Systems: Datacenter Systems for ML: [Fall 2025](./teaching/ecs289d_fall25.html)
+
 ## Publications
 
 ### Preprints

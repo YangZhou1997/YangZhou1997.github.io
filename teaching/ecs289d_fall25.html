@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ECS 289D (Fall 2025) — Datacenter Systems for ML</title>
+  <style>
+    body {
+      font: 16px/1.5 system-ui, sans-serif;
+      margin: 0;
+      color: #111;
+      background: #fff;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    h1,
+    h2 {
+      margin-top: 1.5rem;
+      text-align: left;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 1rem;
+      table-layout: fixed;
+    }
+
+    th,
+    td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      vertical-align: middle;
+      text-align: center;
+    }
+
+    th {
+      background: #f3f4f6;
+    }
+
+    th:nth-child(1),
+    td:nth-child(1) {
+      width: 40px;
+    }
+
+    th:nth-child(2),
+    td:nth-child(2) {
+      width: 75px;
+    }
+
+    th:nth-child(3),
+    td:nth-child(3) {
+      width: 85px;
+    }
+
+    th:nth-child(4),
+    td:nth-child(4) {
+      width: 500px;
+    }
+
+    em {
+      color: #555;
+    }
+
+    strong {
+      color: #b91c1c;
+    }
+
+    .optional {
+      display: inline-block;
+      padding: 2px 6px;
+      border: 1px solid #999;
+      border-radius: 6px;
+      font-size: 0.8em;
+      margin-right: 4px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>ECS 289D (Fall 2025) — Datacenter Systems for ML</h1>
+    <p>Quarter-long seminar on datacenter systems for ML training &amp; inference. Based on research papers and a team
+      project.</p>
+
+    <h2>General Information</h2>
+    <ul>
+      <li><strong>Instructor:</strong> Yang Zhou</li>
+      <li><strong>Time &amp; Location:</strong> Tue/Thu 10:30am - 11:50am, UC Davis (TBD)</li>
+      <li><strong>Office Hours:</strong> TBD</li>
+      <li><strong>Course Site:</strong> This page</li>
+    </ul>
+
+    <h2>Schedule</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Week</th>
+          <th>Date</th>
+          <th>Topic</th>
+          <th>Paper(s)</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Week 1 -->
+        <tr>
+          <td>1</td>
+          <td>Thu 9/25</td>
+          <td>—</td>
+          <td style="text-align:left">Course Introduction</td>
+          <td style="text-align:left">Introduction by Yang</td>
+        </tr>
+
+        <!-- Weeks 2-3: Topic 1 -->
+        <tr>
+          <td rowspan="2">2</td>
+          <td>Tue 9/30</td>
+          <td rowspan="4">Datacenter networking</td>
+          <td style="text-align:left">
+            <a href="https://dl.acm.org/doi/pdf/10.1145/2408776.2408794">The Tail at Scale</a><br>
+            <span class="optional">optional</span> <a href="https://dl.acm.org/doi/pdf/10.1145/3015146">Attack of the
+              Killer Microseconds</a>
+          </td>
+          <td style="text-align:left">
+            Presentation by Yang<br>
+            <strong>Paper Presentation Selection Due</strong>
+          </td>
+        </tr>
+        <tr>
+          <td>Thu 10/02</td>
+          <td style="text-align:left">
+            <a href="http://ccr.sigcomm.org/online/files/p63-alfares.pdf">A Scalable, Commodity Data Center Network
+              Architecture</a>
+          </td>
+          <td style="text-align:left">—</td>
+        </tr>
+        <tr>
+          <td rowspan="2">3</td>
+          <td>Tue 10/07</td>
+          <td style="text-align:left">
+            <a href="https://people.csail.mit.edu/alizadeh/papers/dctcp-sigcomm10.pdf">Data Center TCP (DCTCP)</a><br>
+            <span class="optional">optional</span> <a href="https://2022-cs244.github.io/papers/L5-swift.pdf">Swift:
+              Delay is Simple and Effective for Congestion Control in the Datacenter</a>
+          </td>
+          <td style="text-align:left"><strong>Project Membership and Topic Due</strong></td>
+        </tr>
+        <tr>
+          <td>Thu 10/09</td>
+          <td style="text-align:left">
+            <a href="https://anujkalia.com/doc/atc16/rdma_bench_atc.pdf">Design Guidelines for High Performance RDMA
+              Systems</a>
+          </td>
+          <td style="text-align:left">—</td>
+        </tr>
+
+        <!-- Weeks 4-5: Topic 2 -->
+        <tr>
+          <td rowspan="2">4</td>
+          <td>Tue 10/14</td>
+          <td rowspan="4">Host networking</td>
+          <td style="text-align:left">
+            <a href="https://dl.acm.org/doi/10.1145/3651890.3672233">RDMA over Ethernet for Distributed AI Training at
+              Meta Scale</a><br>
+            <span class="optional">optional</span> <a href="https://arxiv.org/pdf/2504.17307">An Extensible Software
+              Transport Layer for GPU Networking</a>
+          </td>
+          <td style="text-align:left">—</td>
+        </tr>
+        <tr>
+          <td>Thu 10/16</td>
+          <td style="text-align:left">
+            <a href="https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-belay.pdf">IX: A Protected
+              Dataplane Operating System for High Throughput and Low Latency</a><br>
+            <span class="optional">optional</span> <a
+              href="https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-peter_simon.pdf">Arrakis: The
+              Operating System is the Control Plane</a>
+          </td>
+          <td style="text-align:left"><strong>Project Proposal Due</strong></td>
+        </tr>
+        <tr>
+          <td rowspan="2">5</td>
+          <td>Tue 10/21</td>
+          <td style="text-align:left">
+            <a href="https://www.usenix.org/system/files/nsdi19-ousterhout.pdf">Shenango: Achieving High CPU Efficiency
+              for Latency-sensitive Datacenter Workloads</a>
+          </td>
+          <td style="text-align:left">—</td>
+        </tr>
+        <tr>
+          <td>Thu 10/23</td>
+          <td style="text-align:left">
+            <a href="https://users.cs.duke.edu/~mlentz/papers/mccs_sigcomm2024.pdf">MCCS: A Service-based Approach to
+              Collective Communication for Multi-Tenant Cloud</a><br>
+            <span class="optional">optional</span> <a href="https://arxiv.org/pdf/2507.04786">Demystifying NCCL: An
+              In-depth Analysis of GPU Communication Protocols and Algorithms</a>
+          </td>
+          <td style="text-align:left">—</td>
+        </tr>
+
+        <!-- Weeks 6-7: Topic 3 -->
+        <tr>
+          <td rowspan="2">6</td>
+          <td>Tue 10/28</td>
+          <td rowspan="4">LLM Inference</td>
+          <td style="text-align:left">
+            <a href="https://arxiv.org/pdf/2309.06180">Efficient Memory Management for Large Language Model Serving with
+              PagedAttention</a>
+          </td>
+          <td style="text-align:left">—</td>
+        </tr>
+        <tr>
+          <td>Thu 10/30</td>
+          <td style="text-align:left">
+            <a href="https://www.usenix.org/system/files/osdi24-zhong-yinmin.pdf">DistServe: Disaggregating Prefill and
+              Decoding for Goodput-optimized Large Language Model Serving</a>
+          </td>
+          <td style="text-align:left">—</td>
+        </tr>
+        <tr>
+          <td rowspan="2">7</td>
+          <td>Tue 11/04</td>
+          <td style="text-align:left">
+            <a href="https://www.usenix.org/system/files/osdi24-agrawal.pdf">Taming Throughput-Latency Tradeoff
+              in LLM Inference with Sarathi-Serve</a>
+          </td>
+          <td style="text-align:left">—</td>
+        </tr>
+        <tr>
+          <td>Thu 11/06</td>
+          <td style="text-align:left">
+            <a href="https://www.usenix.org/system/files/osdi25-zhu-kan.pdf">NanoFlow: Towards Optimal Large Language
+              Model Serving Throughput</a>
+          </td>
+          <td style="text-align:left"><strong>Mid-Quarter Milestone Due</strong></td>
+        </tr>
+
+        <!-- Weeks 8-10: Topic 4 -->
+        <tr>
+          <td rowspan="2">8</td>
+          <td>Tue 11/11</td>
+          <td rowspan="6">LLM Training</td>
+          <td style="text-align:left">—</td>
+          <td style="text-align:left"><em>Skipped for Veterans Day Holiday</em></td>
+        </tr>
+        <tr>
+          <td>Thu 11/13</td>
+          <td style="text-align:left">
+            <a href="https://arxiv.org/pdf/1910.02054">ZeRO: Memory Optimizations Toward Training Trillion Parameter
+              Models</a><br>
+            <span class="optional">optional</span> <a
+              href="https://sumanthrh.com/post/distributed-and-efficient-finetuning/">Everything about Distributed
+              Training and Efficient Finetuning</a>
+          </td>
+          <td style="text-align:left">—</td>
+        </tr>
+        <tr>
+          <td rowspan="2">9</td>
+          <td>Tue 11/18</td>
+          <td style="text-align:left">
+            <a href="https://www.vldb.org/pvldb/vol16/p3848-huang.pdf">PyTorch FSDP: Experiences on Scaling Fully
+              Sharded Data Parallel</a>
+          </td>
+          <td style="text-align:left">—</td>
+        </tr>
+        <tr>
+          <td>Thu 11/20</td>
+          <td style="text-align:left">
+            <a href="https://www.usenix.org/system/files/osdi22-zheng-lianmin.pdf">Alpa: Automating Inter- and
+              Intra-Operator Parallelism for Distributed Deep Learning</a>
+          </td>
+          <td style="text-align:left">—</td>
+        </tr>
+        <tr>
+          <td rowspan="2">10</td>
+          <td>Tue 11/25</td>
+          <td style="text-align:left">
+            <a href="https://www.cs.rice.edu/~eugeneng/papers/SOSP23.pdf">Gemini: Fast Failure Recovery in Distributed
+              Training with In-Memory Checkpoints</a>
+          </td>
+          <td style="text-align:left">—</td>
+        </tr>
+        <tr>
+          <td>Thu 11/27</td>
+          <td style="text-align:left">—</td>
+          <td style="text-align:left"><em>Skipped for Thanksgiving Holiday</em></td>
+        </tr>
+
+        <!-- Week 11 & Post -->
+        <tr>
+          <td rowspan="2">11</td>
+          <td>Tue 12/02</td>
+          <td>—</td>
+          <td style="text-align:left">Wrap Up</td>
+          <td style="text-align:left">Final Q&amp;A</td>
+        </tr>
+        <tr>
+          <td>Thu 12/04</td>
+          <td>—</td>
+          <td style="text-align:left">Project Presentations</td>
+          <td style="text-align:left">In-class presentations</td>
+        </tr>
+        <tr>
+          <td>—</td>
+          <td>Tue 12/09</td>
+          <td>—</td>
+          <td style="text-align:left">Project Reports Due</td>
+          <td style="text-align:left"><strong>Final reports due</strong></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>Readings, Presentations, and Project</h2>
+    <p>Each class meeting focuses on a research paper. Students are expected to read assigned papers ahead of time and
+      participate. Each student will lead one discussion and complete a quarter‑long team project.</p>
+    <ul>
+      <li>Paper reviews are typically due the day before class.</li>
+      <li>Slides/discussion outline due by noon the day before your presentation.</li>
+      <li>Project teams of 3–4 students; milestones are listed in the schedule.</li>
+    </ul>
+
+    <p><em>Last updated: August 25, 2025</em></p>
+  </div>
+</body>
+
+</html>
