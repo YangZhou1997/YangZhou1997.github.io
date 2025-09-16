@@ -41,7 +41,7 @@ Mentored:
 
 ## Teaching
 
-* ECS 289D Seminar in Operating Systems: Datacenter Systems for ML: [Fall 2025](./teaching/ecs289d_fall25.html)
+* ECS 289D Seminar in Operating Systems: Datacenter Systems for LLMs: [Fall 2025](./teaching/ecs289d_fall25.html)
 
 ## Publications
 
