@@ -224,6 +224,7 @@ Mentored:
 * Organizer:
   * Co-Chair for SIGCOMM Artifact Evaluation 2024  
 * Program Committee: 
+  * EuroSys 2026
   * ASPLOS 2026
   * NSDI 2026
   * OSDI 2025
