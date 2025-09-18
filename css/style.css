@@ -31,3 +31,11 @@ h1, h2, h3, h4, h5, h6 {
 	padding-top: 18px; 
   margin-top: -18px;
 }
+
+/* Align inline badges with text */
+img[src*="shields.io"] {
+  vertical-align: baseline;
+  margin-left: 2px;
+  position: relative;
+  top: 4px;
+}

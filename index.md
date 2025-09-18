@@ -6,7 +6,7 @@ layout: default
 
 I am an Assistant Professor at UC Davis CS. My office is in Kemper 2127. 
 I have equal interests in core systems and ML systems research, e.g., efficient LLMs, GPU communication, heterogeneous computing. 
-I am currently working on [UCCL](https://github.com/uccl-project/uccl) for GPU communication, with close collaborations between Davis and Berkeley. 
+I am currently working on [UCCL](https://github.com/uccl-project/uccl) [![GitHub Repo stars](https://img.shields.io/github/stars/uccl-project/uccl?style=social)](https://github.com/uccl-project/uccl/stargazers) for GPU communication, with close collaborations between Davis and Berkeley. 
 
 <!-- <span style="color:red;">I will be joining UC Davis CS as an Assistant Professor, starting July 2025.</span> -->
 <!-- I have multiple PhD openings at UC Davis (apply [here](https://apply.grad.ucdavis.edu/apply/) by Dec 15, 2024). Feel free to drop me an email if you are interested. 
