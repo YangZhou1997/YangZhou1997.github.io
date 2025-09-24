@@ -53,15 +53,23 @@ Mentored:
 
 * Towards Efficient and Practical GPU Multitasking in the Era of LLM
 <br> Jiarong Xing, Yifan Qiao, Simon Mo, Xingqi Cui, Gur-Eyal Sela, <u>Yang Zhou</u>, Joseph Gonzalez, Ion Stoica
-<br>[[Arxiv Aug 2025](https://arxiv.org/pdf/2508.08448)] [[code](https://github.com/ovg-project)]
+<br>[[Arxiv Aug 2025](https://arxiv.org/pdf/2508.08448)]
+[[code](https://github.com/ovg-project)]
+[![GitHub Repo stars](https://img.shields.io/github/stars/ovg-project/kvcached?style=social)](https://github.com/ovg-project/kvcached/stargazers)
 
 * LEANN: a Low-Storage Vector Index
 <br> Yichuan Wang, Shu Liu, Zhifei Li, Yongji Wu, Ziming Mao, Yilong Zhao, Xiao Yan, Zhiying Xu, <u>Yang Zhou</u>, Ion Stoica, Sewon Min, Matei Zaharia, Joseph E. Gonzalez
-<br>[[Arxiv June 2025](https://arxiv.org/pdf/2506.08276)] [[code](https://github.com/yichuan-w/LEANN)]
+<br>[[Arxiv June 2025](https://arxiv.org/pdf/2506.08276)]
+[[code](https://github.com/yichuan-w/LEANN)]
+[![GitHub Repo stars](https://img.shields.io/github/stars/yichuan-w/LEANN?style=social)](https://github.com/yichuan-w/LEANN/stargazers)
 
 * UCCL: an Efficient Collective Communication Library for GPUs
 <br> <u>Yang Zhou</u>\*, Zhongjie Chen\*, Ziming Mao, ChonLam Lao, Shuo Yang, Pravein Govindan Kannan, Jiaqi Gao, Yilong Zhao, Yongji Wu, Kaichao You, Fengyuan Ren, Zhiying Xu, Costin Raiciu, Ion Stoica
-<br>[[Arxiv April 2025](https://arxiv.org/pdf/2504.17307)] [[homepage](https://uccl-project.github.io/)] [[slides](slides/uccl_sky_summer_retreat.pdf)] [[code](https://github.com/uccl-project/uccl)]
+<br>[[Arxiv April 2025](https://arxiv.org/pdf/2504.17307)]
+[[homepage](https://uccl-project.github.io/)]
+[[slides](https://drive.google.com/file/d/1YsgMNPeCV797sYPiCWAT0AMfc0WgIhP0/view?usp=sharing)]
+[[code](https://github.com/uccl-project/uccl)]
+[![GitHub Repo stars](https://img.shields.io/github/stars/uccl-project/uccl?style=social)](https://github.com/uccl-project/uccl/stargazers)
 
 * Locality-Aware Fair Scheduling in LLM Serving
 <br>Shiyi Cao\*, Yichuan Wang\*, Ziming Mao, Pin-Lun Hsu, Liangsheng Yin, Tian Xia, Dacheng Li, Shu Liu, Yineng Zhang, <u>Yang Zhou</u>, Ying Sheng, Joseph Gonzalez, Ion Stoica
@@ -92,12 +100,14 @@ Mentored:
 <br>[[paper](paper/neo_mlsys25.pdf)]
 [[slides](slides/neo-mlsys25-slides.pdf)]
 [[code](https://github.com/NEO-MLSys25/NEO)]
+[![GitHub Repo stars](https://img.shields.io/github/stars/NEO-MLSys25/NEO?style=social)](https://github.com/NEO-MLSys25/NEO/stargazers)
 
 * eTran: Extensible Kernel Transport with eBPF
 <br>Zhongjie Chen, Qingkai Meng, ChonLam Lao, Yifan Liu, Fengyuan Ren, Minlan Yu, <u>Yang Zhou</u>
 <br>**NSDI 2025**. USENIX Symposium on Networked Systems Design and Implementation
 <br>[[paper](paper/etran-nsdi25.pdf)] 
 [[code](https://github.com/eTran-NSDI25/eTran)]
+[![GitHub Repo stars](https://img.shields.io/github/stars/eTran-NSDI25/eTran?style=social)](https://github.com/eTran-NSDI25/eTran/stargazers)
 
 * SmartNIC Security Isolation in the Cloud with S-NIC
 <br><u>Yang Zhou</u>, Mark Wilkening, James Mickens, Minlan Yu
@@ -113,6 +123,7 @@ Mentored:
 [[slides](slides/dint-nsdi24-slides.pdf)] 
 [[talk](https://youtu.be/EgdXrjwBdBA)] 
 [[code](https://github.com/DINT-NSDI24/DINT)]
+[![GitHub Repo stars](https://img.shields.io/github/stars/DINT-NSDI24/DINT?style=social)](https://github.com/DINT-NSDI24/DINT/stargazers)
 
 * Electrode: Accelerating Distributed Protocols with eBPF
 <br><u>Yang Zhou</u>\*, Zezhou Wang\*, Sowmya Dharanipragada, Minlan Yu
@@ -121,6 +132,7 @@ Mentored:
 [[slides](slides/electrode-nsdi23-slides.pdf)] 
 [[talk](https://youtu.be/E6qcR2Lb1xE)] 
 [[code](https://github.com/Electrode-NSDI23/Electrode)]
+[![GitHub Repo stars](https://img.shields.io/github/stars/Electrode-NSDI23/Electrode?style=social)](https://github.com/Electrode-NSDI23/Electrode/stargazers)
 <!-- <br> **<span style="color:red">Initial conversations with multiple companies</span>** -->
 
 * Carbink: Fault-Tolerant Far Memory
