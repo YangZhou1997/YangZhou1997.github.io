@@ -47,6 +47,10 @@ Mentored:
 
 ### Preprints
 
+* ShadowServe: Interference-Free KV Cache Fetching for Distributed Prefix Caching
+<br> Xingyu Xiang, Raj Joshi, Yuhan Liu, Jiayi Yao, Chenxingyu Zhao, Junchen Jiang, Yang Zhou, Eddie Kohler, Minlan Yu
+<br>[[Arxiv Sep 2025](https://arxiv.org/pdf/2509.16857)]
+
 * Towards Efficient and Practical GPU Multitasking in the Era of LLM
 <br> Jiarong Xing, Yifan Qiao, Simon Mo, Xingqi Cui, Gur-Eyal Sela, <u>Yang Zhou</u>, Joseph Gonzalez, Ion Stoica
 <br>[[Arxiv Aug 2025](https://arxiv.org/pdf/2508.08448)] [[code](https://github.com/ovg-project)]
