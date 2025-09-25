@@ -319,6 +319,17 @@
       <li>Class participation: 10% (including class attendance, in-class discussions, and online discussions)</li>
     </ul>
 
+    <h2>Candidate Project Ideas</h2>
+    <ul>
+      <li>Building lossless compression into KV cache transfer: based on <a href="https://github.com/facebookresearch/dietgpu/tree/main">DietGPU</a>, requiring CUDA programming</li>
+      <li>Efficient multi-reader multi-write ringbuffer between GPU and CPU: based on <a href="https://github.com/uccl-project/uccl/tree/main/ep/bench">UCCl existing ringbuffers</a>, requiring CUDA programming</li>
+      <li>Fast asymmetric all-to-all (alltoallv) via NVLink forwarding: requiring CUDA programming</li>
+      <li>RL weight broadcasting via RDMA: based on <a href="https://le.qun.ch/en/blog/2025/09/07/rl-weight-transfer/">this RL weight transfer blog</a> and <a href="https://github.com/uccl-project/uccl/tree/main/p2p">UCCl existing RDMA implementation of P2P</a> </li>
+      <li>Cross-WAN data transfer in UDP: based on <a href="https://arxiv.org/pdf/2505.05366">this paper</a> </li>
+      <li>Build a tutorial on RDMA programming in the GPU era: based on the code in <a href="https://github.com/uccl-project/uccl/tree/main/collective/rdma">UCCl existing RDMA implementation</a> </li>
+      <li>Your project ideas are highly appreciated (no matter research-focused or engineering-focused)! </li>
+    </ul>
+    
     <p><em>Last updated <span id="lastModified"></span></em></p>
     
     <script>
