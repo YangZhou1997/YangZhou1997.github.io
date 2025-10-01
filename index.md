@@ -89,6 +89,11 @@ Mentored:
 
 ### Conference
 
+* Toward Interference-Aware Scheduling for Serverless Functions via eBPF and Meta-Learning
+<br>Yifan Zhang, Jianchang Su, Zixu Shen, <u>Yang Zhou</u>, Wei Zhang
+<br>**PACMI 2025**. Workshop on Practical Adoption Challenges of ML for Systems
+<br>[[paper](paper/emfs-pacmi25.pdf)] 
+
 * Rethinking RPC Communication for Microservices-based Applications
 <br>Xiangfeng Zhu, <u>Yang Zhou</u>, Yuyao Wang, Xiangyu Gao, Arvind Krishnamurthy, Sam Kumar, Ratul Mahajan, Danyang Zhuo
 <br>**HotOS 2025**. The ACM SIGOPS 20th Workshop on Hot Topics in Operating Systems
