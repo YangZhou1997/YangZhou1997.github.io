@@ -75,10 +75,6 @@ Mentored:
 <br>Shiyi Cao\*, Yichuan Wang\*, Ziming Mao, Pin-Lun Hsu, Liangsheng Yin, Tian Xia, Dacheng Li, Shu Liu, Yineng Zhang, <u>Yang Zhou</u>, Ying Sheng, Joseph Gonzalez, Ion Stoica
 <br>[[Arxiv Jan 2025](https://arxiv.org/pdf/2501.14312)]
 
-* BlendServe: Optimizing Offline Inference for Auto-regressive Large Models with Resource-aware Batching
-<br>Yilong Zhao\*, Shuo Yang\*, Kan Zhu, Lianmin Zheng, Baris Kasikci, Yifan Qiao, <u>Yang Zhou</u>, Jiarong Xing, Ion Stoica
-<br>[[Arxiv Nov 2024](https://arxiv.org/pdf/2411.16102)]
-
 * ConServe: Harvesting GPUs for Low-Latency and High-Throughput Large Language Model Serving
 <br> Yifan Qiao, Shu Anzai, Shan Yu, Haoran Ma, Shuo Yang, Yang Wang, Miryung Kim, Yongji Wu, <u>Yang Zhou</u>, Jiarong Xing, Joseph Gonzalez, Ion Stoica, Harry Xu
 <br> [[Arxiv Oct 2024](https://arxiv.org/pdf/2410.01228)]
@@ -88,6 +84,11 @@ Mentored:
 <br>[[Arxiv Aug 2024](https://arxiv.org/pdf/2408.07092)]
 
 ### Conference
+
+* BlendServe: Optimizing Offline Inference for Auto-regressive Large Models with Resource-aware Batching
+<br>Yilong Zhao\*, Shuo Yang\*, Kan Zhu, Lianmin Zheng, Baris Kasikci, Yifan Qiao, <u>Yang Zhou</u>, Jiarong Xing, Ion Stoica
+<br>**ASPLOS 2026**
+<br>[[Arxiv Nov 2024](https://arxiv.org/pdf/2411.16102)]
 
 * Toward Interference-Aware Scheduling for Serverless Functions via eBPF and Meta-Learning
 <br>Yifan Zhang, Jianchang Su, Zixu Shen, <u>Yang Zhou</u>, Wei Zhang
