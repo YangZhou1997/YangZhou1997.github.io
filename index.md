@@ -25,11 +25,9 @@ I was supported by a Google PhD Fellowship in Systems and Networking (see my [ap
 * Nov 2025, UCCL talk at Northeastern, UW-Madison
 * Oct 2025, UCCL talk at Google network summit, Google NetInfra
 * July 2025, UCCL talk at Meta, ByteDance (Seed), SJTU IPADS
-<!-- 
-* June 2025, UCCL talk at ByteDance (Networking), NVIDIA
+<!-- * June 2025, UCCL talk at ByteDance (Networking), NVIDIA
 * May 2025, UCCL talk at UC Berkeley SkyLab Summer Retreat, Broadcom
-* Jan 2025, UCCL talk at UC Berkeley SkyLab Winter Retreat 
--->
+* Jan 2025, UCCL talk at UC Berkeley SkyLab Winter Retreat  -->
 
 ## Students
 
