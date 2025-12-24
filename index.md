@@ -20,11 +20,12 @@ I received my B.S. in Computer Science at Peking University in 2018, advised by 
 I was supported by a Google PhD Fellowship in Systems and Networking (see my [app materials](./materials/google_fellowship_cv_rs.pdf)). 
 
 ## Updates
+* Dec 2025, [UCCL-EP](https://arxiv.org/pdf/2512.19849) for portable expert-parallel communication (AMD, Broadcom, AWS EFA)!
 * Dec 2025, UCCL talk at UIUC
 * Nov 2025, BlendServe to appear at ASPLOS'26!
 * Nov 2025, UCCL talk at Northeastern, UW-Madison
 * Oct 2025, UCCL talk at Google network summit, Google NetInfra
-* July 2025, UCCL talk at Meta, ByteDance (Seed), SJTU IPADS
+<!-- * July 2025, UCCL talk at Meta, ByteDance (Seed), SJTU IPADS -->
 <!-- * June 2025, UCCL talk at ByteDance (Networking), NVIDIA -->
 <!-- * May 2025, UCCL talk at UC Berkeley SkyLab Summer Retreat, Broadcom -->
 <!-- * Jan 2025, UCCL talk at UC Berkeley SkyLab Winter Retreat  -->
@@ -50,6 +51,10 @@ Mentored:
 ## Publications
 
 ### Preprints
+
+* UCCL-EP: Portable Expert-Parallel Communication
+<br> Ziming Mao, Yihan Zhang, Chihan Cui, Kaichao You, Zhongjie Chen, Zhiying Xu, Scott Shenker, Costin Raiciu, <u>Yang Zhou</u>, Ion Stoica
+<br>[[Arxiv Dec 2025](https://arxiv.org/pdf/2512.19849)]
 
 * ShadowServe: Interference-Free KV Cache Fetching for Distributed Prefix Caching
 <br> Xingyu Xiang, Raj Joshi, Yuhan Liu, Jiayi Yao, Chenxingyu Zhao, Junchen Jiang, <u>Yang Zhou</u>, Eddie Kohler, Minlan Yu
