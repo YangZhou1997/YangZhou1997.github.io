@@ -53,7 +53,7 @@ Mentored:
 ### Preprints
 
 * UCCL-EP: Portable Expert-Parallel Communication
-<br> Ziming Mao, Yihan Zhang, Chihan Cui, Kaichao You, Zhongjie Chen, Zhiying Xu, Scott Shenker, Costin Raiciu, <u>Yang Zhou</u>, Ion Stoica
+<br> Ziming Mao, Yihan Zhang, Chihan Cui, Zhen Huang, Kaichao You, Zhongjie Chen, Zhiying Xu, Zhenyu Gu, Scott Shenker, Costin Raiciu, <u>Yang Zhou</u>, Ion Stoica
 <br>[[Arxiv Dec 2025](https://arxiv.org/pdf/2512.19849)]
 
 * ShadowServe: Interference-Free KV Cache Fetching for Distributed Prefix Caching
