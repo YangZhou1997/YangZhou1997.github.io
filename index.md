@@ -116,14 +116,12 @@ Mentored:
 <br>[[paper](paper/neo_mlsys25.pdf)]
 [[slides](slides/neo-mlsys25-slides.pdf)]
 [[code](https://github.com/NEO-MLSys25/NEO)]
-[![GitHub Repo stars](https://img.shields.io/github/stars/NEO-MLSys25/NEO?style=social)](https://github.com/NEO-MLSys25/NEO/stargazers)
 
 * eTran: Extensible Kernel Transport with eBPF
 <br>Zhongjie Chen, Qingkai Meng, ChonLam Lao, Yifan Liu, Fengyuan Ren, Minlan Yu, <u>Yang Zhou</u>
 <br>**NSDI 2025**. USENIX Symposium on Networked Systems Design and Implementation
 <br>[[paper](paper/etran-nsdi25.pdf)] 
 [[code](https://github.com/eTran-NSDI25/eTran)]
-[![GitHub Repo stars](https://img.shields.io/github/stars/eTran-NSDI25/eTran?style=social)](https://github.com/eTran-NSDI25/eTran/stargazers)
 
 * SmartNIC Security Isolation in the Cloud with S-NIC
 <br><u>Yang Zhou</u>, Mark Wilkening, James Mickens, Minlan Yu
@@ -139,7 +137,6 @@ Mentored:
 [[slides](slides/dint-nsdi24-slides.pdf)] 
 [[talk](https://youtu.be/EgdXrjwBdBA)] 
 [[code](https://github.com/DINT-NSDI24/DINT)]
-[![GitHub Repo stars](https://img.shields.io/github/stars/DINT-NSDI24/DINT?style=social)](https://github.com/DINT-NSDI24/DINT/stargazers)
 
 * Electrode: Accelerating Distributed Protocols with eBPF
 <br><u>Yang Zhou</u>\*, Zezhou Wang\*, Sowmya Dharanipragada, Minlan Yu
@@ -148,7 +145,6 @@ Mentored:
 [[slides](slides/electrode-nsdi23-slides.pdf)] 
 [[talk](https://youtu.be/E6qcR2Lb1xE)] 
 [[code](https://github.com/Electrode-NSDI23/Electrode)]
-[![GitHub Repo stars](https://img.shields.io/github/stars/Electrode-NSDI23/Electrode?style=social)](https://github.com/Electrode-NSDI23/Electrode/stargazers)
 <!-- <br> **<span style="color:red">Initial conversations with multiple companies</span>** -->
 
 * Carbink: Fault-Tolerant Far Memory
