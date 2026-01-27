@@ -66,13 +66,6 @@ Mentored:
 [[code](https://github.com/ovg-project)]
 [![GitHub Repo stars](https://img.shields.io/github/stars/ovg-project/kvcached?style=social)](https://github.com/ovg-project/kvcached/stargazers)
 
-* LEANN: a Low-Storage Vector Index
-<br> Yichuan Wang, Shu Liu, Zhifei Li, Yongji Wu, Ziming Mao, Yilong Zhao, Xiao Yan, Zhiying Xu, <u>Yang Zhou</u>, Ion Stoica, Sewon Min, Matei Zaharia, Joseph E. Gonzalez
-<br>**ICML 2025 Workshop on Vector Databases**
-<br>[[Arxiv June 2025](https://arxiv.org/pdf/2506.08276)]
-[[code](https://github.com/yichuan-w/LEANN)]
-[![GitHub Repo stars](https://img.shields.io/github/stars/yichuan-w/LEANN?style=social)](https://github.com/yichuan-w/LEANN/stargazers)
-
 * UCCL: an Efficient Collective Communication Library for GPUs
 <br> <u>Yang Zhou</u>\*, Zhongjie Chen\*, Ziming Mao, ChonLam Lao, Shuo Yang, Pravein Govindan Kannan, Jiaqi Gao, Yilong Zhao, Yongji Wu, Kaichao You, Fengyuan Ren, Zhiying Xu, Costin Raiciu, Ion Stoica
 <br>[[Arxiv April 2025](https://arxiv.org/pdf/2504.17307)]
@@ -94,6 +87,18 @@ Mentored:
 <br>[[Arxiv Aug 2024](https://arxiv.org/pdf/2408.07092)]
 
 ### Conference
+
+* Unleashing Scalable Context Parallelism for Foundation Models Pre-Training via FCP
+<br> Yilong Zhao, Xiaonan Nie, Kan Zhu, Shuang Ma, Zhichao Lai, Hongxiang Hao, <u>Yang Zhou</u>, Baris Kasikci, Ion Stoica
+<br>**MLSys 2026**. The Conference on Machine Learning and Systems
+
+* LEANN: a Low-Storage Vector Index
+<br> Yichuan Wang, Shu Liu, Zhifei Li, Yongji Wu, Ziming Mao, Yilong Zhao, Xiao Yan, Zhiying Xu, <u>Yang Zhou</u>, Ion Stoica, Sewon Min, Matei Zaharia, Joseph E. Gonzalez
+<br>**MLSys 2026**. The Conference on Machine Learning and Systems
+<br>**ICML 2025 Workshop** on Vector Databases
+<br>[[Arxiv June 2025](https://arxiv.org/pdf/2506.08276)]
+[[code](https://github.com/yichuan-w/LEANN)]
+[![GitHub Repo stars](https://img.shields.io/github/stars/yichuan-w/LEANN?style=social)](https://github.com/yichuan-w/LEANN/stargazers)
 
 * BlendServe: Optimizing Offline Inference for Auto-regressive Large Models with Resource-aware Batching
 <br>Yilong Zhao\*, Shuo Yang\*, Kan Zhu, Lianmin Zheng, Baris Kasikci, Yifan Qiao, <u>Yang Zhou</u>, Jiarong Xing, Ion Stoica
@@ -225,7 +230,7 @@ Mentored:
 <br>Yuanpeng Li, Xiang Yu, Yilong Yang, <u>Yang Zhou</u>, Tong Yang, Zhuo Ma, Shigang Chen
 <br>IEEE/ACM Trasactions on Networking (TON) 2021
 <br>[[paper](paper/pyramid_family_ton21.pdf)] 
-[[Code](https://github.com/Pyramid-Family/Pyramid-Family)]
+[[Code](https://github.com/Pyramid-Family /Pyramid-Family)]
 
 * Adaptive Measurements using One Elastic Sketch.
 <br>Tong Yang, Jie Jiang, Peng Liu, Qun Huang, Junzhi Gong, <u>Yang Zhou</u>, Rui Miao, Xiaoming Li, Steve Uhlig
