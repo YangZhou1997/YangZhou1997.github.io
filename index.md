@@ -20,11 +20,12 @@ I received my B.S. in Computer Science at Peking University in 2018, advised by 
 I was supported by a Google PhD Fellowship in Systems and Networking (see my [app materials](./materials/google_fellowship_cv_rs.pdf)). 
 
 ## Updates
+* Jan 2026, LEANN and FCP to appear at MLSys'26!
 * Dec 2025, [UCCL-EP](https://arxiv.org/pdf/2512.19849) for portable expert-parallel communication (AMD, Broadcom, AWS EFA)!
 * Dec 2025, UCCL talk at UIUC
 * Nov 2025, BlendServe to appear at ASPLOS'26!
 * Nov 2025, UCCL talk at Northeastern, UW-Madison
-* Oct 2025, UCCL talk at Google network summit, Google NetInfra
+<!-- * Oct 2025, UCCL talk at Google network summit, Google NetInfra -->
 <!-- * July 2025, UCCL talk at Meta, ByteDance (Seed), SJTU IPADS -->
 <!-- * June 2025, UCCL talk at ByteDance (Networking), NVIDIA -->
 <!-- * May 2025, UCCL talk at UC Berkeley SkyLab Summer Retreat, Broadcom -->
