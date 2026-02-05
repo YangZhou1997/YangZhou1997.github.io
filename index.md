@@ -20,11 +20,12 @@ I received my B.S. in Computer Science at Peking University in 2018, advised by 
 I was supported by a Google PhD Fellowship in Systems and Networking (see my [app materials](./materials/google_fellowship_cv_rs.pdf)). 
 
 ## Updates
+* Feb 2026, check the llm-d [blogpost](https://llm-d.ai/blog/llm-d-v0.5-sustaining-performance-at-scale) on how they use UCCL to achieve resilient networking for KV cache transfer! 
 * Jan 2026, LEANN and FCP to appear at MLSys'26!
 * Dec 2025, [UCCL-EP](https://arxiv.org/pdf/2512.19849) for portable expert-parallel communication (AMD, Broadcom, AWS EFA)!
 * Dec 2025, UCCL talk at UIUC
 * Nov 2025, BlendServe to appear at ASPLOS'26!
-* Nov 2025, UCCL talk at Northeastern, UW-Madison
+<!-- * Nov 2025, UCCL talk at Northeastern, UW-Madison -->
 <!-- * Oct 2025, UCCL talk at Google network summit, Google NetInfra -->
 <!-- * July 2025, UCCL talk at Meta, ByteDance (Seed), SJTU IPADS -->
 <!-- * June 2025, UCCL talk at ByteDance (Networking), NVIDIA -->
@@ -74,6 +75,7 @@ Mentored:
 [[slides](https://docs.google.com/presentation/d/1LQxZzxghRmua4FkfQjWu69wXy9hrs9V_tXrXt_DT-F4/edit?usp=sharing)]
 [[code](https://github.com/uccl-project/uccl)]
 [![GitHub Repo stars](https://img.shields.io/github/stars/uccl-project/uccl?style=social)](https://github.com/uccl-project/uccl/stargazers)
+<br> Featured in [IBM/Red Hat/Google llm-d](https://llm-d.ai/blog/llm-d-v0.5-sustaining-performance-at-scale), [Nvidia NIXL](https://github.com/ai-dynamo/nixl/releases/tag/0.9.0)
 
 * Locality-Aware Fair Scheduling in LLM Serving
 <br>Shiyi Cao\*, Yichuan Wang\*, Ziming Mao, Pin-Lun Hsu, Liangsheng Yin, Tian Xia, Dacheng Li, Shu Liu, Yineng Zhang, <u>Yang Zhou</u>, Ying Sheng, Joseph Gonzalez, Ion Stoica
