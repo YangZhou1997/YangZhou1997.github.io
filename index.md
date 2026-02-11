@@ -34,11 +34,11 @@ I was supported by a Google PhD Fellowship in Systems and Networking (see my [ap
 
 ## Students
 
-Current: 
+Current
 * Shuang Ma (2025-now, PhD), from USTC
 * Yihan Zhang (2025-now, PhD), from UIUC
 
-Mentored: 
+Mentored
 * [Zhongjie Chen](https://zhongjiechen.github.io/) (2024-now), Tsinghua University PhD
 * Xuanlin Jiang (2024), Peking University undergrad → Harvard PhD
 * Matt Kiley (2023), Harvard College undergrad → Clockwork Systems
@@ -48,7 +48,7 @@ Mentored:
 
 ## Publications
 
-### 2026
+2026
 
 * Unleashing Scalable Context Parallelism for Foundation Models Pre-Training via FCP
 <br> Yilong Zhao, Xiaonan Nie, Kan Zhu, Shuang Ma, Zhichao Lai, Hongxiang Hao, <u>Yang Zhou</u>, Baris Kasikci, Ion Stoica
@@ -67,7 +67,7 @@ Mentored:
 <br>**ASPLOS 2026**
 <br>[[Arxiv Nov 2024](https://arxiv.org/pdf/2411.16102)]
 
-### 2025
+2025
 
 * UCCL-EP: Portable Expert-Parallel Communication
 <br> Ziming Mao, Yihan Zhang, Chihan Cui, Zhen Huang, Kaichao You, Zhongjie Chen, Zhiying Xu, Zhenyu Gu, Scott Shenker, Costin Raiciu, <u>Yang Zhou</u>, Ion Stoica
@@ -119,7 +119,7 @@ Mentored:
 <br>[[paper](paper/etran-nsdi25.pdf)] 
 [[code](https://github.com/eTran-NSDI25/eTran)]
 
-### 2024
+2024
 
 * ConServe: Harvesting GPUs for Low-Latency and High-Throughput Large Language Model Serving
 <br> Yifan Qiao, Shu Anzai, Shan Yu, Haoran Ma, Shuo Yang, Yang Wang, Miryung Kim, Yongji Wu, <u>Yang Zhou</u>, Jiarong Xing, Joseph Gonzalez, Ion Stoica, Harry Xu
@@ -129,7 +129,7 @@ Mentored:
 <br>Shuo Yang, Ying Sheng, Yilong Zhao, Joseph Gonzalez, <u>Yang Zhou</u>, Ion Stoica, Lianmin Zheng
 <br>[[Arxiv Aug 2024](https://arxiv.org/pdf/2408.07092)]
 
-### PhD and prior work
+PhD and prior work
 
 * SmartNIC Security Isolation in the Cloud with S-NIC
 <br><u>Yang Zhou</u>, Mark Wilkening, James Mickens, Minlan Yu
