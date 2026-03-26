@@ -35,12 +35,12 @@ I was supported by a Google PhD Fellowship in Systems and Networking (see my [ap
 
 ## Students
 
-Current
 * Shuang Ma (2025-now, PhD), from USTC
 * Yihan Zhang (2025-now, PhD), from UIUC
 
-Mentored
-* [Zhongjie Chen](https://zhongjiechen.github.io/) (2024-now), Tsinghua University PhD
+I also work(ed) with:
+* [Ziming Mao](https://maoziming.github.io/) (2024-now), UC Berkeley PhD
+* [Zhongjie Chen](https://zhongjiechen.github.io/) (2024-now), Tsinghua University PhD → MSRA senior researcher
 * Xuanlin Jiang (2024), Peking University undergrad → Harvard PhD
 * Matt Kiley (2023), Harvard College undergrad → Clockwork Systems
 * [Yunxi Shen](https://yxshen20.github.io/) (2023-2024), Tsinghua University undergrad → Cornell PhD
@@ -58,12 +58,15 @@ Mentored
 [[slides](https://docs.google.com/presentation/d/1LQxZzxghRmua4FkfQjWu69wXy9hrs9V_tXrXt_DT-F4/edit?usp=sharing)]
 [[code](https://github.com/uccl-project/uccl)]
 [![GitHub Repo stars](https://img.shields.io/github/stars/uccl-project/uccl?style=social)](https://github.com/uccl-project/uccl/stargazers)
-<br> Featured in [IBM/Red Hat/Google llm-d](https://llm-d.ai/blog/llm-d-v0.5-sustaining-performance-at-scale), [Nvidia NIXL](https://github.com/ai-dynamo/nixl/releases/tag/0.9.0)
+<br> Used by [IBM/Red Hat/Google llm-d](https://llm-d.ai/blog/llm-d-v0.5-sustaining-performance-at-scale), [Nvidia NIXL](https://github.com/ai-dynamo/nixl/releases/tag/0.9.0), [AMD TheRock](https://github.com/ROCm/TheRock/tree/main/external-builds/uccl)
 <br>**OSDI 2026**. USENIX Symposium on Operating Systems Design and Implementation
 
 * UCCL-EP: Portable Expert-Parallel Communication
 <br> Ziming Mao, Yihan Zhang, Chihan Cui, Zhen Huang, Kaichao You, Zhongjie Chen, Zhiying Xu, Zhenyu Gu, Scott Shenker, Costin Raiciu, <u>Yang Zhou</u>, Ion Stoica
 <br>[[Arxiv Dec 2025](https://arxiv.org/pdf/2512.19849)]
+[[code](https://github.com/uccl-project/uccl)]
+[![GitHub Repo stars](https://img.shields.io/github/stars/uccl-project/uccl?style=social)](https://github.com/uccl-project/uccl/stargazers)
+<br>Used by [AMD Primus training framework](https://github.com/AMD-AGI/Primus/tree/main/examples/moe_package)
 <br>**OSDI 2026**. USENIX Symposium on Operating Systems Design and Implementation
 
 * Unleashing Scalable Context Parallelism for Foundation Models Pre-Training via FCP
