@@ -317,6 +317,7 @@ PhD and prior work
   * Canyonlands
   * Alta
   * Snowbird
+  * Aspen Snowmass
 * I did long-distance biking
   * I cycled 700 miles around Taiwan in ten days, see my [photos](./cycling.html).
 * I did long-distance running
