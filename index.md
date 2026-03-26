@@ -20,11 +20,12 @@ I received my B.S. in Computer Science at Peking University in 2018, advised by 
 I was supported by a Google PhD Fellowship in Systems and Networking (see my [app materials](./materials/google_fellowship_cv_rs.pdf)). 
 
 ## Updates
+* Mar 2026, both UCCL paper accepted to OSDI'26!
 * Feb 2026, check the llm-d [blogpost](https://llm-d.ai/blog/llm-d-v0.5-sustaining-performance-at-scale) on how they use UCCL to achieve resilient networking for KV cache transfer! 
 * Jan 2026, LEANN and FCP to appear at MLSys'26!
 * Dec 2025, [UCCL-EP](https://arxiv.org/pdf/2512.19849) for portable expert-parallel communication (AMD, Broadcom, AWS EFA)!
 * Dec 2025, UCCL talk at UIUC
-* Nov 2025, BlendServe to appear at ASPLOS'26!
+<!-- * Nov 2025, BlendServe to appear at ASPLOS'26! -->
 <!-- * Nov 2025, UCCL talk at Northeastern, UW-Madison -->
 <!-- * Oct 2025, UCCL talk at Google network summit, Google NetInfra -->
 <!-- * July 2025, UCCL talk at Meta, ByteDance (Seed), SJTU IPADS -->
@@ -50,6 +51,21 @@ Mentored
 
 2026
 
+* UCCL: an Efficient Collective Communication Library for GPUs
+<br> <u>Yang Zhou</u>\*, Zhongjie Chen\*, Ziming Mao, ChonLam Lao, Shuo Yang, Pravein Govindan Kannan, Jiaqi Gao, Yilong Zhao, Yongji Wu, Kaichao You, Fengyuan Ren, Zhiying Xu, Costin Raiciu, Ion Stoica
+<br>[[Arxiv April 2025](https://arxiv.org/pdf/2504.17307)]
+[[homepage](https://uccl-project.github.io/)]
+[[slides](https://docs.google.com/presentation/d/1LQxZzxghRmua4FkfQjWu69wXy9hrs9V_tXrXt_DT-F4/edit?usp=sharing)]
+[[code](https://github.com/uccl-project/uccl)]
+[![GitHub Repo stars](https://img.shields.io/github/stars/uccl-project/uccl?style=social)](https://github.com/uccl-project/uccl/stargazers)
+<br> Featured in [IBM/Red Hat/Google llm-d](https://llm-d.ai/blog/llm-d-v0.5-sustaining-performance-at-scale), [Nvidia NIXL](https://github.com/ai-dynamo/nixl/releases/tag/0.9.0)
+<br>**OSDI 2026**. USENIX Symposium on Operating Systems Design and Implementation
+
+* UCCL-EP: Portable Expert-Parallel Communication
+<br> Ziming Mao, Yihan Zhang, Chihan Cui, Zhen Huang, Kaichao You, Zhongjie Chen, Zhiying Xu, Zhenyu Gu, Scott Shenker, Costin Raiciu, <u>Yang Zhou</u>, Ion Stoica
+<br>[[Arxiv Dec 2025](https://arxiv.org/pdf/2512.19849)]
+<br>**OSDI 2026**. USENIX Symposium on Operating Systems Design and Implementation
+
 * Unleashing Scalable Context Parallelism for Foundation Models Pre-Training via FCP
 <br> Yilong Zhao, Xiaonan Nie, Kan Zhu, Shuang Ma, Zhichao Lai, Hongxiang Hao, <u>Yang Zhou</u>, Baris Kasikci, Ion Stoica
 <br>**MLSys 2026**. The Conference on Machine Learning and Systems
@@ -68,19 +84,6 @@ Mentored
 <br>[[Arxiv Nov 2024](https://arxiv.org/pdf/2411.16102)]
 
 2025
-
-* UCCL-EP: Portable Expert-Parallel Communication
-<br> Ziming Mao, Yihan Zhang, Chihan Cui, Zhen Huang, Kaichao You, Zhongjie Chen, Zhiying Xu, Zhenyu Gu, Scott Shenker, Costin Raiciu, <u>Yang Zhou</u>, Ion Stoica
-<br>[[Arxiv Dec 2025](https://arxiv.org/pdf/2512.19849)]
-
-* UCCL: an Efficient Collective Communication Library for GPUs
-<br> <u>Yang Zhou</u>\*, Zhongjie Chen\*, Ziming Mao, ChonLam Lao, Shuo Yang, Pravein Govindan Kannan, Jiaqi Gao, Yilong Zhao, Yongji Wu, Kaichao You, Fengyuan Ren, Zhiying Xu, Costin Raiciu, Ion Stoica
-<br>[[Arxiv April 2025](https://arxiv.org/pdf/2504.17307)]
-[[homepage](https://uccl-project.github.io/)]
-[[slides](https://docs.google.com/presentation/d/1LQxZzxghRmua4FkfQjWu69wXy9hrs9V_tXrXt_DT-F4/edit?usp=sharing)]
-[[code](https://github.com/uccl-project/uccl)]
-[![GitHub Repo stars](https://img.shields.io/github/stars/uccl-project/uccl?style=social)](https://github.com/uccl-project/uccl/stargazers)
-<br> Featured in [IBM/Red Hat/Google llm-d](https://llm-d.ai/blog/llm-d-v0.5-sustaining-performance-at-scale), [Nvidia NIXL](https://github.com/ai-dynamo/nixl/releases/tag/0.9.0)
 
 * ShadowServe: Interference-Free KV Cache Fetching for Distributed Prefix Caching
 <br> Xingyu Xiang, Raj Joshi, Yuhan Liu, Jiayi Yao, Chenxingyu Zhao, Junchen Jiang, <u>Yang Zhou</u>, Eddie Kohler, Minlan Yu
