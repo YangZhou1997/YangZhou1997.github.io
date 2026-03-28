@@ -259,6 +259,7 @@ PhD and prior work
 
 ## Teaching
 
+* ECS 150 Operating Systems: [Spring 2026](https://bob.cs.ucdavis.edu/classes/s26-ecs150/index.html) with Sam King
 * ECS 289D Seminar in Operating Systems: Datacenter Systems for LLMs: [Fall 2025](./teaching/ecs289d_fall25.html)
 
 ## Service
