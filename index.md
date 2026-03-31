@@ -259,7 +259,7 @@ PhD and prior work
 
 ## Teaching
 
-* ECS 150 Operating Systems: [Spring 2026](https://bob.cs.ucdavis.edu/classes/s26-ecs150/index.html) with Sam King
+* ECS 150 Operating Systems: [Spring 2026](https://bob.cs.ucdavis.edu/classes/s26-ecs150/index.html) (with Sam King)
 * ECS 289D Seminar in Operating Systems: Datacenter Systems for LLMs: [Fall 2025](./teaching/ecs289d_fall25.html)
 
 ## Service
@@ -267,6 +267,9 @@ PhD and prior work
 * Organizer:
   * Co-Chair for SIGCOMM Artifact Evaluation 2024  
 * Program Committee: 
+  * ICNP 2026
+  * APSys 2026
+  * SIGCOMM Workshop on Networks for AI Computing (NAIC) 2025, 2026
   * EuroSys 2026
   * ASPLOS 2026
   * NSDI 2026
