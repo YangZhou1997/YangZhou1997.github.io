@@ -39,13 +39,15 @@ I was supported by a Google PhD Fellowship in Systems and Networking (see my [ap
 * Yihan Zhang (2025-now, PhD), from UIUC
 
 I also work(ed) with:
+* [Jinyao Liu](https://scholar.google.com/citations?user=k6p3fykAAAAJ) (2025-now), Shandong Univ PhD
+* Danyang Chen (2025-now), CUHK-Shenzhen undergrad
 * [Ziming Mao](https://maoziming.github.io/) (2024-now), UC Berkeley PhD
-* [Zhongjie Chen](https://zhongjiechen.github.io/) (2024-now), Tsinghua University PhD → MSRA senior researcher
-* Xuanlin Jiang (2024), Peking University undergrad → Harvard PhD
+* [Zhongjie Chen](https://zhongjiechen.github.io/) (2024-now), Tsinghua Univ PhD → MSRA senior researcher
+* Xuanlin Jiang (2024), Peking Univ undergrad → Harvard PhD
 * Matt Kiley (2023), Harvard College undergrad → Clockwork Systems
-* [Yunxi Shen](https://yxshen20.github.io/) (2023-2024), Tsinghua University undergrad → Cornell PhD
-* [Xingyu Xiang](https://xyxiang7.github.io/) (2023-now), Peking University undergrad → Harvard PhD
-* Zezhou Wang (2022), Peking University undergrad → University of Washington PhD
+* [Yunxi Shen](https://yxshen20.github.io/) (2023-2024), Tsinghua Univ undergrad → Cornell PhD
+* [Xingyu Xiang](https://xyxiang7.github.io/) (2023-now), Peking Univ undergrad → Harvard PhD
+* Zezhou Wang (2022), Peking Univ undergrad → Univ of Washington PhD
 
 ## Publications
 
