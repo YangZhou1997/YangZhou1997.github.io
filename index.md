@@ -53,6 +53,16 @@ I also work(ed) with:
 
 2026
 
+* UCCL-Zip: Lossless Compression Supercharged GPU Communication
+<br>Shuang Ma, ChonLam Lao, Zhiying Xu, Zhuang Wang, Ziming Mao, Delong Meng, Zhen Jia, Jun Wu, Ion Stoica, Yida Wang, <u>Yang Zhou</u>
+<br>[[Arxiv April 2026](https://arxiv.org/pdf/2604.17172)]
+[[code](https://github.com/uccl-project/uccl)]
+
+* Expert-Choice Routing Enables Adaptive Computation in Diffusion Language Models
+<br>Shuibai Zhang\*, Caspian Zhuang\*, Chihan Cui\*, Zhihan Yang, Fred Zhangzhi Peng, Yanxin Zhang, Haoyue Bai, Zack Jia, <u>Yang Zhou</u>, Guanhua Chen, Ming Liu
+<br>[[Arxiv April 2026](https://arxiv.org/pdf/2604.01622)]
+[[code](https://github.com/zhangshuibai/EC-DLM)]
+
 * UCCL-Tran: An Extensible Software Transport Layer for Machine Learning Workloads
 <br> <u>Yang Zhou</u>\*, Zhongjie Chen\*, Ziming Mao, ChonLam Lao, Shuo Yang, Pravein Govindan Kannan, Jiaqi Gao, Yilong Zhao, Yongji Wu, Kaichao You, Fengyuan Ren, Zhiying Xu, Costin Raiciu, Ion Stoica
 <br>[[Arxiv April 2025](https://arxiv.org/pdf/2504.17307)]
@@ -67,7 +77,6 @@ I also work(ed) with:
 <br> Ziming Mao, Yihan Zhang, Chihan Cui, Zhen Huang, Kaichao You, Zhongjie Chen, Zhiying Xu, Zhenyu Gu, Scott Shenker, Costin Raiciu, <u>Yang Zhou</u>, Ion Stoica
 <br>[[Arxiv Dec 2025](https://arxiv.org/pdf/2512.19849)]
 [[code](https://github.com/uccl-project/uccl)]
-[![GitHub Repo stars](https://img.shields.io/github/stars/uccl-project/uccl?style=social)](https://github.com/uccl-project/uccl/stargazers)
 <br>Used by [AMD Primus training framework](https://github.com/AMD-AGI/Primus/tree/main/examples/moe_package)
 <br>**OSDI 2026**. USENIX Symposium on Operating Systems Design and Implementation
 
