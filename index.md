@@ -58,12 +58,7 @@ I also work(ed) with:
 <br>[[Arxiv April 2026](https://arxiv.org/pdf/2604.17172)]
 [[code](https://github.com/uccl-project/uccl)]
 
-* Expert-Choice Routing Enables Adaptive Computation in Diffusion Language Models
-<br>Shuibai Zhang\*, Caspian Zhuang\*, Chihan Cui\*, Zhihan Yang, Fred Zhangzhi Peng, Yanxin Zhang, Haoyue Bai, Zack Jia, <u>Yang Zhou</u>, Guanhua Chen, Ming Liu
-<br>[[Arxiv April 2026](https://arxiv.org/pdf/2604.01622)]
-[[code](https://github.com/zhangshuibai/EC-DLM)]
-
-* UCCL-Tran: An Extensible Software Transport Layer for Machine Learning Workloads
+* UCCL-Tran: An Extensible Software Transport Layer for GPU Networking
 <br> <u>Yang Zhou</u>\*, Zhongjie Chen\*, Ziming Mao, ChonLam Lao, Shuo Yang, Pravein Govindan Kannan, Jiaqi Gao, Yilong Zhao, Yongji Wu, Kaichao You, Fengyuan Ren, Zhiying Xu, Costin Raiciu, Ion Stoica
 <br>[[Arxiv April 2025](https://arxiv.org/pdf/2504.17307)]
 [[homepage](https://uccl-project.github.io/)]
@@ -79,6 +74,11 @@ I also work(ed) with:
 [[code](https://github.com/uccl-project/uccl)]
 <br>Used by [AMD Primus training framework](https://github.com/AMD-AGI/Primus/tree/main/examples/moe_package)
 <br>**OSDI 2026**. USENIX Symposium on Operating Systems Design and Implementation
+
+* Expert-Choice Routing Enables Adaptive Computation in Diffusion Language Models
+<br>Shuibai Zhang\*, Caspian Zhuang\*, Chihan Cui\*, Zhihan Yang, Fred Zhangzhi Peng, Yanxin Zhang, Haoyue Bai, Zack Jia, <u>Yang Zhou</u>, Guanhua Chen, Ming Liu
+<br>[[Arxiv April 2026](https://arxiv.org/pdf/2604.01622)]
+[[code](https://github.com/zhangshuibai/EC-DLM)]
 
 * Unleashing Scalable Context Parallelism for Foundation Models Pre-Training via FCP
 <br> Yilong Zhao, Xiaonan Nie, Kan Zhu, Shuang Ma, Zhichao Lai, Hongxiang Hao, <u>Yang Zhou</u>, Baris Kasikci, Ion Stoica
