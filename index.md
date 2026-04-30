@@ -53,6 +53,11 @@ I also work(ed) with:
 
 2026
 
+* ConServe: Harvesting GPUs for Low-Latency and High-Throughput Large Language Model Serving
+<br> Yifan Qiao, Shu Anzai, Shan Yu, Haoran Ma, Shuo Yang, Yang Wang, Miryung Kim, Yongji Wu, <u>Yang Zhou</u>, Jiarong Xing, Joseph Gonzalez, Ion Stoica, Harry Xu
+<br> [[Arxiv Oct 2024](https://arxiv.org/pdf/2410.01228)]
+<br>**ICML 2026**. International Conference on Machine Learning
+
 * UCCL-Zip: Lossless Compression Supercharged GPU Communication
 <br>Shuang Ma, ChonLam Lao, Zhiying Xu, Zhuang Wang, Ziming Mao, Delong Meng, Zhen Jia, Jun Wu, Ion Stoica, Yida Wang, <u>Yang Zhou</u>
 <br>[[Arxiv April 2026](https://arxiv.org/pdf/2604.17172)]
@@ -137,10 +142,6 @@ I also work(ed) with:
 [[code](https://github.com/eTran-NSDI25/eTran)]
 
 2024
-
-* ConServe: Harvesting GPUs for Low-Latency and High-Throughput Large Language Model Serving
-<br> Yifan Qiao, Shu Anzai, Shan Yu, Haoran Ma, Shuo Yang, Yang Wang, Miryung Kim, Yongji Wu, <u>Yang Zhou</u>, Jiarong Xing, Joseph Gonzalez, Ion Stoica, Harry Xu
-<br> [[Arxiv Oct 2024](https://arxiv.org/pdf/2410.01228)]
 
 * Post-Training Sparse Attention with Double Sparsity
 <br>Shuo Yang, Ying Sheng, Yilong Zhao, Joseph Gonzalez, <u>Yang Zhou</u>, Ion Stoica, Lianmin Zheng
