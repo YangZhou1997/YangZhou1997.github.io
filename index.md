@@ -67,7 +67,7 @@ I also work(ed) with:
 <br> Ziming Mao, Yihan Zhang, Chihan Cui, Zhen Huang, Kaichao You, Zhongjie Chen, Zhiying Xu, Zhenyu Gu, Scott Shenker, Costin Raiciu, <u>Yang Zhou</u>, Ion Stoica
 <br>[[Arxiv Dec 2025](https://arxiv.org/pdf/2512.19849)]
 [[code](https://github.com/uccl-project/uccl)]
-<br>Used by [AMD Primus training framework](https://github.com/AMD-AGI/Primus/tree/main/examples/moe_package)
+<br>Used by [AMD Primus training framework](https://github.com/AMD-AGI/Primus/tree/main/examples/moe_package), [Nvidia NeMo framework](https://docs.nvidia.com/nemo/automodel/latest/apidocs/nemo_automodel/nemo_automodel.components.moe.uccl_ep.html), and various AWS teams/customers
 <br>**OSDI 2026**. USENIX Symposium on Operating Systems Design and Implementation
 
 * UCCL-Tran: An Extensible Software Transport Layer for GPU Networking
