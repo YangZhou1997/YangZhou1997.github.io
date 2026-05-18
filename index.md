@@ -20,11 +20,12 @@ I received my B.S. in Computer Science at Peking University in 2018, advised by 
 I was supported by a Google PhD Fellowship in Systems and Networking (see my [app materials](./materials/google_fellowship_cv_rs.pdf)). 
 
 ## Updates
+* May 2026, LEANN wins MLSys'26 Best Paper Award!
 * Mar 2026, both UCCL papers ([UCCL-Tran](https://arxiv.org/pdf/2504.17307) and [UCCL-EP](https://arxiv.org/pdf/2512.19849)) accepted to OSDI'26!
 * Feb 2026, check the llm-d [blogpost](https://llm-d.ai/blog/llm-d-v0.5-sustaining-performance-at-scale) on how they use UCCL to achieve resilient networking for KV cache transfer! 
 * Jan 2026, LEANN and FCP to appear at MLSys'26!
 * Dec 2025, [UCCL-EP](https://arxiv.org/pdf/2512.19849) for portable expert-parallel communication (AMD, Broadcom, AWS EFA)!
-* Dec 2025, UCCL talk at UIUC
+<!-- * Dec 2025, UCCL talk at UIUC -->
 <!-- * Nov 2025, BlendServe to appear at ASPLOS'26! -->
 <!-- * Nov 2025, UCCL talk at Northeastern, UW-Madison -->
 <!-- * Oct 2025, UCCL talk at Google network summit, Google NetInfra -->
@@ -96,6 +97,7 @@ I also work(ed) with:
 <br>[[Arxiv June 2025](https://arxiv.org/pdf/2506.08276)]
 [[code](https://github.com/yichuan-w/LEANN)]
 [![GitHub Repo stars](https://img.shields.io/github/stars/yichuan-w/LEANN?style=social)](https://github.com/yichuan-w/LEANN/stargazers)
+<br>**<span style="color:red">MLSys 2026 Best Paper Award</span>**
 
 * BlendServe: Optimizing Offline Inference for Auto-regressive Large Models with Resource-aware Batching
 <br>Yilong Zhao\*, Shuo Yang\*, Kan Zhu, Lianmin Zheng, Baris Kasikci, Yifan Qiao, <u>Yang Zhou</u>, Jiarong Xing, Ion Stoica
