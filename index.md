@@ -97,7 +97,7 @@ I also work(ed) with:
 <br>[[Arxiv June 2025](https://arxiv.org/pdf/2506.08276)]
 [[code](https://github.com/yichuan-w/LEANN)]
 [![GitHub Repo stars](https://img.shields.io/github/stars/yichuan-w/LEANN?style=social)](https://github.com/yichuan-w/LEANN/stargazers)
-<br>**<span style="color:red">MLSys 2026 Best Paper Award</span>**
+<br>**<span style="color:red">MLSys Best Paper Award</span>**
 
 * BlendServe: Optimizing Offline Inference for Auto-regressive Large Models with Resource-aware Batching
 <br>Yilong Zhao\*, Shuo Yang\*, Kan Zhu, Lianmin Zheng, Baris Kasikci, Yifan Qiao, <u>Yang Zhou</u>, Jiarong Xing, Ion Stoica
