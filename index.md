@@ -20,7 +20,7 @@ I received my B.S. in Computer Science at Peking University in 2018, advised by 
 I was supported by a Google PhD Fellowship in Systems and Networking (see my [app materials](./materials/google_fellowship_cv_rs.pdf)). 
 
 ## Updates
-* May 2026, LEANN wins MLSys'26 Best Paper Award!
+* May 2026, LEANN wins MLSys Best Paper Award!
 * Mar 2026, both UCCL papers ([UCCL-Tran](https://arxiv.org/pdf/2504.17307) and [UCCL-EP](https://arxiv.org/pdf/2512.19849)) accepted to OSDI'26!
 * Feb 2026, check the llm-d [blogpost](https://llm-d.ai/blog/llm-d-v0.5-sustaining-performance-at-scale) on how they use UCCL to achieve resilient networking for KV cache transfer! 
 * Jan 2026, LEANN and FCP to appear at MLSys'26!
