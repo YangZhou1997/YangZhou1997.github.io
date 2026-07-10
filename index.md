@@ -20,6 +20,7 @@ I received my B.S. in Computer Science at Peking University in 2018, advised by 
 I was supported by a Google PhD Fellowship in Systems and Networking (see my [app materials](./materials/google_fellowship_cv_rs.pdf)). 
 
 ## Updates
+* June 2026, check the llm-d [blogpost](https://llm-d.ai/blog/networking-for-distributed-inference-llm-d) on networking for distributed inference with the UCCL backend!
 * May 2026, LEANN wins MLSys Best Paper Award!
 * Mar 2026, both UCCL papers ([UCCL-Tran](https://arxiv.org/pdf/2504.17307) and [UCCL-EP](https://arxiv.org/pdf/2512.19849)) accepted to OSDI'26!
 * Feb 2026, check the llm-d [blogpost](https://llm-d.ai/blog/llm-d-v0.5-sustaining-performance-at-scale) on how they use UCCL to achieve resilient networking for KV cache transfer! 
@@ -68,7 +69,7 @@ I also work(ed) with:
 <br> Ziming Mao, Yihan Zhang, Chihan Cui, Zhen Huang, Kaichao You, Zhongjie Chen, Zhiying Xu, Zhenyu Gu, Scott Shenker, Costin Raiciu, <u>Yang Zhou</u>, Ion Stoica
 <br>[[Arxiv Dec 2025](https://arxiv.org/pdf/2512.19849)]
 [[code](https://github.com/uccl-project/uccl)]
-<br>Used by [AMD Primus training framework](https://github.com/AMD-AGI/Primus/tree/main/examples/moe_package), [Nvidia NeMo framework](https://docs.nvidia.com/nemo/automodel/latest/apidocs/nemo_automodel/nemo_automodel.components.moe.uccl_ep.html), and various AWS teams and customers
+<br>Used by [AMD Primus training framework](https://github.com/AMD-AGI/Primus/tree/main/examples/moe_package), [Nvidia NeMo framework](https://docs.nvidia.com/nemo/automodel/latest/apidocs/nemo_automodel/nemo_automodel.components.moe.uccl_ep.html), [Apertus / Swiss AI Initiative](https://github.com/uccl-project/uccl/issues/956), and various AWS teams and customers (Kimi achieves 2x e2e SGLang speedup compared to DeepEP IBRC)
 <br>**OSDI 2026**. USENIX Symposium on Operating Systems Design and Implementation
 
 * UCCL-Tran: An Extensible Software Transport Layer for GPU Networking
@@ -78,7 +79,7 @@ I also work(ed) with:
 [[slides](https://docs.google.com/presentation/d/1LQxZzxghRmua4FkfQjWu69wXy9hrs9V_tXrXt_DT-F4/edit?usp=sharing)]
 [[code](https://github.com/uccl-project/uccl)]
 [![GitHub Repo stars](https://img.shields.io/github/stars/uccl-project/uccl?style=social)](https://github.com/uccl-project/uccl/stargazers)
-<br> Used by [IBM/Red Hat/Google llm-d](https://llm-d.ai/blog/llm-d-v0.5-sustaining-performance-at-scale), [Nvidia NIXL](https://github.com/ai-dynamo/nixl/releases/tag/0.9.0), [AMD TheRock](https://github.com/ROCm/TheRock/tree/main/external-builds/uccl)
+<br> Used by IBM/Red Hat/Google llm-d ([blog1](https://llm-d.ai/blog/llm-d-v0.5-sustaining-performance-at-scale), [blog2](https://llm-d.ai/blog/networking-for-distributed-inference-llm-d)), [Nvidia NIXL](https://github.com/ai-dynamo/nixl/releases/tag/0.9.0), [AMD TheRock](https://github.com/ROCm/TheRock/tree/main/external-builds/uccl)
 <br>**OSDI 2026**. USENIX Symposium on Operating Systems Design and Implementation
 
 * Expert-Choice Routing Enables Adaptive Computation in Diffusion Language Models
