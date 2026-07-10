@@ -83,6 +83,7 @@ I also work(ed) with:
 
 * Expert-Choice Routing Enables Adaptive Computation in Diffusion Language Models
 <br>Shuibai Zhang\*, Caspian Zhuang\*, Chihan Cui\*, Zhihan Yang, Fred Zhangzhi Peng, Yanxin Zhang, Haoyue Bai, Zack Jia, <u>Yang Zhou</u>, Guanhua Chen, Ming Liu
+<br>**COLM 2027**. Conference on Language Modeling
 <br>[[Arxiv April 2026](https://arxiv.org/pdf/2604.01622)]
 [[code](https://github.com/zhangshuibai/EC-DLM)]
 
