@@ -106,6 +106,10 @@ I also work(ed) with:
 <br>**ASPLOS 2026**
 <br>[[Arxiv Nov 2024](https://arxiv.org/pdf/2411.16102)]
 
+* Unlocking Software-defined GPU Fabric Scheduling in the LLM Era
+<br>Danyang Chen, Yufeng Gu, Yibo Huang, Chengxuan Pei, Peichun Hua, <u>Yang Zhou</u>, Yunming Xiao
+<br>**APSys 2026**. ACM SIGOPS Asia-Pacific Workshop on Systems
+
 2025
 
 * ShadowServe: Interference-Free KV Cache Fetching for Distributed Prefix Caching
