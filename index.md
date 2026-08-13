@@ -55,6 +55,10 @@ I also work(ed) with:
 
 2026
 
+* CommBench: Can LLMs Write Correct and Efficient GPU Communication Code?
+<br>Shuang Ma, Yuyi Li, Yihan Zhang, Hezhi Xie, Danyang Chen, Shuyang Ji, Ziming Mao, Cheng Ji, Ansha Prashanth, Wenting Yang, Yiran Wang, Chihan Cui, Pei Yu Lin, Ion Stoica, <u>Yang Zhou</u>
+<br>[[Arxiv Aug 2026](https://arxiv.org/pdf/2608.04450)]
+
 * ConServe: Harvesting GPUs for Low-Latency and High-Throughput Large Language Model Serving
 <br> Yifan Qiao, Shu Anzai, Shan Yu, Haoran Ma, Shuo Yang, Yang Wang, Miryung Kim, Yongji Wu, <u>Yang Zhou</u>, Jiarong Xing, Joseph Gonzalez, Ion Stoica, Harry Xu
 <br> [[Arxiv Oct 2024](https://arxiv.org/pdf/2410.01228)]
