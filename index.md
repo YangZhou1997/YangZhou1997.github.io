@@ -39,6 +39,7 @@ I was supported by a Google PhD Fellowship in Systems and Networking (see my [ap
 
 * Shuang Ma (2025-now, PhD), from USTC
 * Yihan Zhang (2025-now, PhD), from UIUC
+* Zhiyi Hu (2026-now, PhD), from HUST then ETH
 
 I also work(ed) with:
 * [Jinyao Liu](https://scholar.google.com/citations?user=k6p3fykAAAAJ) (2025-now), Shandong Univ PhD
