@@ -96,6 +96,7 @@ I also work(ed) with:
 * Unleashing Scalable Context Parallelism for Foundation Models Pre-Training via FCP
 <br> Yilong Zhao, Xiaonan Nie, Kan Zhu, Shuang Ma, Zhichao Lai, Hongxiang Hao, <u>Yang Zhou</u>, Baris Kasikci, Ion Stoica
 <br>**MLSys 2026**. The Conference on Machine Learning and Systems
+<br>[[Arxiv May 2026](https://arxiv.org/pdf/2605.08524)]
 
 * LEANN: a Low-Storage Vector Index
 <br> Yichuan Wang, Shu Liu, Zhifei Li, Yongji Wu, Ziming Mao, Yilong Zhao, Xiao Yan, Zhiying Xu, <u>Yang Zhou</u>, Ion Stoica, Sewon Min, Matei Zaharia, Joseph E. Gonzalez
@@ -114,6 +115,7 @@ I also work(ed) with:
 * Unlocking Software-defined GPU Fabric Scheduling in the LLM Era
 <br>Danyang Chen, Yufeng Gu, Yibo Huang, Chengxuan Pei, Peichun Hua, <u>Yang Zhou</u>, Yunming Xiao
 <br>**APSys 2026**. ACM SIGOPS Asia-Pacific Workshop on Systems
+<br>[[Paper](paper/gpu-fabric-apsys26.pdf)]
 
 2025
 
