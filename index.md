@@ -56,6 +56,10 @@ I also work(ed) with:
 
 2026
 
+* mKernel: Fast Multi-GPU, Multi-Node Fused Kernels
+<br>Ziming Mao, Yihan Zhang, Shawn Wei Chew, Shuang Ma, Costin Raiciu, <u>Yang Zhou</u>, Scott Shenker, Ion Stoica
+<br>[[Arxiv Sep 2026](https://arxiv.org/pdf/2609.13585)]
+
 * CommBench: Can LLMs Write Correct and Efficient GPU Communication Code?
 <br>Shuang Ma, Yuyi Li, Yihan Zhang, Hezhi Xie, Danyang Chen, Shuyang Ji, Ziming Mao, Cheng Ji, Ansha Prashanth, Wenting Yang, Yiran Wang, Chihan Cui, Pei Yu Lin, Ion Stoica, <u>Yang Zhou</u>
 <br>[[Arxiv Aug 2026](https://arxiv.org/pdf/2608.04450)]
