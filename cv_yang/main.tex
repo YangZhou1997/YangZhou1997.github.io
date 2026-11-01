@@ -1,0 +1,640 @@
+\documentclass[letterpaper, 11pt]{article}
+\usepackage[top=0.9in, bottom=0.9in, left=0.9in, right=0.9in]{geometry}
+%%%%% computer modern (default by latex)
+%%%%% usenix font
+\usepackage{mathptmx}
+%%%%% acmart font
+% \usepackage[tt=false, type1=true]{libertine} 
+% \usepackage[varqu]{zi4} 
+% \usepackage[libertine]{newtxmath}
+%%%%% lm roman
+% \usepackage{lmodern}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[kerning,spacing]{microtype}
+\usepackage{paracol}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{origpagecounting}
+\usepackage{amssymb}
+\usepackage{enumitem}
+\usepackage{xspace}
+\usepackage{hyperref}
+\usepackage{comment}
+\usepackage[dvipsnames]{xcolor}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=Blue,
+    filecolor=Blue,
+    citecolor=Blue,
+    urlcolor=Blue,
+}
+
+\newcommand\toRight{\hspace*{0pt}\hfill}
+
+% http://www.educat.hu-berlin.de/~voss/lyx/list/enum.phtml
+% The old myEnumerate environment is rewritten, so you need no special command to start continuing counting. With the command \myEnumReset you can Reset the couter at any place in the text.
+\newcounter{myEnumCounter}
+\newcounter{mySaveCounter}
+\newenvironment{myEnumerateCitation}{%
+  \begin{enumerate}[label={[\arabic*]},ref={[\arabic*]}]
+    \usecounter{enumi}%
+    \setcounter{enumi}{\value{mySaveCounter}}
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{5pt}%
+}
+{%
+  \setcounter{mySaveCounter}{\value{enumi}}\end{enumerate}%
+}
+\newcommand\myEnumReset{\setcounter{mySaveCounter}{0}}
+
+\newenvironment{compactlist}%
+  {\begin{list}{}{}%
+    \vspace{-0.06in}
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{0pt}}%
+  {\end{list}}
+
+\newenvironment{compactitem}%
+  {\begin{itemize}[]%
+    \vspace{-0.06in}
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{0pt}}%
+  {\end{itemize}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage~of {\hypersetup{linkcolor=black}\pageref{LastPage}}}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\newcommand{\ie}{i.e.\xspace}
+\newcommand{\eg}{e.g.\xspace}
+\newcommand{\etc}{etc.\xspace}
+
+\begin{document}
+
+\begin{center}
+{\huge \bf Yang Zhou}\\
+\vspace{0.3cm}
+\noindent \href{https://yangzhou1997.github.io}{\texttt{yangzhou1997.github.io}}\\
+\noindent yangzhou.rpc@gmail.com $\diamond$ +1 617 599 8532\\
+% \noindent 150 Western Ave, SEC 4.429, Allston, MA 02134, USA
+\end{center}
+\vspace*{0.05cm}
+
+% \subsection*{\sc Research Interests}
+% \hrule\vspace{0.2cm}
+
+% \begin{list}{}{}
+% \item Machine learning systems, networked systems
+% \end{list}
+
+\subsection*{\sc Employment}
+\hrule
+\vspace{0.2cm}
+
+\begin{list}{}{\setlength{\leftmargin}{0in}}
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{2pt}%
+
+\item \noindent \textbf{University of California, Davis}, Assistant Professor of Computer Science \toRight \textit{July 2025 - }
+
+\item \noindent \textbf{Meta TBD Lab}, AI Research Scientist, Infra org: pretrain, posttrain, kernel, comm \toRight \textit{June 2026 - }
+
+\item \noindent \textbf{xAI}, Member of Technical Staff, Pretrain org: kernel, comm \toRight \textit{Oct 2025 - May 2026}
+% \begin{compactlist}
+%     \item Maintaining the xAI GPU communication stacks for pretraining, post-training, and inference. 
+%     \item Highlights: 400G/800G RDMA for GB200/GB300, fast failure recovery, low-latency allreduce, heterogeneous public cloud support (e.g., AWS EFA RDMA)
+%     \vspace{-0.06in}
+% \end{compactlist}
+
+\item {\bf University of California, Berkeley}, Postdoctoral researcher in Sky Computing Lab\toRight \textit{July 2024 - July 2025}
+\begin{compactlist}
+    \item Project: UCCL: Building Efficient GPU Communication Systems
+    \item Supervisor: Ion Stoica 
+    \vspace{-0.06in}
+\end{compactlist}
+    
+\item \noindent \textbf{Google SRG and NetInfra}, Research Intern \toRight \textit{June 2021 - May 2023}
+
+\item \noindent \textbf{VMware Research}, Research Intern \toRight \textit{July 2020 - September 2020}
+
+\item \noindent \textbf{Meta/Facebook}, Research Collaborator \toRight \textit{November 2019 - May 2020}
+
+\item \noindent \textbf{SenseTime}, Software Engineering Intern \toRight \textit{March 2018 - May 2018}
+
+\end{list}
+
+\subsection*{\sc Education}
+\hrule\vspace{0.2cm}
+
+\begin{list}{}{\setlength{\leftmargin}{0in}}
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{2pt}%
+
+\item {\bf Harvard University}, Cambridge, MA, USA
+\begin{compactlist}
+    \item Ph.D. in Computer Science \toRight \textit{June 2024}
+    \item M.S. in Computer Science \toRight \textit{November 2021}
+    \item Thesis: Network-Application Co-design for Efficient Datacenters
+    \item Advisors: Minlan Yu and James Mickens
+\end{compactlist}
+
+\item {\bf Peking University}, Beijing, China 
+\begin{compactlist}
+    \item B.S. in Computer Science \toRight \textit{July 2018}
+    \item Thesis: Towards Faster and More Accurate Data Stream Processing
+    \item Advisor: Tong Yang
+\end{compactlist}
+
+\end{list}
+
+% Check https://mitcommlab.mit.edu/eecs/wp-content/uploads/sites/6/2021/09/Malte-Schwarzkopf-CV-Annotated.pdf for reference
+\subsection*{\sc Open Source Software}
+\hrule\vspace{0.2cm}
+\begin{itemize}
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{2pt}%
+    % 
+    \item UCCL, ultra and unified GPU communication library, 1600+ stars \\
+        \href{https://github.com/uccl-project/uccl}{https://github.com/uccl-project/uccl}
+    \item LEANN, the smallest vector index in the world for RAG, 13,000+ stars \\
+        \href{https://github.com/StarTrail-org/LEANN}{https://github.com/StarTrail-org/LEANN}
+    \item NEO, an LLM inference engine built to save the GPU memory by CPU offloading \\
+        \href{https://github.com/NEO-MLSys25/NEO}{https://github.com/NEO-MLSys25/NEO}
+    \item eTran, implementing reliable network transports in the Linux kernel with eBPF\\
+        \href{https://github.com/eTran-NSDI25/eTran}{https://github.com/eTran-NSDI25/eTran}
+    \item DINT, running distributed transactions in the Linux kernel with eBPF\\
+        \href{https://github.com/DINT-NSDI24/DINT}{https://github.com/DINT-NSDI24/DINT}
+    \item Electrode, running Paxos consensus in the Linux kernel with eBPF \\
+        \href{https://github.com/Electrode-NSDI23/Electrode}{https://github.com/Electrode-NSDI23/Electrode}
+\end{itemize}
+\myEnumReset 
+
+\subsection*{\sc Professional Service}
+\hrule
+\vspace{0.2cm}
+
+\begin{list}{}{\setlength{\leftmargin}{0in}}
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{2pt}%
+
+\item {\bf Program Committee:}
+    \begin{itemize}
+        \setlength{\itemsep}{0pt}%
+        \setlength{\parskip}{2pt}%
+        \item ACM APSys, IEEE ICNP, USENIX NSDI, ACM EuroSys, ACM ASPLOS 2026
+        \item USENIX OSDI 2025
+        \item ACM SIGCOMM Workshop on eBPF and Kernel Extensions 2024, 2025
+        \item ACM SIGCOMM Workshop on Networks for AI Computing 2025, 2026, 2027
+        \item ACM SIGCOMM Poster/Demo 2023, 2024, 2025
+        \item IEEE INFOCOM: Workshop on Networking Algorithms 2020
+    \end{itemize}
+
+\item {\bf Co-Chair:}
+    \begin{itemize}
+        \setlength{\itemsep}{0pt}%
+        \setlength{\parskip}{2pt}%
+        \item ACM SIGCOMM Artifact Evaluation 2024
+    \end{itemize}
+    
+\end{list}
+
+\subsection*{\sc Publications}
+\hrule\vspace{0.2cm}
+
+\subsubsection*{2026}
+\vspace{-0.1cm}
+
+\begin{myEnumerateCitation}
+\interlinepenalty=10000
+
+\item Xingyu Xiang, Raj Joshi, Chenxingyu Zhao, Yuhan Liu, Jiayi Yao, Rohan Bendapudi, Junchen Jiang, \textbf{Yang Zhou}, Eddie Kohler, Minlan Yu.
+\\InvisiCache: Efficient KV Cache Fetching with SmartNICs.
+\\\textit{Oct 2026}
+
+\item Xingyu Xiang, Lingfan Yu, Zhiying Xu, Ziming Mao, Haozheng Fan, Shi Jin, Minlan Yu, Jun Wu, Yida Wang, \textbf{Yang Zhou}.
+\\WideFuse: Multi-GPU Fused Kernels for LLM Inference over RDMA.
+\\\textit{Oct 2026}
+
+\item William X. Zheng, Zhongjie Chen, Shuo Yang, Ziming Mao, Xiaoze Fan, Yi Pan, Kunjun Li, Hanfei Yu, Chenfeng Xu, \textbf{Yang Zhou}, Rishabh Iyer, Ion Stoica.
+\\AEO: Adaptive Expert Offloading for Multi-GPU MoE Inference.
+\\\textit{Oct 2026}
+
+\item Ziming Mao, Yihan Zhang, Shawn Wei Chew, Shuang Ma, Costin Raiciu, \textbf{Yang Zhou}, Scott Shenker, Ion Stoica.
+\\mKernel: Fast Multi-GPU, Multi-Node Fused Kernels. \href{https://arxiv.org/pdf/2609.13585}{[link]}
+\\\textit{Arxiv Sep 2026}
+
+\item Shuang Ma, Yuyi Li, Yihan Zhang, Hezhi Xie, Danyang Chen, Shuyang Ji, Ziming Mao, Cheng Ji, Ansha Prashanth, Wenting Yang, Yiran Wang, Chihan Cui, Pei Yu Lin, Ion Stoica, \textbf{Yang Zhou}.
+\\CommBench: Can LLMs Write Correct and Efficient GPU Communication Code? \href{https://arxiv.org/pdf/2608.04450}{[link]}
+\\\textit{Arxiv Aug 2026}
+
+\item Yifan Qiao, Shu Anzai, Shan Yu, Haoran Ma, Shuo Yang, Yang Wang, Miryung Kim, Yongji Wu, \textbf{Yang Zhou}, Jiarong Xing, Joseph Gonzalez, Ion Stoica, Harry Xu.
+\\ConServe: Harvesting GPUs for Low-Latency and High-Throughput Large Language Model Serving. \href{https://arxiv.org/pdf/2410.01228}{[link]}
+\\\textit{ICML 2026}
+
+\item Shuang Ma, ChonLam Lao, Zhiying Xu, Zhuang Wang, Ziming Mao, Delong Meng, Zhen Jia, Jun Wu, Ion Stoica, Yida Wang, \textbf{Yang Zhou}
+\\UCCL-Zip: Lossless Compression Supercharged GPU Communication
+\href{https://arxiv.org/pdf/2604.17172}{[link]}
+\\\textit{Arxiv April 2026}
+
+\item Ziming Mao, Yihan Zhang, Chihan Cui, Zhen Huang, Kaichao You, Zhongjie Chen, Zhiying Xu, Zhenyu Gu, Scott Shenker, Costin Raiciu, \textbf{Yang Zhou}, Ion Stoica.
+\\UCCL-EP: Portable Expert-Parallel Communication. \href{https://arxiv.org/pdf/2512.19849}{[link]}
+\\\textit{OSDI 2026}
+\\Used by \href{https://github.com/AMD-AGI/Primus/tree/main/examples/moe_package}{AMD Primus training framework}, \href{https://docs.nvidia.com/nemo/automodel/latest/apidocs/nemo_automodel/nemo_automodel.components.moe.uccl_ep.html}{Nvidia NeMo framework}, \href{https://github.com/uccl-project/uccl/issues/956}{Apertus / Swiss AI Initiative}, and various AWS teams and customers (Kimi achieves 2x e2e SGLang speedup compared to DeepEP IBRC).
+
+\item \textbf{Yang Zhou}\*, Zhongjie Chen\*, Ziming Mao, ChonLam Lao, Shuo Yang, Pravein Govindan Kannan, Xizhi Zhang, Jiaqi Gao, Yilong Zhao, Yongji Wu, Kaichao You, Fengyuan Ren, Zhiying Xu, Costin Raiciu, Ion Stoica.
+\\UCCL-Tran: An Extensible Software Transport Layer for Machine Learning Workloads. \href{https://arxiv.org/pdf/2504.17307}{[link]}
+\\\textit{OSDI 2026} 
+\\Used by IBM/Red Hat/Google llm-d (\href{https://llm-d.ai/blog/llm-d-v0.5-sustaining-performance-at-scale}{blog1}, \href{https://llm-d.ai/blog/networking-for-distributed-inference-llm-d}{blog2}), \href{https://github.com/ai-dynamo/nixl/releases/tag/0.9.0}{Nvidia NIXL}, \href{https://github.com/ROCm/TheRock/tree/main/external-builds/uccl}{AMD TheRock}.
+
+\item Expert-Choice Routing Enables Adaptive Computation in Diffusion Language Models
+\\Shuibai Zhang, Caspian Zhuang, Chihan Cui, Zhihan Yang, Fred Zhangzhi Peng, Yanxin Zhang, Haoyue Bai, Zack Jia, \textbf{Yang Zhou}, Guanhua Chen, Ming Liu
+\href{https://arxiv.org/pdf/2604.01622}{[link]}
+\\\textit{COLM 2026}
+
+\item Yilong Zhao, Xiaonan Nie, Kan Zhu, Shuang Ma, Zhichao Lai, Hongxiang Hao, \textbf{Yang Zhou}, Baris Kasikci, Ion Stoica
+\\Unleashing Scalable Context Parallelism for Foundation Models Pre-Training via FCP \href{https://arxiv.org/pdf/2605.08524}{[Link]}
+\\\textit{MLSys 2026}.
+
+\item Yichuan Wang, Shu Liu, Zhifei Li, Yongji Wu, Ziming Mao, Yilong Zhao, Xiao Yan, Zhiying Xu, \textbf{Yang Zhou}, Ion Stoica, Sewon Min, Matei Zaharia, Joseph E. Gonzalez.
+\\LEANN: a Low-Storage Vector Index. \href{https://arxiv.org/pdf/2506.08276}{[link]}
+\\\textit{MLSys 2026}. 
+\\{\color{red} Best Paper Award}
+
+\item Yilong Zhao\*, Shuo Yang\*, Kan Zhu, Lianmin Zheng, Baris Kasikci, Yifan Qiao, \textbf{Yang Zhou}, Jiarong Xing, Ion Stoica.
+\\BlendServe: Optimizing Offline Inference for Auto-regressive Large Models with Resource-aware Batching. \href{https://arxiv.org/pdf/2411.16102}{[link]}
+\\\textit{ASPLOS 2026}
+
+\item Unlocking Software-defined GPU Fabric Scheduling in the LLM Era
+\\Danyang Chen, Yufeng Gu, Yibo Huang, Chengxuan Pei, Peichun Hua, \textbf{Yang Zhou}, Yunming Xiao
+\\\textit{APSys 2026}
+
+\end{myEnumerateCitation}
+
+\vspace{-0.5cm}
+\subsubsection*{2025}
+\vspace{-0.1cm}
+
+\begin{myEnumerateCitation}
+\interlinepenalty=10000
+
+\item Xingyu Xiang, Raj Joshi, Yuhan Liu, Jiayi Yao, Chenxingyu Zhao, Junchen Jiang, \textbf{Yang Zhou}, Eddie Kohler, Minlan Yu.
+\\ShadowServe: Interference-Free KV Cache Fetching for Distributed Prefix Caching. \href{https://arxiv.org/pdf/2509.16857}{[link]}
+\\\textit{Arxiv Sep 2025}
+
+\item Jiarong Xing, Yifan Qiao, Simon Mo, Xingqi Cui, Gur-Eyal Sela, \textbf{Yang Zhou}, Joseph Gonzalez, Ion Stoica.
+\\Towards Efficient and Practical GPU Multitasking in the Era of LLM. \href{https://arxiv.org/pdf/2508.08448}{[link]}
+\\\textit{Arxiv Aug 2025}
+
+\item Shiyi Cao\*, Yichuan Wang\*, Ziming Mao, Pin-Lun Hsu, Liangsheng Yin, Tian Xia, Dacheng Li, Shu Liu, Yineng Zhang, \textbf{Yang Zhou}, Ying Sheng, Joseph Gonzalez, Ion Stoica.
+\\Locality-Aware Fair Scheduling in LLM Serving. \href{https://arxiv.org/pdf/2501.14312}{[link]}
+\\\textit{Arxiv Jan 2025}
+
+\item Yifan Zhang, Jianchang Su, Zixu Shen, \textbf{Yang Zhou}, Wei Zhang.
+\\Toward Interference-Aware Scheduling for Serverless Functions via eBPF and Meta-Learning. \href{https://yangzhou1997.github.io/paper/emfs-pacmi25.pdf}{[Link]}
+\\\textit{PACMI 2025}. Workshop on Practical Adoption Challenges of ML for Systems.
+
+\item Xiangfeng Zhu, \textbf{Yang Zhou}, Yuyao Wang, Xiangyu Gao, Arvind Krishnamurthy, Sam Kumar, Ratul Mahajan, Danyang Zhuo. 
+\\Rethinking RPC Communication for Microservices-based Applications. \href{https://yangzhou1997.github.io/paper/rethinking-hotos25.pdf}{[Link]}
+\\\textit{HotOS 2025}.
+
+\item Xuanlin Jiang, \textbf{Yang Zhou}, Shiyi Cao, Ion Stoica, Minlan Yu. 
+\\NEO: Saving GPU Memory Crisis with CPU Offloading for Online LLM Inference. \href{https://yangzhou1997.github.io/paper/neo_mlsys25.pdf}{[link]} 
+\\\textit{MLSys 2025}.
+
+\item Zhongjie Chen, Qingkai Meng, ChonLam Lao, Yifan Liu, Fengyuan Ren, Minlan Yu, \textbf{Yang Zhou}. 
+\\eTran: Extensible Kernel Transport with eBPF. \href{https://yangzhou1997.github.io/paper/etran-nsdi25.pdf}{[link]} 
+\\\textit{USENIX NSDI 2025}.
+
+\end{myEnumerateCitation}
+
+\vspace{-0.5cm}
+\subsubsection*{2024}
+\vspace{-0.1cm}
+
+\begin{myEnumerateCitation}
+\interlinepenalty=10000
+
+\item Shuo Yang, Ying Sheng, Yilong Zhao, Joseph Gonzalez, \textbf{Yang Zhou}, Ion Stoica, Lianmin Zheng.
+\\Post-Training Sparse Attention with Double Sparsity. \href{https://arxiv.org/pdf/2408.07092}{[link]}
+\\\textit{Arxiv Aug 2024}
+
+\end{myEnumerateCitation}
+
+\vspace{-0.5cm}
+\subsubsection*{PhD and prior work}
+\vspace{-0.1cm}
+
+\begin{myEnumerateCitation}
+\interlinepenalty=10000
+
+\item \textbf{Yang Zhou}, Mark Wilkening, James Mickens, and Minlan Yu. 
+\\SmartNIC Security Isolation in the Cloud with S-NIC. \href{https://yangzhou1997.github.io/paper/snic-eurosys24.pdf}{[link]} 
+\\\textit{ACM EuroSys 2024}.
+
+\item \textbf{Yang Zhou}, Xingyu Xiang, Matthew Kiley, Sowmya Dharanipragada, and Minlan Yu. 
+\\DINT: Fast In-Kernel Distributed Transactions with eBPF. \href{https://yangzhou1997.github.io/paper/dint-nsdi24.pdf}{[link]} 
+\\\textit{USENIX NSDI 2024}.
+
+\item \textbf{Yang Zhou}, Zezhou Wang, Sowmya Dharanipragada, and Minlan Yu. 
+\\Electrode: Accelerating Distributed Protocols with eBPF. \href{https://yangzhou1997.github.io/paper/electrode-nsdi23.pdf}{[link]}
+\\\textit{USENIX NSDI 2023}.
+
+\item \textbf{Yang Zhou}, Hassan Wassel, Sihang Liu, Jiaqi Gao, James Mickens, Minlan Yu, Chris Kennelly, Paul Turner, David Culler, Hank Levy, and Amin Vahdat. 
+\\Carbink: Fault-Tolerant Far Memory. \href{https://yangzhou1997.github.io/paper/carbink-osdi22.pdf}{[link]} 
+\\\textit{USENIX OSDI 2022}.
+% \\Also appears in The Third Workshop On Resource Disaggregation and Serverless Computing (WORDS 2022).
+
+\item \textbf{Yang Zhou}, Ying Zhang, Minlan Yu, Guangyu Wang, Dexter Cao, Eric Sung, and Starsky Wong. 
+\\Evolvable Network Telemetry at Facebook. \href{https://yangzhou1997.github.io/paper/pcat-nsdi22.pdf}{[link]} 
+\\\textit{USENIX NSDI 2022}.
+
+\item Zhuochen Fan, Gang Wen, Zhipeng Huang, \textbf{Yang Zhou}, Qiaobin Fu, Tong Yang, Alex X Liu, and Bin Cui. 
+\\On the Evolutionary of Bloom Filter False Positives - An Information Theoretical Approach to Optimizing Bloom Filter Parameters. \href{https://yangzhou1997.github.io/paper/bf-tkde22.pdf}{[link]} 
+\\\textit{IEEE Transactions on Knowledge \& Data Engineering 2022}.
+
+\item Yuanpeng Li, Xiang Yu, Yilong Yang, \textbf{Yang Zhou}, Tong Yang, Zhuo Ma, and Shigang Chen. 
+\\Pyramid Family: Generic Frameworks for Accurate and Fast Flow Size Measurement. \href{https://yangzhou1997.github.io/paper/pyramid_family_ton21.pdf}{[link]} 
+\\\textit{IEEE/ACM Transactions on Networking 2021}.
+
+\item Tong Yang, Jie Jiang, \textbf{Yang Zhou}, Long He, Jinyang Li, Bin Cui, Steve Uhlig, and Xiaoming Li. 
+\\Fast and Accurate Stream Processing by Filtering the Cold. \href{https://yangzhou1997.github.io/paper/filtering_cold_vldbj19.pdf}{[link]} 
+\\\textit{The VLDB Journal 2019}.
+
+\item Tong Yang, Jie Jiang, Peng Liu, Qun Huang, Junzhi Gong, \textbf{Yang Zhou}, Rui Miao, Xiaoming Li, and Steve Uhlig. 
+\\Adaptive Measurements Using One Elastic Sketch. \href{https://yangzhou1997.github.io/paper/elastic_ton2019.pdf}{[link]} 
+\\\textit{IEEE/ACM Transactions on Networking 2019}.
+
+\item \textbf{Yang Zhou}, Tong Yang, Jie Jiang, Bin Cui, Minlan Yu, Xiaoming Li, and Steve Uhlig. 
+\\Cold Filter: A Meta-Framework for Faster and More Accurate Stream. Processing \href{https://yangzhou1997.github.io/paper/cf-sigmod18.pdf}{[link]} 
+\\\textit{ACM SIGMOD 2018}.
+
+\item Tong Yang, Jie Jiang, Peng Liu, Qun Huang, Junzhi Gong, \textbf{Yang Zhou}, Rui Miao, Xiaoming Li, and Steve Uhlig. 
+\\Elastic Sketch: Adaptive and Fast Network-Wide Measurements. \href{https://yangzhou1997.github.io/paper/elastic-sigcomm18.pdf}{[link]} 
+\\\textit{ACM SIGCOMM 2018}.
+
+\item \textbf{Yang Zhou}, Omid Alipourfard, Minlan Yu, and Tong Yang. 
+\\Accelerating Network Measurement in Software. \href{https://yangzhou1997.github.io/paper/agg-ccr18.pdf}{[link]} 
+\\\textit{ACM SIGCOMM Computer Communication Review 2018}.
+
+\item Omid Alipourfard, Masoud Moshref, \textbf{Yang Zhou}, Tong Yang, and Minlan Yu. 
+\\A Comparison of Performance and Accuracy of Measurement Algorithms in Software. \href{https://yangzhou1997.github.io/paper/simple-sosr18.pdf}{[link]} 
+\\\textit{ACM Symposium on SDN Research (SOSR) 2018}.
+
+\item \textbf{Yang Zhou}, Hao Jin, Peng Liu, Haowei Zhang, Tong Yang, and Xiaoming Li. 
+\\Accurate Per-Flow Measurement with Bloom Sketch. \href{https://yangzhou1997.github.io/paper/bs-infocom18.pdf}{[link]} 
+\\\textit{IEEE International Conference on Computer Communications Workshops (INFOCOM WKSHPS) 2018}.
+
+\item Xiangyang Gou, Chenxingyu Zhao, Tong Yang, Lei Zou, \textbf{Yang Zhou}, Yibo Yan, Xiaoming Li, and Bin Cui. 
+\\Single Hash: Use One Hash Function to Build Faster Hash Based Data Structures. \href{https://yangzhou1997.github.io/paper/singlehash-bigcomp18.pdf}{[link]} 
+\\\textit{IEEE International Conference on Big Data and Smart Computing (BigComp) 2018}.
+
+\item Tong Yang, \textbf{Yang Zhou}, Hao Jin, Shigang Chen, and Xiaoming Li. 
+\\Pyramid Sketch: A Sketch Framework for Frequency Estimation of Data Streams. \href{https://yangzhou1997.github.io/paper/pyramid-vldb17.pdf}{[link]} 
+\\\textit{VLDB 2017}.
+
+\item \textbf{Yang Zhou}, Peng Liu, Hao Jin, Tong Yang, Shoujiang Dang, and Xiaoming Li. 
+\\One Memory Access Sketch: A More Accurate and Faster Sketch for Per-Flow Measurement. \href{https://yangzhou1997.github.io/paper/om-globecom17.pdf}{[link]} 
+\\\textit{IEEE Global Communications Conference (Globecom) 2017}.
+
+\item Junzhi Gong, Tong Yang, \textbf{Yang Zhou}, Dongsheng Yang, Shigang Chen, Bin Cui, and Xiaoming Li. 
+\\ABC: A Practicable Sketch Framework for Non-Uniform Multisets. \href{https://yangzhou1997.github.io/paper/abc-bigdata17.pdf}{[link]} 
+\\\textit{IEEE International Conference on Big Data (BigData) 2017}.
+
+\end{myEnumerateCitation}
+
+% This resets the counter for the myEnumerate environment.
+\myEnumReset 
+
+\subsection*{\sc Talks}
+\hrule
+\vspace{0.2cm}
+
+\begin{itemize}
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{5pt}%
+\item UCCL: Building Efficient GPU Communication Systems\\
+    UC Berkeley SkyLab Winter Retreat\toRight \textit{January 2026}\\
+    UIUC\toRight \textit{Dec 2025}\\
+    Northeastern, UW-Madison\toRight \textit{Nov 2025}\\
+    Google network summit, Google NetInfra\toRight \textit{Oct 2025}\\
+    Meta, ByteDance (Seed), SJTU IPADS\toRight \textit{July 2025}\\
+    ByteDance (Networking), NVIDIA\toRight \textit{June 2025}\\
+    UC Berkeley SkyLab Summer Retreat, Broadcom\toRight \textit{May 2025}\\
+    UC Berkeley SkyLab Winter Retreat\toRight \textit{January 2025}
+
+\item Network-Application Co-design for Efficient Datacenters\\
+    University of Toronto\toRight \textit{April 2024}\\
+    NYU, Brown, UC Irvine, UWaterloo, UC Davis, Boston University\toRight \textit{March 2024}\\
+    UC Santa Cruz, University of Virginia, Purdue\toRight \textit{February 2024}
+
+\item Electrode: Accelerating Distributed Protocols with eBPF\\
+    Duke University, ACE Center for Evolvable Computing, Google, USENIX NSDI \toRight \textit{April 2023}\\
+    Columbia University \toRight \textit{March 2023}
+
+\item Carbink: Fault-Tolerant Far Memory\\
+    Cornell University  \toRight \textit{November 2023}\\
+    WORDS workshop \toRight \textit{November 2022}\\
+    Microsoft Research Redmond, USENIX OSDI \toRight \textit{July 2022}\\
+    Google \toRight \textit{ March \& June 2022}
+    
+\item Evolvable Network Telemetry at Facebook\\
+    USENIX NSDI \toRight \textit{April 2022}\\
+    Boston University, Meta \toRight \textit{March 2022}
+
+\item Cold Filter: A Meta-Framework for Faster and More Accurate Stream Processing\\
+    Harvard University \toRight \textit{October 2018}
+    
+\end{itemize}
+
+\subsection*{\sc Students}
+\hrule\vspace{0.2cm}
+
+\subsubsection*{Current PhD Students}
+\vspace{-0.1cm}
+
+\begin{itemize}
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{5pt}%
+
+\item Shuang Ma, UC Davis PhD (from USTC) \toRight \textit{2025 - now} \\
+        GPU communication (UCCL-Zip, CommBench, mKernel); context parallelism (FCP, MLSys 2026).
+
+\item Yihan Zhang, UC Davis PhD (from UIUC) \toRight \textit{2025 - now} \\
+        GPU communication and fused kernels: UCCL-EP (OSDI 2026), mKernel, and CommBench.
+\end{itemize}
+
+\vspace{-0.5cm}
+\subsubsection*{Mentored Students}
+\vspace{-0.1cm}
+
+\begin{itemize}
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{5pt}%
+
+\item Jinyao Liu, Shandong University PhD \toRight \textit{2025 - now}
+
+\item Danyang Chen, CUHK-Shenzhen undergraduate \toRight \textit{2025 - now} \\
+        GPU fabric scheduling (APSys 2026); GPU communication benchmarking (CommBench).
+
+\item Ziming Mao, UC Berkeley PhD \toRight \textit{2024 - now} \\
+        UCCL (2$\times$ OSDI 2026); LEANN (MLSys 2026, Best Paper Award).
+
+\item Zhongjie Chen, Tsinghua University PhD $\to$ MSRA senior researcher \toRight \textit{2024 - now} \\
+        Extensible kernel transport (NSDI 2025), UCCL (2$\times$ OSDI 2026).
+
+\item Xuanlin Jiang, Peking University undergraduate $\to$ Harvard PhD  \toRight \textit{2024} \\
+        CPU offloading for online LLM inference (MLSys 2025).
+
+\item Matt Kiley, Harvard College undergraduate $\to$ Clockwork Systems \toRight \textit{2023} \\
+        Accelerating distributed transactions using eBPF (NSDI 2024).
+
+\item Yunxi Shen, Tsinghua University undergraduate $\to$ Cornell PhD  \toRight \textit{2023 - 2024} \\
+        Resource-efficient job scheduling in data centers.
+
+\item Xingyu Xiang, Peking University undergraduate $\to$ Harvard PhD  \toRight \textit{2023 - now} \\
+        Distributed transactions (DINT, NSDI 2024); LLM inference (ShadowServe, InvisiCache, WideFuse).
+
+\item Zezhou Wang, Peking University undergraduate $\to$ University of Washington PhD \toRight \textit{2022} \\
+        Accelerating Paxos using eBPF (NSDI 2023).
+\end{itemize}
+
+
+\subsection*{\sc Grants}
+\hrule
+\vspace{0.2cm}
+\begin{itemize}
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{2pt}%
+	\item NSF Future CoRe, Rethinking the Role of CPU in Machine Learning Systems (Sole PI), \$600,000 \toRight \textit{2026}
+	\item AWS Research Credits on GPUs (for UCCL project), \$477,000 \toRight \textit{2025}
+\end{itemize}
+
+\subsection*{\sc Teaching}
+\hrule
+\vspace{0.2cm}
+\begin{itemize}
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{2pt}%
+    \item {\bf Instructor} ECS 150: Operating Systems  (with Sam King), UC Davis \toRight \textit{Spring 2026}
+    \item {\bf Instructor} ECS 289D: Seminar in Operating Systems: Datacenter Systems for LLMs, UC Davis \toRight \textit{Fall 2025}
+    \item {\bf Guest Lecture} on UCCL, CS538: Advanced Computer Networks, UIUC \toRight \textit{Dec 2025}
+    \item {\bf Guest Lecture} on UCCL, CS7670: Large Language Model Systems (Seminar), Northeastern \toRight \textit{Nov 2025}
+    \item {\bf Guest Lecture} on far memory, CS294-252: Architectures and Systems for Warehouse-Scale Computers, UC Berkeley \toRight \textit{Nov 2023}
+    \item {\bf Teaching Assistant} for Prof. Minlan Yu, CS145: Networking at Scale, Harvard University \toRight \textit{Spring 2021}
+    \item {\bf Teaching Assistant} for Prof. Tong Yang, Algorithm Design and Analysis, Peking University \toRight \textit{Fall 2018}
+\end{itemize}
+
+\subsection*{\sc Patents}
+\hrule\vspace{0.2cm}
+\begin{itemize}
+% Check https://taejunham.github.io/data/cv.pdf for reference.
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{2pt}%
+    \item \textbf{Yang Zhou}, Hassan Wassel, Minlan Yu, Hank Levy, David Culler, and Amin Vahdat. ``Fault Tolerant Disaggregated Memory''. Pending (US20230185666A1), December 2022. 
+\end{itemize}
+\myEnumReset 
+
+\subsection*{\sc Awards and Honors}
+\hrule
+\vspace{0.2cm}
+\begin{itemize}
+    \setlength{\itemsep}{0pt}%
+    \setlength{\parskip}{2pt}%
+	\item MLSys Best Paper Award \toRight \textit{2026}
+    \item Google Ph.D. Fellowship in Systems and Networking \toRight \textit{2022}
+	\item Finalist, Meta Ph.D. Fellowship in Networking \toRight \textit{2022}
+    \item Graduate Fellowship, Harvard University \toRight \textit{2018}
+	\item Excellent Bachelor Thesis (10/327), School of EECS, Peking University \toRight \textit{2018}
+	\item New Academic Star Award (1/193), School of EECS, Peking University \toRight \textit{2018}
+	% \item Exceptional Award for Academic Innovation (2/193), Peking University \toRight \textit{2017}
+	\item Arawana Scholarship (2/193), Peking University \toRight \textit{2017}
+    % \item Merit Student Award, Peking University \toRight \textit{2017}
+    \item Pinyou Hudong Scholarship, School of EECS, Peking University \toRight \textit{2016}
+    \item May Fourth Scholarship, Peking University \toRight \textit{2015}
+    % \item Academic Progress Award, Peking University \toRight \textit{2015}
+\end{itemize}
+
+
+% \subsection*{\sc Current Status}
+% \hrule\vspace{0.2cm}
+% \begin{list}{}{}
+% \item U.S. Permanent Resident, Citizen of China
+% \end{list}
+
+    
+% \subsection*{\sc References}
+% \hrule \vspace{0.2cm}
+% \begin{list}{}{}
+% \item Available upon request.
+% \end{list}
+
+\begin{comment}
+
+\begin{paracol}{2} 
+\begin{list}{}{} \item \noindent 
+Prof. Minlan Yu \\
+Department of Computer Science \\
+Harvard University \\
+150 Western Ave, SEC 4.415 \\
+Allston, MA 02134, USA \\
++1 617 495 3986 \\
+minlanyu@g.harvard.edu \\
+\vspace{-0.30cm}
+\end{list}
+
+\begin{list}{}{} \item \noindent 
+Dr. Amin Vahdat \\
+Google Fellow and Vice President of Engineering \\
+Google LLC \\
+1600 Amphitheatre Parkway \\
+Mountain View, CA 94042, USA \\
++1 650 390 7073 \\
+vahdat@google.com \\
+\vspace{-0.30cm}
+\end{list}
+
+\begin{list}{}{} \item \noindent 
+Dr. Ying Zhang \\
+Senior Engineering Manager \\
+Meta Platforms, Inc. \\
+1 Hacker Way \\
+Menlo Park, CA 94025, USA \\
++1 408 250 9961 \\
+zhangying@meta.com \\ 
+\vspace{-0.30cm}
+\end{list}
+
+\switchcolumn
+
+\begin{list}{}{} \item \noindent 
+Prof. James Mickens \\
+Department of Computer Science \\
+Harvard University \\
+150 Western Ave, SEC 4.416 \\
+Allston, MA 02134, USA \\
++1 617 384 8132 \\
+mickens@seas.harvard.edu \\
+\vspace{-0.30cm}
+\end{list}
+
+\begin{list}{}{} \item \noindent 
+Prof. Adam Belay \\
+MIT CSAIL\\
+32 Vassar St, 32-G996 \\
+Cambridge, MA 02139, USA \\
++1 617 253 0004 \\
+abelay@mit.edu \\
+\vspace{-0.30cm}
+\end{list}
+
+\end{paracol}
+\end{comment}
+
+% \let\clearpage\relax
+
+\end{document}
