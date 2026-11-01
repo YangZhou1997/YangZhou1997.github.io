@@ -12,3 +12,7 @@ plugins:
 # Optional. The default date format, used if none is specified in the tag.
 last-modified-at:
     date-format: '%b %d, 20%y'
+
+# Keep CV source files out of the published site.
+exclude:
+  - cv_yang/
