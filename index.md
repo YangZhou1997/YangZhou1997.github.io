@@ -22,7 +22,7 @@ I was supported by a Google PhD Fellowship in Systems and Networking (see my [ap
 ## Updates
 * June 2026, check the llm-d [blogpost](https://llm-d.ai/blog/networking-for-distributed-inference-llm-d) on networking for distributed inference with the UCCL backend!
 * May 2026, LEANN wins MLSys Best Paper Award!
-* Mar 2026, both UCCL papers ([UCCL-Tran](https://arxiv.org/pdf/2504.17307) and [UCCL-EP](https://arxiv.org/pdf/2512.19849)) accepted to OSDI'26!
+* Mar 2026, both UCCL papers ([UCCL-Tran](https://www.usenix.org/system/files/osdi26-zhou-yang.pdf) and [UCCL-EP](https://www.usenix.org/system/files/osdi26-mao-ziming-uep.pdf)) accepted to OSDI'26!
 * Feb 2026, check the llm-d [blogpost](https://llm-d.ai/blog/llm-d-v0.5-sustaining-performance-at-scale) on how they use UCCL to achieve resilient networking for KV cache transfer! 
 * Jan 2026, LEANN and FCP to appear at MLSys'26!
 <!-- * Dec 2025, [UCCL-EP](https://arxiv.org/pdf/2512.19849) for portable expert-parallel communication (AMD, Broadcom, AWS EFA)! -->
@@ -63,9 +63,9 @@ I also work(ed) with:
 <br>Shuang Ma, Yuyi Li, Yihan Zhang, Hezhi Xie, Danyang Chen, Shuyang Ji, Ziming Mao, Cheng Ji, Ansha Prashanth, Wenting Yang, Yiran Wang, Chihan Cui, Pei Yu Lin, Ion Stoica, <u>Yang Zhou</u>
 <br>[[Arxiv Aug 2026](https://arxiv.org/pdf/2608.04450)]
 
-* ConServe: Harvesting GPUs for Low-Latency and High-Throughput Large Language Model Serving
+* ConServe: Fine-Grained GPU Harvesting for LLM Online and Offline Co-Serving
 <br> Yifan Qiao, Shu Anzai, Shan Yu, Haoran Ma, Shuo Yang, Yang Wang, Miryung Kim, Yongji Wu, <u>Yang Zhou</u>, Jiarong Xing, Joseph Gonzalez, Ion Stoica, Harry Xu
-<br> [[Arxiv Oct 2024](https://arxiv.org/pdf/2410.01228)]
+<br> [[Paper](https://openreview.net/pdf?id=eKfWG67mZB)]
 <br>**ICML 2026**. International Conference on Machine Learning
 
 * UCCL-Zip: Lossless Compression Supercharged GPU Communication
@@ -75,14 +75,14 @@ I also work(ed) with:
 
 * UCCL-EP: Portable Expert-Parallel Communication
 <br> Ziming Mao, Yihan Zhang, Chihan Cui, Zhen Huang, Kaichao You, Zhongjie Chen, Zhiying Xu, Zhenyu Gu, Scott Shenker, Costin Raiciu, <u>Yang Zhou</u>, Ion Stoica
-<br>[[Arxiv Dec 2025](https://arxiv.org/pdf/2512.19849)]
+<br>[[Paper](https://www.usenix.org/system/files/osdi26-mao-ziming-uep.pdf)]
 [[code](https://github.com/uccl-project/uccl)]
 <br>Used by [AMD Primus training framework](https://github.com/AMD-AGI/Primus/tree/main/examples/moe_package), [Nvidia NeMo framework](https://docs.nvidia.com/nemo/automodel/latest/apidocs/nemo_automodel/nemo_automodel.components.moe.uccl_ep.html), [Apertus / Swiss AI Initiative](https://github.com/uccl-project/uccl/issues/956), and various AWS teams and customers (Kimi achieves 2x e2e SGLang speedup compared to DeepEP IBRC)
 <br>**OSDI 2026**. USENIX Symposium on Operating Systems Design and Implementation
 
 * UCCL-Tran: An Extensible Software Transport Layer for GPU Networking
 <br> <u>Yang Zhou</u>\*, Zhongjie Chen\*, Ziming Mao, ChonLam Lao, Shuo Yang, Pravein Govindan Kannan, Xizhi Zhang, Jiaqi Gao, Yilong Zhao, Yongji Wu, Kaichao You, Fengyuan Ren, Zhiying Xu, Costin Raiciu, Ion Stoica
-<br>[[Arxiv April 2025](https://arxiv.org/pdf/2504.17307)]
+<br>[[Paper](https://www.usenix.org/system/files/osdi26-zhou-yang.pdf)]
 [[homepage](https://uccl-project.github.io/)]
 [[slides](https://docs.google.com/presentation/d/1LQxZzxghRmua4FkfQjWu69wXy9hrs9V_tXrXt_DT-F4/edit?usp=sharing)]
 [[code](https://github.com/uccl-project/uccl)]
@@ -93,32 +93,32 @@ I also work(ed) with:
 * Expert-Choice Routing Enables Adaptive Computation in Diffusion Language Models
 <br>Shuibai Zhang\*, Caspian Zhuang\*, Chihan Cui\*, Zhihan Yang, Fred Zhangzhi Peng, Yanxin Zhang, Haoyue Bai, Zack Jia, <u>Yang Zhou</u>, Guanhua Chen, Ming Liu
 <br>**COLM 2026**. Conference on Language Modeling
-<br>[[Arxiv April 2026](https://arxiv.org/pdf/2604.01622)]
+<br>[[Paper](https://openreview.net/pdf?id=mxPUcTz742)]
 [[code](https://github.com/zhangshuibai/EC-DLM)]
 
 * Unleashing Scalable Context Parallelism for Foundation Models Pre-Training via FCP
 <br> Yilong Zhao, Xiaonan Nie, Kan Zhu, Shuang Ma, Zhichao Lai, Hongxiang Hao, <u>Yang Zhou</u>, Baris Kasikci, Ion Stoica
 <br>**MLSys 2026**. The Conference on Machine Learning and Systems
-<br>[[Arxiv May 2026](https://arxiv.org/pdf/2605.08524)]
+<br>[[Paper](https://proceedings.mlsys.org/paper_files/paper/2026/file/e01c431bbb83153632c0dcfaf8ccda0a-Paper-Conference.pdf)]
 
-* LEANN: a Low-Storage Vector Index
+* LEANN: A Low-Storage Overhead Vector Index
 <br> Yichuan Wang, Shu Liu, Zhifei Li, Yongji Wu, Ziming Mao, Yilong Zhao, Xiao Yan, Zhiying Xu, <u>Yang Zhou</u>, Ion Stoica, Sewon Min, Matei Zaharia, Joseph E. Gonzalez
 <br>**MLSys 2026**. The Conference on Machine Learning and Systems
 <br>**ICML 2025 Workshop** on Vector Databases
-<br>[[Arxiv June 2025](https://arxiv.org/pdf/2506.08276)]
+<br>[[Paper](https://proceedings.mlsys.org/paper_files/paper/2026/file/e27ea0cd50b798ff8942caf9203f0992-Paper-Conference.pdf)]
 [[code](https://github.com/yichuan-w/LEANN)]
 [![GitHub Repo stars](https://img.shields.io/github/stars/yichuan-w/LEANN?style=social)](https://github.com/yichuan-w/LEANN/stargazers)
 <br>**<span style="color:red">MLSys Best Paper Award</span>**
 
-* BlendServe: Optimizing Offline Inference for Auto-regressive Large Models with Resource-aware Batching
+* BlendServe: Optimizing Offline Inference with Resource-Aware Batching
 <br>Yilong Zhao\*, Shuo Yang\*, Kan Zhu, Lianmin Zheng, Baris Kasikci, Yifan Qiao, <u>Yang Zhou</u>, Jiarong Xing, Ion Stoica
 <br>**ASPLOS 2026**
-<br>[[Arxiv Nov 2024](https://arxiv.org/pdf/2411.16102)]
+<br>[[Paper](https://dl.acm.org/doi/epdf/10.1145/3779212.3790133)]
 
 * Unlocking Software-defined GPU Fabric Scheduling in the LLM Era
 <br>Danyang Chen, Yufeng Gu, Yibo Huang, Chengxuan Pei, Peichun Hua, <u>Yang Zhou</u>, Yunming Xiao
 <br>**APSys 2026**. ACM SIGOPS Asia-Pacific Workshop on Systems
-<br>[[Paper](paper/gpu-fabric-apsys26.pdf)]
+<br>[[Paper](https://dl.acm.org/doi/epdf/10.1145/3838177.3841731)]
 
 2025
 
@@ -139,24 +139,24 @@ I also work(ed) with:
 * Toward Interference-Aware Scheduling for Serverless Functions via eBPF and Meta-Learning
 <br>Yifan Zhang, Jianchang Su, Zixu Shen, <u>Yang Zhou</u>, Wei Zhang
 <br>**PACMI 2025**. Workshop on Practical Adoption Challenges of ML for Systems
-<br>[[paper](paper/emfs-pacmi25.pdf)] 
+<br>[[paper](https://dl.acm.org/doi/epdf/10.1145/3766882.3767181)]
 
 * Rethinking RPC Communication for Microservices-based Applications
 <br>Xiangfeng Zhu, <u>Yang Zhou</u>, Yuyao Wang, Xiangyu Gao, Arvind Krishnamurthy, Sam Kumar, Ratul Mahajan, Danyang Zhuo
 <br>**HotOS 2025**. The ACM SIGOPS 20th Workshop on Hot Topics in Operating Systems
-<br>[[paper](paper/rethinking-hotos25.pdf)] 
+<br>[[paper](https://sigops.org/s/conferences/hotos/2025/papers/hotos25-71.pdf)]
 
 * NEO: Saving GPU Memory Crisis with CPU Offloading for Online LLM Inference
 <br>Xuanlin Jiang, <u>Yang Zhou</u>, Shiyi Cao, Ion Stoica, Minlan Yu
 <br>**MLSys 2025**. The Conference on Machine Learning and Systems
-<br>[[paper](paper/neo_mlsys25.pdf)]
+<br>[[paper](https://proceedings.mlsys.org/paper_files/paper/2025/file/66a026c0d17040889b50f0dfa650e5e0-Paper-Conference.pdf)]
 [[slides](slides/neo-mlsys25-slides.pdf)]
 [[code](https://github.com/NEO-MLSys25/NEO)]
 
 * eTran: Extensible Kernel Transport with eBPF
 <br>Zhongjie Chen, Qingkai Meng, ChonLam Lao, Yifan Liu, Fengyuan Ren, Minlan Yu, <u>Yang Zhou</u>
 <br>**NSDI 2025**. USENIX Symposium on Networked Systems Design and Implementation
-<br>[[paper](paper/etran-nsdi25.pdf)] 
+<br>[[paper](https://www.usenix.org/system/files/nsdi25-chen-zhongjie.pdf)]
 [[code](https://github.com/eTran-NSDI25/eTran)]
 
 2024
@@ -170,14 +170,14 @@ PhD and prior work
 * SmartNIC Security Isolation in the Cloud with S-NIC
 <br><u>Yang Zhou</u>, Mark Wilkening, James Mickens, Minlan Yu
 <br>**EuroSys 2024**. European Conference on Computer Systems
-<br>[[paper](paper/snic-eurosys24.pdf)] 
+<br>[[paper](https://dl.acm.org/doi/epdf/10.1145/3627703.3650071)]
 [[slides](slides/snic-eurosys24-slides.pdf)]
 [[code](https://github.com/SNIC-EuroSys24/SNIC)]
 
 * DINT: Fast In-Kernel Distributed Transactions with eBPF
 <br><u>Yang Zhou</u>\*, Xingyu Xiang\*, Matthew Kiley, Sowmya Dharanipragada, Minlan Yu
 <br>**NSDI 2024**. USENIX Symposium on Networked Systems Design and Implementation
-<br>[[paper](paper/dint-nsdi24.pdf)]
+<br>[[paper](https://www.usenix.org/system/files/nsdi24-zhou-yang.pdf)]
 [[slides](slides/dint-nsdi24-slides.pdf)] 
 [[talk](https://youtu.be/EgdXrjwBdBA)] 
 [[code](https://github.com/DINT-NSDI24/DINT)]
@@ -185,7 +185,7 @@ PhD and prior work
 * Electrode: Accelerating Distributed Protocols with eBPF
 <br><u>Yang Zhou</u>\*, Zezhou Wang\*, Sowmya Dharanipragada, Minlan Yu
 <br>**NSDI 2023**. USENIX Symposium on Networked Systems Design and Implementation
-<br>[[paper](paper/electrode-nsdi23.pdf)] 
+<br>[[paper](https://www.usenix.org/system/files/nsdi23-zhou.pdf)]
 [[slides](slides/electrode-nsdi23-slides.pdf)] 
 [[talk](https://youtu.be/E6qcR2Lb1xE)] 
 [[code](https://github.com/Electrode-NSDI23/Electrode)]
@@ -194,7 +194,7 @@ PhD and prior work
 * Carbink: Fault-Tolerant Far Memory
 <br><u>Yang Zhou</u>, Hassan Wassel, Sihang Liu, Jiaqi Gao, James Mickens, Minlan Yu, Chris Kennelly, Paul Turner, David Culler, Hank Levy, Amin Vahdat
 <br>**OSDI 2022**. USENIX Symposium on Operating Systems Design and Implementation
-<br>[[paper](paper/carbink-osdi22.pdf)] 
+<br>[[paper](https://www.usenix.org/system/files/osdi22-zhou-yang.pdf)]
 [[slides](slides/carbink-osdi22-slides.pdf)]
 [[talk](https://youtu.be/PZhqlPyhImE)] 
 <!-- <br> **<span style="color:red">Joint patent with Google</span>** -->
@@ -202,7 +202,7 @@ PhD and prior work
 * Evolvable Network Telemetry at Facebook
 <br><u>Yang Zhou</u>, Ying Zhang, Minlan Yu, Guangyu Wang, Dexter Cao, Eric Sung and Starsky Wong
 <br>**NSDI 2022**. USENIX Symposium on Networked Systems Design and Implementation
-<br>[[paper](paper/pcat-nsdi22.pdf)] 
+<br>[[paper](https://www.usenix.org/system/files/nsdi22-paper-zhou.pdf)]
 [[slides](slides/pcat-nsdi22-slides.pdf)]
 [[talk](https://youtu.be/azW4vssu9T0)] 
 <!-- <br> **<span style="color:red">Describing production systems and challenges</span>** -->
@@ -210,37 +210,37 @@ PhD and prior work
 * On the Evolutionary of Bloom Filter False Positives - An Information Theoretical Approach to Optimizing Bloom Filter Parameters
 <br>Zhuochen Fan, Gang Wen, Zhipeng Huang, <u>Yang Zhou</u>, Qiaobin Fu, Tong Yang, Alex X. Liu, Bin Cui
 <br>IEEE Transactions on Knowledge and Data Engineering (TKDE) 2022
-<br>[[paper](paper/bf-tkde22.pdf)] [[Code](https://github.com/pkufzc/Bloom-Error-TKDE)]
+<br>[[paper](paper/bf-tkde22.pdf)] [[Publisher](https://ieeexplore.ieee.org/document/9863640)] [[Code](https://github.com/pkufzc/Bloom-Error-TKDE)]
 
 * Pyramid Family: Generic Frameworks for Accurate and Fast Flow Size Measurement
 <br>Yuanpeng Li, Xiang Yu, Yilong Yang, <u>Yang Zhou</u>, Tong Yang, Zhuo Ma, Shigang Chen
 <br>IEEE/ACM Trasactions on Networking (TON) 2021
-<br>[[paper](paper/pyramid_family_ton21.pdf)] 
+<br>[[paper](paper/pyramid_family_ton21.pdf)] [[Publisher](https://ieeexplore.ieee.org/document/9604765)]
 [[Code](https://github.com/Pyramid-Family /Pyramid-Family)]
 
 * Fast and Accurate Stream Processing by Filtering the Cold.
 <br>Tong Yang, Jie Jiang, <u>Yang Zhou</u>, Long He, Jinyang Li, Bin Cui, Steve Uhlig, Xiaoming Li
 <br>VLDB Journal 2019
-<br>[[paper](paper/filtering_cold_vldbj19.pdf)] 
+<br>[[paper](paper/filtering_cold_vldbj19.pdf)] [[Publisher](https://link.springer.com/article/10.1007/s00778-019-00560-1)]
 [[Code](https://github.com/zhouyangpkuer/ColdFilter)]
 
 * Adaptive Measurements using One Elastic Sketch.
 <br>Tong Yang, Jie Jiang, Peng Liu, Qun Huang, Junzhi Gong, <u>Yang Zhou</u>, Rui Miao, Xiaoming Li, Steve Uhlig
 <br>IEEE/ACM Trasactions on Networking (TON) 2019
-<br>[[paper](paper/elastic_ton2019.pdf)] 
+<br>[[paper](paper/elastic_ton2019.pdf)] [[Publisher](https://ieeexplore.ieee.org/document/8886725)]
 [[Code](https://github.com/BlockLiu/ElasticSketchCode)]
 
 * Cold Filter: A Meta-Framework for Faster and More Accurate Stream Processing. 
 <br><u>Yang Zhou</u>, Tong Yang, Jie Jiang, Bin Cui, Minlan Yu, Xiaoming Li, Steve Uhlig
 <br>**SIGMOD 2018**. ACM SIGMOD International Conference on Management of Data
-<br>[[paper](paper/cf-sigmod18.pdf)] 
+<br>[[paper](https://dl.acm.org/doi/epdf/10.1145/3183713.3183726)]
 [[slides](slides/coldfilter-sigmod18-slides.pdf)]
 [[Code](https://github.com/zhouyangpkuer/ColdFilter)]
 
 * Elastic Sketch: Adaptive and Fast Network-wide Measurements.
 <br>Tong Yang, Jie Jiang, Peng Liu, Qun Huang, Junzhi Gong, <u>Yang Zhou</u>, Rui Miao, Xiaoming Li, Steve Uhlig
 <br>**SIGCOMM 2018**. ACM SIGCOMM International Conference on Data Communications
-<br>[[paper](paper/elastic-sigcomm18.pdf)] 
+<br>[[paper](https://dl.acm.org/doi/epdf/10.1145/3230543.3230544)]
 [[slides](slides/elastic-sigcomm18-slides.pdf)]
 [[talk](https://youtu.be/w8L0opwetms?t=3172)]
 [[Code](https://github.com/BlockLiu/ElasticSketchCode)]
@@ -249,41 +249,41 @@ PhD and prior work
 * Accelerating Network Measurement in Software.
 <br><u>Yang Zhou</u>, Omid Alipourfard, Minlan Yu, Tong Yang
 <br>**SIGCOMM CCR 2018** July issue, ACM SIGCOMM Computer Communication Review
-<br>[[paper](paper/agg-ccr18.pdf)] 
+<br>[[paper](https://ccronline.sigcomm.org/wp-content/uploads/2018/07/sigcomm-ccr-final197.pdf)]
 [[Code](https://github.com/harvard-cns/Agg-Evict)]
 
 * A Comparison of Performance and Accuracy of Measurement Algorithms in Software.
 <br>Omid Alipourfard, Masoud Moshref, <u>Yang Zhou</u>, Tong Yang, Minlan Yu
 <br>**SOSR 2018**. ACM Symposium on SDN Research
-<br>[[paper](paper/simple-sosr18.pdf)]
+<br>[[paper](https://dl.acm.org/doi/epdf/10.1145/3185467.3185475)]
 
 * Accurate Per-Flow Measurement with Bloom Sketch.
 <br><u>Yang Zhou</u>, Hao Jin, Peng Liu, Haowei Zhang, Tong Yang, Xiaoming Li
 <br>INFOCOM 2018 Workshops. IEEE International Conference on Computer Communications
-<br>[[paper](paper/bs-infocom18.pdf)] 
+<br>[[paper](paper/bs-infocom18.pdf)] [[Publisher](https://ieeexplore.ieee.org/document/8406964)]
 [[Code](https://github.com/zhouyangpkuer/BloomSketch)]
 
 * Single Hash: Use One Hash Function to Build Faster Hash Based Data Structures.
 <br>Xiangyang Gou, Chenxingyu Zhao, Tong Yang, Lei Zou, <u>Yang Zhou</u>, Yibo Yan, Xiaoming Li, Bin Cui
 <br>BigComp 2018. IEEE International Conference on Big Data and Smart Computing
-<br>[[paper](paper/singlehash-bigcomp18.pdf)]
+<br>[[paper](paper/singlehash-bigcomp18.pdf)] [[Publisher](https://ieeexplore.ieee.org/document/8367128)]
 
 * Pyramid Sketch: a Sketch Framework for Frequency Estimation of Data Streams.
 <br>Tong Yang, <u>Yang Zhou</u>, Hao Jin, Shigang Chen, Xiaoming Li
 <br>**VLDB 2017**. International Conference on Very Large Data Bases
-<br>[[paper](paper/pyramid-vldb17.pdf)] 
+<br>[[paper](https://www.vldb.org/pvldb/vol10/p1442-yang.pdf)]
 [[Code](https://github.com/zhouyangpkuer/Pyramid_Sketch_Framework)]
 
 * One Memory Access Sketch: a More Accurate and Faster Sketch for Per-flow Measurement.
 <br><u>Yang Zhou</u>, Peng Liu, Hao Jin, Tong Yang, Shoujiang Dang, Xiaoming Li
 <br>Globecom 2017. IEEE Global Communications Conference
-<br>[[paper](paper/om-globecom17.pdf)] 
+<br>[[paper](paper/om-globecom17.pdf)] [[Publisher](https://ieeexplore.ieee.org/document/8254741)]
 [[Code](https://github.com/zhouyangpkuer/OMsketch)]
 
 * ABC: a Practicable Sketch Framework for Non-uniform Multisets.
 <br>Junzhi Gong, Tong Yang, <u>Yang Zhou</u>, Dongsheng Yang, Shigang Chen, Bin Cui, Xiaoming Li
 <br>BigData 2017. IEEE International Conference on Big Data
-<br>[[paper](paper/abc-bigdata17.pdf)]
+<br>[[paper](paper/abc-bigdata17.pdf)] [[Publisher](https://ieeexplore.ieee.org/document/8258193)]
 
 *: co-primary authors
 
