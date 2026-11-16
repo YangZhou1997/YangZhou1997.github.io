@@ -298,6 +298,8 @@ PhD and prior work
 * Organizer:
   * Co-Chair for SIGCOMM Artifact Evaluation 2024  
 * Program Committee: 
+  * ACM ATC 2027
+  * MLSys 2027 (ERC/Extended Review Committee)
   * ICNP 2026
   * APSys 2026
   * SIGCOMM Workshop on Networks for AI Computing (NAIC) 2025, 2026
@@ -305,8 +307,9 @@ PhD and prior work
   * ASPLOS 2026
   * NSDI 2026
   * OSDI 2025
-  * SIGCOMM Poster/Demo 2023, 2024
+  * SIGCOMM Poster/Demo 2023, 2024, 2025
   * SIGCOMM Workshop on eBPF and Kernel Extensions 2024, 2025
+  * IEEE INFOCOM: Workshop on Networking Algorithms 2020
 
 <!-- ## Highlighted Projects -->
 
