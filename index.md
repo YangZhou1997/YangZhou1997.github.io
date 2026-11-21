@@ -106,8 +106,8 @@ I also work(ed) with:
 <br>**MLSys 2026**. The Conference on Machine Learning and Systems
 <br>**ICML 2025 Workshop** on Vector Databases
 <br>[[Paper](https://proceedings.mlsys.org/paper_files/paper/2026/file/e27ea0cd50b798ff8942caf9203f0992-Paper-Conference.pdf)]
-[[code](https://github.com/yichuan-w/LEANN)]
-[![GitHub Repo stars](https://img.shields.io/github/stars/yichuan-w/LEANN?style=social)](https://github.com/yichuan-w/LEANN/stargazers)
+[[code](https://github.com/StarTrail-org/LEANN)] · [14,000+ GitHub stars](https://github.com/StarTrail-org/LEANN/stargazers)
+[![GitHub Repo stars](https://img.shields.io/github/stars/StarTrail-org/LEANN?style=social)](https://github.com/StarTrail-org/LEANN/stargazers)
 <br>**<span style="color:red">MLSys Best Paper Award</span>**
 
 * BlendServe: Optimizing Offline Inference with Resource-Aware Batching
